@@ -8,8 +8,8 @@ Editor launches via `Tools/Gates/Invoke-UnityBatch.ps1`; raw excerpts are in `ev
 
 | Gate | Result | Evidence |
 |---|---|---|
-| A — DLL loads, registration succeeds | **PASS** | `RigidIPC_commands.log`: `UnityPluginLoad` then `Register(...) == true` on every launch; probe `native diagnostics: registered=1` |
-| B — third option listed | **PASS (programmatic)** | `Physics.GetIntegrationInfos` (the dropdown's source) lists None, PhysX, **RigidIPC (0x52495043)** — `RigidIPC_gate_probe.log`. Dropdown screenshot not taken (batch mode). |
+| A — DLL loads, registration succeeds | **PASS** | `evidence/RigidIPC_commands.txt`: `UnityPluginLoad` then `Register(...) == true` on every launch; probe `native diagnostics: registered=1` |
+| B — third option listed | **PASS (programmatic)** | `Physics.GetIntegrationInfos` (the dropdown's source) lists None, PhysX, **RigidIPC (0x52495043)** — `evidence/RigidIPC_gate_probe.txt`. Dropdown screenshot not taken (batch mode). |
 | C — stays selected after restart | **FAIL (3/3)** | `m_CurrentBackendId: 1380536387` saved; every restart logs `BackendSystem::Select was unable to find SDK integration with ID: 1562845264. Falling back to Null backend implementation.` → current = None (0xDECAFBAD). Plugin registers in the same second, after Select. |
 | D, E | not run | Stop rule: C failed. |
 

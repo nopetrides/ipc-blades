@@ -1,0 +1,63 @@
+[RigidIPC gate probe] 2026-10-31 15:35:03 (menu) Unity 6000.4.4f1
+  native diagnostics : registered=1 initialized=0 id=1380536387 commands=1 simulate=0 objects=0 engineObjectIdOffset=0
+  saved backend id   : 4072204805 (0xF2B8EA05, PhysX) (DynamicsManager.asset m_CurrentBackendId)
+  current integration: id=4072204805 (0xF2B8EA05), name=PhysX, description=An integration of NVIDIA's PhysX SDK, allowing scenes authored for classic Unity to be simulated using the PhysX physics engine., isFallback=False
+  listed integrations:
+    - id=3737844653 (0xDECAFBAD), name=None, description=Null backend implementation, no operations will be executed when using this backend., isFallback=True
+    - id=4072204805 (0xF2B8EA05), name=PhysX, description=An integration of NVIDIA's PhysX SDK, allowing scenes authored for classic Unity to be simulated using the PhysX physics engine., isFallback=False
+    - id=1380536387 (0x52495043), name=RigidIPC, description=Rigid-IPC research backend (Track 1 gate build: gravity/forces/kinematic only, no contact)., isFallback=False
+
+[RigidIPC gate probe] 2026-10-31 15:35:30 (saved backend id 1380536387 (0x52495043, RigidIPC); restart the Editor to apply) Unity 6000.4.4f1
+  native diagnostics : registered=1 initialized=0 id=1380536387 commands=1 simulate=0 objects=0 engineObjectIdOffset=0
+  saved backend id   : 1380536387 (0x52495043, RigidIPC) (DynamicsManager.asset m_CurrentBackendId)
+  current integration: id=4072204805 (0xF2B8EA05), name=PhysX, description=An integration of NVIDIA's PhysX SDK, allowing scenes authored for classic Unity to be simulated using the PhysX physics engine., isFallback=False
+  listed integrations:
+    - id=3737844653 (0xDECAFBAD), name=None, description=Null backend implementation, no operations will be executed when using this backend., isFallback=True
+    - id=4072204805 (0xF2B8EA05), name=PhysX, description=An integration of NVIDIA's PhysX SDK, allowing scenes authored for classic Unity to be simulated using the PhysX physics engine., isFallback=False
+    - id=1380536387 (0x52495043), name=RigidIPC, description=Rigid-IPC research backend (Track 1 gate build: gravity/forces/kinematic only, no contact)., isFallback=False
+
+[RigidIPC gate probe] 2026-10-31 15:35:45 (menu) Unity 6000.4.4f1
+  native diagnostics : registered=1 initialized=0 id=1380536387 commands=1 simulate=0 objects=0 engineObjectIdOffset=0
+  saved backend id   : 1380536387 (0x52495043, RigidIPC) (DynamicsManager.asset m_CurrentBackendId)
+  current integration: id=3737844653 (0xDECAFBAD), name=None, description=Null backend implementation, no operations will be executed when using this backend., isFallback=True
+  listed integrations:
+    - id=3737844653 (0xDECAFBAD), name=None, description=Null backend implementation, no operations will be executed when using this backend., isFallback=True
+    - id=4072204805 (0xF2B8EA05), name=PhysX, description=An integration of NVIDIA's PhysX SDK, allowing scenes authored for classic Unity to be simulated using the PhysX physics engine., isFallback=False
+    - id=1380536387 (0x52495043), name=RigidIPC, description=Rigid-IPC research backend (Track 1 gate build: gravity/forces/kinematic only, no contact)., isFallback=False
+
+[RigidIPC gate probe] 2026-10-31 15:36:21 (menu) Unity 6000.4.4f1
+  native diagnostics : registered=1 initialized=0 id=1380536387 commands=1 simulate=0 objects=0 engineObjectIdOffset=0
+  saved backend id   : 1380536387 (0x52495043, RigidIPC) (DynamicsManager.asset m_CurrentBackendId)
+  current integration: id=3737844653 (0xDECAFBAD), name=None, description=Null backend implementation, no operations will be executed when using this backend., isFallback=True
+  listed integrations:
+    - id=3737844653 (0xDECAFBAD), name=None, description=Null backend implementation, no operations will be executed when using this backend., isFallback=True
+    - id=4072204805 (0xF2B8EA05), name=PhysX, description=An integration of NVIDIA's PhysX SDK, allowing scenes authored for classic Unity to be simulated using the PhysX physics engine., isFallback=False
+    - id=1380536387 (0x52495043), name=RigidIPC, description=Rigid-IPC research backend (Track 1 gate build: gravity/forces/kinematic only, no contact)., isFallback=False
+
+[RigidIPC gate probe] 2026-10-31 15:36:37 (menu) Unity 6000.4.4f1
+  native diagnostics : registered=1 initialized=0 id=1380536387 commands=1 simulate=0 objects=0 engineObjectIdOffset=0
+  saved backend id   : 1380536387 (0x52495043, RigidIPC) (DynamicsManager.asset m_CurrentBackendId)
+  current integration: id=3737844653 (0xDECAFBAD), name=None, description=Null backend implementation, no operations will be executed when using this backend., isFallback=True
+  listed integrations:
+    - id=3737844653 (0xDECAFBAD), name=None, description=Null backend implementation, no operations will be executed when using this backend., isFallback=True
+    - id=4072204805 (0xF2B8EA05), name=PhysX, description=An integration of NVIDIA's PhysX SDK, allowing scenes authored for classic Unity to be simulated using the PhysX physics engine., isFallback=False
+    - id=1380536387 (0x52495043), name=RigidIPC, description=Rigid-IPC research backend (Track 1 gate build: gravity/forces/kinematic only, no contact)., isFallback=False
+
+[RigidIPC gate probe] 2026-10-31 15:37:29 (saved backend id 4072204805 (0xF2B8EA05, PhysX); restart the Editor to apply) Unity 6000.4.4f1
+  native diagnostics : registered=1 initialized=0 id=1380536387 commands=1 simulate=0 objects=0 engineObjectIdOffset=0
+  saved backend id   : 4072204805 (0xF2B8EA05, PhysX) (DynamicsManager.asset m_CurrentBackendId)
+  current integration: id=3737844653 (0xDECAFBAD), name=None, description=Null backend implementation, no operations will be executed when using this backend., isFallback=True
+  listed integrations:
+    - id=3737844653 (0xDECAFBAD), name=None, description=Null backend implementation, no operations will be executed when using this backend., isFallback=True
+    - id=4072204805 (0xF2B8EA05), name=PhysX, description=An integration of NVIDIA's PhysX SDK, allowing scenes authored for classic Unity to be simulated using the PhysX physics engine., isFallback=False
+    - id=1380536387 (0x52495043), name=RigidIPC, description=Rigid-IPC research backend (Track 1 gate build: gravity/forces/kinematic only, no contact)., isFallback=False
+
+[RigidIPC gate probe] 2026-10-31 15:37:45 (menu) Unity 6000.4.4f1
+  native diagnostics : registered=1 initialized=0 id=1380536387 commands=1 simulate=0 objects=0 engineObjectIdOffset=0
+  saved backend id   : 4072204805 (0xF2B8EA05, PhysX) (DynamicsManager.asset m_CurrentBackendId)
+  current integration: id=4072204805 (0xF2B8EA05), name=PhysX, description=An integration of NVIDIA's PhysX SDK, allowing scenes authored for classic Unity to be simulated using the PhysX physics engine., isFallback=False
+  listed integrations:
+    - id=3737844653 (0xDECAFBAD), name=None, description=Null backend implementation, no operations will be executed when using this backend., isFallback=True
+    - id=4072204805 (0xF2B8EA05), name=PhysX, description=An integration of NVIDIA's PhysX SDK, allowing scenes authored for classic Unity to be simulated using the PhysX physics engine., isFallback=False
+    - id=1380536387 (0x52495043), name=RigidIPC, description=Rigid-IPC research backend (Track 1 gate build: gravity/forces/kinematic only, no contact)., isFallback=False
+

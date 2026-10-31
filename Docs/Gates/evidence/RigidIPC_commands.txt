@@ -1,0 +1,27 @@
+[2026-10-31 15:23:33] ==== UnityPluginLoad (RigidIPC gate build, id=1380536387) ====
+[2026-10-31 15:23:33] cmd SDK.GetIntegrationInfo(3)                      n=1      obj=-#0
+[2026-10-31 15:23:33] IUnityPhysicsBackendSystem::Register(...) == true
+[2026-10-31 15:33:47] ==== UnityPluginLoad (RigidIPC gate build, id=1380536387) ====
+[2026-10-31 15:33:47] cmd SDK.GetIntegrationInfo(3)                      n=1      obj=-#0
+[2026-10-31 15:33:47] IUnityPhysicsBackendSystem::Register(...) == true
+[2026-10-31 15:34:47] ==== UnityPluginLoad (RigidIPC gate build, id=1380536387) ====
+[2026-10-31 15:34:47] cmd SDK.GetIntegrationInfo(3)                      n=1      obj=-#0
+[2026-10-31 15:34:47] IUnityPhysicsBackendSystem::Register(...) == true
+[2026-10-31 15:35:19] ==== UnityPluginLoad (RigidIPC gate build, id=1380536387) ====
+[2026-10-31 15:35:19] cmd SDK.GetIntegrationInfo(3)                      n=1      obj=-#0
+[2026-10-31 15:35:19] IUnityPhysicsBackendSystem::Register(...) == true
+[2026-10-31 15:35:36] ==== UnityPluginLoad (RigidIPC gate build, id=1380536387) ====
+[2026-10-31 15:35:36] cmd SDK.GetIntegrationInfo(3)                      n=1      obj=-#0
+[2026-10-31 15:35:36] IUnityPhysicsBackendSystem::Register(...) == true
+[2026-10-31 15:36:11] ==== UnityPluginLoad (RigidIPC gate build, id=1380536387) ====
+[2026-10-31 15:36:11] cmd SDK.GetIntegrationInfo(3)                      n=1      obj=-#0
+[2026-10-31 15:36:11] IUnityPhysicsBackendSystem::Register(...) == true
+[2026-10-31 15:36:27] ==== UnityPluginLoad (RigidIPC gate build, id=1380536387) ====
+[2026-10-31 15:36:27] cmd SDK.GetIntegrationInfo(3)                      n=1      obj=-#0
+[2026-10-31 15:36:27] IUnityPhysicsBackendSystem::Register(...) == true
+[2026-10-31 15:37:18] ==== UnityPluginLoad (RigidIPC gate build, id=1380536387) ====
+[2026-10-31 15:37:18] cmd SDK.GetIntegrationInfo(3)                      n=1      obj=-#0
+[2026-10-31 15:37:18] IUnityPhysicsBackendSystem::Register(...) == true
+[2026-10-31 15:37:35] ==== UnityPluginLoad (RigidIPC gate build, id=1380536387) ====
+[2026-10-31 15:37:35] cmd SDK.GetIntegrationInfo(3)                      n=1      obj=-#0
+[2026-10-31 15:37:35] IUnityPhysicsBackendSystem::Register(...) == true
