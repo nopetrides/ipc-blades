@@ -33,6 +33,12 @@
       },
       "hash": "ac3dd9cdb2675cb0eee98655acb0731349fc6f9e"
     },
+    "com.nopetrides.bladecontact": {
+      "version": "file:com.nopetrides.bladecontact",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.unity.2d.sprite": {
       "version": "1.0.0",
       "depth": 1,

@@ -113,3 +113,6 @@ InitTestScene*.unity*
 Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
 .idea/.idea.MBC/.idea/vcs.xml
 .idea/.idea.MBC/.idea/vcs.xml
+
+# Native plugin build trees (the built DLL is copied into Assets/Plugins/x86_64)
+/Native/**/build/

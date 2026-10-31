@@ -1,0 +1,16 @@
+{
+    "name": "IPCBlades.Gates.Editor",
+    "rootNamespace": "IPCBlades.Gates",
+    "references": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

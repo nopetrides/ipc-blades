@@ -1,0 +1,11 @@
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+2026-10-31T22:35:34.726Z|0x1ff1c|-executeMethod
+2026-10-31T22:35:34.744Z|0x1ff1c|[Physics::Module] Initialized fallback backend.
+2026-10-31T22:35:34.745Z|0x1ff1c|[Physics::Module] Id: 0xdecafbad
+2026-10-31T22:35:36.073Z|0x1ff1c|[Physics::Module] BackendSystem::Select was unable to find SDK integration with ID: 1562845264. Falling back to Null backend implementation.
+2026-10-31T22:35:36.074Z|0x1ff1c|[Physics::Module] Selected backend.
+2026-10-31T22:35:36.074Z|0x1ff1c|[Physics::Module] Name: None
+2026-10-31T22:35:36.074Z|0x1ff1c|[Physics::Module] Id: 0xdecafbad
+2026-10-31T22:35:36.074Z|0x1ff1c|[Physics::Module] SDK Version: 0.0.0
+2026-10-31T22:35:36.074Z|0x1ff1c|[Physics::Module] Integration Version: 1.0.0
+2026-10-31T22:35:36.074Z|0x1ff1c|[Physics::Module] Threading Mode: Multi-Threaded

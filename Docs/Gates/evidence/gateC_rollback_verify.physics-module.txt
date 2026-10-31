@@ -1,0 +1,12 @@
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+2026-10-31T22:37:33.817Z|0x49730|-executeMethod
+2026-10-31T22:37:33.837Z|0x49730|[Physics::Module] Initialized fallback backend.
+2026-10-31T22:37:33.837Z|0x49730|[Physics::Module] Id: 0xdecafbad
+2026-10-31T22:37:35.404Z|0x49730|[Physics::Module] Selected backend.
+2026-10-31T22:37:35.404Z|0x49730|[Physics::Module] Name: PhysX
+2026-10-31T22:37:35.404Z|0x49730|[Physics::Module] Id: 0xf2b8ea05
+2026-10-31T22:37:35.404Z|0x49730|[Physics::Module] SDK Version: 4.1.2
+2026-10-31T22:37:35.404Z|0x49730|[Physics::Module] Integration Version: 1.0.0
+2026-10-31T22:37:35.404Z|0x49730|[Physics::Module] Threading Mode: Multi-Threaded
+[Physics::Module] Cleanup current backend.
+2026-10-31T22:37:47.961Z|0x49730|[Physics::Module] Id: 0xf2b8ea05
