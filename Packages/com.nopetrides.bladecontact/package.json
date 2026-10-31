@@ -1,0 +1,10 @@
+{
+  "name": "com.nopetrides.bladecontact",
+  "version": "0.1.0",
+  "displayName": "Blade Contact",
+  "description": "Feature-aware, dynamic-Rigidbody sword-to-sword contact for Unity.",
+  "unity": "6000.0",
+  "author": {
+    "name": "Noah Petrides"
+  }
+}

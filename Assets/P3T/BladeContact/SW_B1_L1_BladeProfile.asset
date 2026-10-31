@@ -1,0 +1,309 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c255988d3584677479235f945c244d00, type: 3}
+  m_Name: SW_B1_L1_BladeProfile
+  m_EditorClassIdentifier: BladeContact.Runtime::BladeContact.BladeProfileAsset
+  profile:
+    Sections:
+    - Id: SW_B1_blade
+      Axis: 0
+      Stations:
+      - Along: -0.010695
+        Ring:
+        - Across: -0.022499999
+          Through: 0
+          RidgeType: 2
+          FacetType: 1
+        - Across: -0.019782754
+          Through: 0.000602399
+          RidgeType: 3
+          FacetType: 0
+        - Across: -0.0057770777
+          Through: 0.0025
+          RidgeType: 3
+          FacetType: 0
+        - Across: 0
+          Through: 0.0021000002
+          RidgeType: 3
+          FacetType: 0
+        - Across: 0.0057770777
+          Through: 0.0025
+          RidgeType: 3
+          FacetType: 0
+        - Across: 0.019782754
+          Through: 0.000602399
+          RidgeType: 3
+          FacetType: 1
+        - Across: 0.022499999
+          Through: 0
+          RidgeType: 2
+          FacetType: 1
+        - Across: 0.019782754
+          Through: -0.000602399
+          RidgeType: 3
+          FacetType: 0
+        - Across: 0.0057770777
+          Through: -0.0025
+          RidgeType: 3
+          FacetType: 0
+        - Across: 0
+          Through: -0.0021
+          RidgeType: 3
+          FacetType: 0
+        - Across: -0.0057770777
+          Through: -0.0025
+          RidgeType: 3
+          FacetType: 0
+        - Across: -0.019782754
+          Through: -0.000602399
+          RidgeType: 3
+          FacetType: 1
+      - Along: -0.32284376
+        Ring:
+        - Across: -0.017430209
+          Through: 0
+          RidgeType: 2
+          FacetType: 1
+        - Across: -0.014695835
+          Through: 0.00060619577
+          RidgeType: 3
+          FacetType: 0
+        - Across: -0.006624391
+          Through: 0.0021729167
+          RidgeType: 3
+          FacetType: 0
+        - Across: 0
+          Through: 0.0021729167
+          RidgeType: 3
+          FacetType: 0
+        - Across: 0.006624391
+          Through: 0.0021729167
+          RidgeType: 3
+          FacetType: 0
+        - Across: 0.014695835
+          Through: 0.00060619577
+          RidgeType: 3
+          FacetType: 1
+        - Across: 0.017430209
+          Through: 0
+          RidgeType: 2
+          FacetType: 1
+        - Across: 0.014695835
+          Through: -0.00060619565
+          RidgeType: 3
+          FacetType: 0
+        - Across: 0.006624391
+          Through: -0.0021729167
+          RidgeType: 3
+          FacetType: 0
+        - Across: 0
+          Through: -0.0021729167
+          RidgeType: 3
+          FacetType: 0
+        - Across: -0.006624391
+          Through: -0.0021729167
+          RidgeType: 3
+          FacetType: 0
+        - Across: -0.014695835
+          Through: -0.00060619565
+          RidgeType: 3
+          FacetType: 1
+      - Along: -0.38944876
+        Ring:
+        - Across: -0.016348401
+          Through: 0
+          RidgeType: 2
+          FacetType: 1
+        - Across: -0.013610373
+          Through: 0.000607006
+          RidgeType: 3
+          FacetType: 0
+        - Across: -0.0068051866
+          Through: 0.0013550657
+          RidgeType: 3
+          FacetType: 0
+        - Across: 0
+          Through: 0.0021031252
+          RidgeType: 3
+          FacetType: 0
+        - Across: 0.0068051866
+          Through: 0.0013550657
+          RidgeType: 3
+          FacetType: 0
+        - Across: 0.013610373
+          Through: 0.000607006
+          RidgeType: 3
+          FacetType: 1
+        - Across: 0.016348401
+          Through: 0
+          RidgeType: 2
+          FacetType: 1
+        - Across: 0.013610373
+          Through: -0.000607006
+          RidgeType: 3
+          FacetType: 0
+        - Across: 0.0068051866
+          Through: -0.0013550656
+          RidgeType: 3
+          FacetType: 0
+        - Across: 0
+          Through: -0.002103125
+          RidgeType: 3
+          FacetType: 0
+        - Across: -0.0068051866
+          Through: -0.0013550656
+          RidgeType: 3
+          FacetType: 0
+        - Across: -0.013610373
+          Through: -0.000607006
+          RidgeType: 3
+          FacetType: 1
+      - Along: -0.96503514
+        Ring:
+        - Across: -0.0069999998
+          Through: 0
+          RidgeType: 2
+          FacetType: 1
+        - Across: -0.0058276416
+          Through: 0.00025990582
+          RidgeType: 3
+          FacetType: 0
+        - Across: -0.0029138208
+          Through: 0.0008799529
+          RidgeType: 3
+          FacetType: 0
+        - Across: 0
+          Through: 0.0015000002
+          RidgeType: 3
+          FacetType: 0
+        - Across: 0.0029138208
+          Through: 0.0008799529
+          RidgeType: 3
+          FacetType: 0
+        - Across: 0.0058276416
+          Through: 0.00025990582
+          RidgeType: 3
+          FacetType: 1
+        - Across: 0.0069999998
+          Through: 0
+          RidgeType: 2
+          FacetType: 1
+        - Across: 0.0058276416
+          Through: -0.0002599056
+          RidgeType: 3
+          FacetType: 0
+        - Across: 0.0029138208
+          Through: -0.0008799528
+          RidgeType: 3
+          FacetType: 0
+        - Across: 0
+          Through: -0.0014999999
+          RidgeType: 3
+          FacetType: 0
+        - Across: -0.0029138208
+          Through: -0.0008799528
+          RidgeType: 3
+          FacetType: 0
+        - Across: -0.0058276416
+          Through: -0.0002599056
+          RidgeType: 3
+          FacetType: 1
+      - Along: -1.0207049
+        Ring:
+        - Across: -0.0050000004
+          Through: 0
+          RidgeType: 2
+          FacetType: 1
+        - Across: -0.004162601
+          Through: 0.00018564682
+          RidgeType: 3
+          FacetType: 0
+        - Across: -0.0020813006
+          Through: 0.0005928234
+          RidgeType: 3
+          FacetType: 0
+        - Across: 0
+          Through: 0.0009999999
+          RidgeType: 3
+          FacetType: 0
+        - Across: 0.0020813006
+          Through: 0.0005928234
+          RidgeType: 3
+          FacetType: 0
+        - Across: 0.004162601
+          Through: 0.00018564682
+          RidgeType: 3
+          FacetType: 1
+        - Across: 0.0050000004
+          Through: 0
+          RidgeType: 2
+          FacetType: 1
+        - Across: 0.004162601
+          Through: -0.00018564682
+          RidgeType: 3
+          FacetType: 0
+        - Across: 0.0020813006
+          Through: -0.0005928234
+          RidgeType: 3
+          FacetType: 0
+        - Across: 0
+          Through: -0.0009999999
+          RidgeType: 3
+          FacetType: 0
+        - Across: -0.0020813006
+          Through: -0.0005928234
+          RidgeType: 3
+          FacetType: 0
+        - Across: -0.004162601
+          Through: -0.00018564682
+          RidgeType: 3
+          FacetType: 1
+      CapStart: 1
+      StartCapType: 5
+      CapEnd: 1
+      EndCapType: 4
+      MaxStationSpacing: 0.01
+  bladeAxis: {x: -0.9997674, y: 0.021566413, z: 0}
+  edgeAxis: {x: 0, y: 0, z: 1}
+  faceNormal: {x: 0.021566413, y: 0.9997674, z: -0}
+  provenance: "PROVISIONAL L1 SEMANTIC LAYER - not a final claim about the specimen.\n\nDERIVED
+    FROM SW_A1_L1_BladeProfile on 2026-08-19, NOT authored independently.\n\nWhy
+    transfer rather than re-author: A1 and B1 are the same blade construction with\n
+    specimen-specific dimensions. Semantics are shared; geometry is specimen-specific.\n
+    Re-declaring B1's cutting edges from scratch would invite an inconsistency between\n
+    two specimens that are the same design.\n\nWhat transferred UNCHANGED (semantics):\n
+    Both long edge polylines -> SharpEdge, at Across +/-0.0225.\n  Blade flats, bevels
+    and centreline -> non-cutting.\n  Ring topology, all 12 vertices per station,
+    every RidgeType and FacetType.\n  Cap types: StartCapType Unresolved, EndCapType
+    Tip.\n Cross-section coordinates (Across, Through) are byte-identical to A1,
+    because the\n two specimens share width 0.045 m and thickness 0.005 m exactly,
+    as measured from\n their cooked blade collider bounds.\n\nWhat was RESCALED (geometry):\n 
+    Station Along values only, by the ratio of the two specimens' measured blade
+    spans.\n  A1 span -0.010693 -> -1.026693 = 1.016000 m (matches its collider bounds
+    exactly).\n B1 span -0.010695 -> -1.020705 = 1.010010 m (matches its collider
+    bounds exactly).\n ratio = 1.010010 / 1.016000 = 0.9941043. The guard-end stations
+    differ by 2 um;\n the difference is essentially all at the tip, 6 mm shorter.\n\nKNOWN
+    LIMITATION, carried deliberately:\n  The authored basis (bladeAxis, edgeAxis,
+    faceNormal) is TRANSFERRED FROM A1 and was NOT\n  independently derived from
+    B1's own quillon and tip markers. A1's bladeAxis carries a\n  1.24 degree tilt
+    off local -X from its own marker fit; B1's true tilt has not been\n  measured.
+    Both blades sit identically in their prefabs (Blade child localPosition\n  (0,
+    -0.002533, 0), collider centre y 0.00253), so the assumption is reasonable, but
+    it\n  IS an assumption. Derive B1's basis from B1's markers before any quantitative
+    claim\n  depends on the edge direction.\n\n  bladeAxis (local) = (-0.999767,
+    0.021566, 0.000000)   [from A1]\n edgeAxis  (local) = (0.000000, 0.000000, 1.000000)  
+    [from A1]\n  faceNormal(local) = (0.021566, 0.999767, 0.000000)   [from A1]\n\nBOTH
+    long edges are designated SharpEdge, so classification is invariant to the sign
+    of\nedgeAxis, exactly as for A1."
+  sourceMesh: {fileID: 4300000, guid: f87db33f9a6ede545a44c48eee90fafe, type: 2}
+  sourceMeshName: Blade_B1_Flat
+  sourceMeshGuid: f87db33f9a6ede545a44c48eee90fafe

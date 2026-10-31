@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Motions_EdgeBind_B
+  m_Controller: {fileID: 9100000, guid: 426e4c958ef05f74c8d9e9113b521a84, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: e4bd51b05f586264b9b821c0159c927c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: f76c13479ce7af04080acf8dde4e7095, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 783cc23e2ab33fe4f8b9dcad1c782cb0, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e70dc2612fbe9194496fadbf332ed9d9, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 5d821d4cc5d28e04aa645577449fb59d, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 69fdeef65fc180e41a4e9acbafdd3688, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 12a746685d645104ca4f4fbcd13d502b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: c9e645ad22d9f8243aa217e0ecd6c764, type: 2}

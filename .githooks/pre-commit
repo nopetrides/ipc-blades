@@ -1,0 +1,43 @@
+#!/bin/sh
+# Pre-commit size guard.
+# Blocks committing files at/over the limit so they never reach the remote.
+# GitHub rejects non-LFS files > 100 MB (hard) and warns at 50 MB; we block at 50 MB
+# to stay clear and to catch raw capture media (4K clips are ~120 MB) before it lands.
+#
+# Override for a single intentional commit:  git commit --no-verify
+# This hook is activated via:                git config core.hooksPath .githooks
+
+LIMIT_MB=50
+LIMIT_BYTES=$((LIMIT_MB * 1024 * 1024))
+
+files=$(git diff --cached --name-only --diff-filter=ACM)
+[ -z "$files" ] && exit 0
+
+oversized=""
+while IFS= read -r f; do
+	[ -z "$f" ] && continue
+	# Size of the staged blob = exactly what would be committed.
+	size=$(git cat-file -s ":$f" 2>/dev/null)
+	[ -z "$size" ] && continue
+	if [ "$size" -ge "$LIMIT_BYTES" ]; then
+		mb=$(awk "BEGIN{printf \"%.1f\", $size/1048576}")
+		oversized="${oversized}  ${mb} MB\t${f}\n"
+	fi
+done <<EOF
+$files
+EOF
+
+if [ -n "$oversized" ]; then
+	echo "" >&2
+	echo "COMMIT BLOCKED: file(s) >= ${LIMIT_MB} MB staged (GitHub non-LFS hard limit is 100 MB):" >&2
+	printf "$oversized" >&2
+	echo "" >&2
+	echo "Fix one of:" >&2
+	echo "  - add to .gitignore (raw capture media belongs in the parent Thesis repo)" >&2
+	echo "  - unstage:        git restore --staged <file>" >&2
+	echo "  - track via LFS:  git lfs track <pattern>" >&2
+	echo "  - override once:  git commit --no-verify" >&2
+	echo "" >&2
+	exit 1
+fi
+exit 0

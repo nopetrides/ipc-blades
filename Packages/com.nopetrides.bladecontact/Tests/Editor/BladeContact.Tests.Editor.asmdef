@@ -1,0 +1,13 @@
+{
+  "name": "BladeContact.Tests.Editor",
+  "rootNamespace": "BladeContact.Tests",
+  "references": [
+    "BladeContact.Runtime"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ]
+}
