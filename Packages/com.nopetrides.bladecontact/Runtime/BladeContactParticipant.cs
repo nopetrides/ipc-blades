@@ -39,7 +39,7 @@ namespace BladeContact
         {
             BladeContactManager target = manager != null
                 ? manager
-                : FindFirstObjectByType<BladeContactManager>();
+                : FindAnyObjectByType<BladeContactManager>();
 
             if (target == null)
             {

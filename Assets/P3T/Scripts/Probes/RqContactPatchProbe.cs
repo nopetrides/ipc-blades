@@ -84,7 +84,7 @@ public sealed class RqContactPatchProbe : MonoBehaviour
 
     private readonly List<ContactPoint> buffer = new List<ContactPoint>(64);
     private readonly List<ContactPoint> scratch = new List<ContactPoint>(64);
-    private readonly HashSet<long> shapePairs = new HashSet<long>();
+    private readonly HashSet<(EntityId, EntityId)> shapePairs = new HashSet<(EntityId, EntityId)>();
     private readonly ContactPoint[] contactScratch = new ContactPoint[128];
 
     // Shape participation, accumulated per step alongside the points. Names, not IDs, because the
@@ -266,9 +266,9 @@ public sealed class RqContactPatchProbe : MonoBehaviour
             var cb = contactScratch[i].otherCollider;
             if (ca == null || cb == null) continue;
 
-            int ia = ca.GetEntityId();
-            int ib = cb.GetEntityId();
-            long key = ia < ib ? ((long)ia << 32) | (uint)ib : ((long)ib << 32) | (uint)ia;
+            EntityId ia = ca.GetEntityId();
+            EntityId ib = cb.GetEntityId();
+            var key = ia.CompareTo(ib) < 0 ? (ia, ib) : (ib, ia);
             if (!shapePairs.Add(key)) continue;
 
             // Name it A-side first so the label reads the same way regardless of which body reported.

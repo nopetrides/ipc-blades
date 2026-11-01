@@ -369,27 +369,28 @@ public sealed class RqBladeTangentialSolver : MonoBehaviour
         public bool AwaitingRelatch;
 
         public readonly BladeShellScratch Scratch = new BladeShellScratch();
-        public readonly HashSet<int> CountedCollisions = new HashSet<int>();
+        public readonly HashSet<(EntityId, EntityId)> CountedCollisions = new HashSet<(EntityId, EntityId)>();
 
         public Snapshot Readout;
     }
 
     private readonly struct Key : System.IEquatable<Key>
     {
-        private readonly int low;
-        private readonly int high;
+        private readonly EntityId low;
+        private readonly EntityId high;
 
         public Key(RqBladeContact a, RqBladeContact b)
         {
-            int x = a.GetInstanceID();
-            int y = b.GetInstanceID();
-            low = x < y ? x : y;
-            high = x < y ? y : x;
+            EntityId x = a.GetEntityId();
+            EntityId y = b.GetEntityId();
+            bool ordered = x.CompareTo(y) < 0;
+            low = ordered ? x : y;
+            high = ordered ? y : x;
         }
 
-        public bool Equals(Key other) => low == other.low && high == other.high;
+        public bool Equals(Key other) => low.Equals(other.low) && high.Equals(other.high);
         public override bool Equals(object obj) => obj is Key other && Equals(other);
-        public override int GetHashCode() => (low * 397) ^ high;
+        public override int GetHashCode() => System.HashCode.Combine(low, high);
     }
 
     [Header("Behaviour")]
@@ -670,7 +671,7 @@ public sealed class RqBladeTangentialSolver : MonoBehaviour
             // One blade can carry several shapes, so PhysX delivers a separate Collision per COLLIDER pair
             // in the same step, each with its own impulse. They are summed once per collider pair -- not
             // once per contact point inside it, and not keyed on the Collision object, which Unity reuses.
-            int shapePair = contact.thisCollider.GetInstanceID() * 397 ^ contact.otherCollider.GetInstanceID();
+            var shapePair = (contact.thisCollider.GetEntityId(), contact.otherCollider.GetEntityId());
             if (pair.CountedCollisions.Add(shapePair)) pair.Impulse += collision.impulse;
 
             pair.PointSum += contact.point;

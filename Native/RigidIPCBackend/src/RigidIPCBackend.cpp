@@ -27,10 +27,6 @@
 #include "IUnityPhysicsBackendSystem.h"
 #include "PhysicsCommonTypes.h"
 
-// PhysicsEventTypes.h refers to Physics::EntityId but no shipped header defines it. The comment on
-// EngineObjectId says it mirrors UnityEngine's EntityId, so alias the two.
-namespace Physics { using EntityId = EngineObjectId; }
-
 #include "PhysicsCommands.h"
 #include "PhysicsGeneralCommandData.h"
 #include "PhysicsMaterialCommandData.h"
@@ -195,6 +191,8 @@ static float Dot(V3 a, V3 b) { return a.x * b.x + a.y * b.y + a.z * b.z; }
 static float Len(V3 a) { return std::sqrt(Dot(a, a)); }
 static V3 Load3(const float* f) { return { f[0], f[1], f[2] }; }
 static void Store3(V3 v, float* f) { f[0] = v.x; f[1] = v.y; f[2] = v.z; }
+static V3 Load3(const Physics::Vec3& v) { return { v.x, v.y, v.z }; }
+static void Store3(V3 v, Physics::Vec3& o) { o.x = v.x; o.y = v.y; o.z = v.z; }
 
 static Q4 QMul(Q4 a, Q4 b)
 {
@@ -218,7 +216,7 @@ static V3 QRot(Q4 q, V3 v)
 }
 
 struct Xf { V3 p; Q4 q; };
-static Xf FromPose(const Physics::Pose& pose) { return { Load3(pose.pos), { pose.quat[0], pose.quat[1], pose.quat[2], pose.quat[3] } }; }
+static Xf FromPose(const Physics::Pose& pose) { return { Load3(pose.pos), { pose.quat.x, pose.quat.y, pose.quat.z, pose.quat.w } }; }
 static Physics::Pose ToPose(const Xf& x) { return Physics::Pose(x.p.x, x.p.y, x.p.z, x.q.x, x.q.y, x.q.z, x.q.w); }
 static Xf Compose(const Xf& a, const Xf& b) { return { Add(a.p, QRot(a.q, b.p)), QNorm(QMul(a.q, b.q)) }; }
 static Xf Inverse(const Xf& a) { Q4 ci = QConj(a.q); return { QRot(ci, Mul(a.p, -1.0f)), ci }; }
@@ -401,8 +399,7 @@ struct Articulation : Obj
 static Material* g_defaultMaterial = nullptr;
 static std::vector<std::vector<uint8_t>*> g_cookedStreams;  // kept alive; Unity may read after the callback returns
 
-struct IgnorePair { void* userData0; void* userData1; };
-static std::map<std::pair<uint16_t, uint16_t>, IgnorePair> g_ignoredPairs;
+static std::set<std::pair<uint16_t, uint16_t>> g_ignoredPairs;  // keyed by Unity ignore id (6000.6 protocol)
 static std::pair<uint16_t, uint16_t> IgnoreKey(uint16_t a, uint16_t b) { return a < b ? std::make_pair(a, b) : std::make_pair(b, a); }
 
 static Physics::ActorDescriptor DescribeBody(Body* b)
@@ -471,7 +468,7 @@ static void RecomputeInertia(Body* b, const Physics::MassPropertiesOverride& o)
     if (o.overrideInertiaTensor)
     {
         b->inertia = Load3(o.inertiaTensor);
-        b->inertiaRot = { o.inertiaTensorRotation[0], o.inertiaTensorRotation[1], o.inertiaTensorRotation[2], o.inertiaTensorRotation[3] };
+        b->inertiaRot = { o.inertiaTensorRotation.x, o.inertiaTensorRotation.y, o.inertiaTensorRotation.z, o.inertiaTensorRotation.w };
         return;
     }
     // Box inertia of the union of shape AABBs in body space; good enough for a gate stepper.
@@ -686,7 +683,7 @@ static void HandleWorld(void* sdkObject, const Context& ctx, uint32_t index, Com
             nw->gravity = Load3(d.gravity);
             nw->bounceThreshold = d.bounceThreshold;
             d.outWorld = nw;
-            Logf("CreateWorld #%u solver=%d gravity=(%g,%g,%g) workers=%u", nw->serial, (int)d.solverType, d.gravity[0], d.gravity[1], d.gravity[2], d.jobWorkerCount);
+            Logf("CreateWorld #%u solver=%d gravity=(%g,%g,%g) workers=%u", nw->serial, (int)d.solverType, d.gravity.x, d.gravity.y, d.gravity.z, d.jobWorkerCount);
             break;
         }
         case PhysicsCommands::World::DestroyWorld:
@@ -748,7 +745,7 @@ static void HandleWorld(void* sdkObject, const Context& ctx, uint32_t index, Com
             if (w) w->bodies.push_back(b);
             d.outBody = b;
             Logf("CreateBody #%u world=%u static=%d flags=0x%x mass=%g pos=(%g,%g,%g) userData=%p", b->serial, w ? w->serial : 0,
-                d.isStatic, (unsigned)d.flags, d.mass, d.pose.pos[0], d.pose.pos[1], d.pose.pos[2], d.userData);
+                d.isStatic, (unsigned)d.flags, d.mass, d.pose.pos.x, d.pose.pos.y, d.pose.pos.z, d.userData);
             break;
         }
         case PhysicsCommands::World::AddActorsToScene:
@@ -856,7 +853,7 @@ static void HandleBody(void* sdkObject, const Context& ctx, uint32_t index, Comm
             // Open question logged for the protocol notes: is d.pose local or world when !forceLocalPose?
             s->local = d.forceLocalPose ? FromPose(d.pose) : Compose(Inverse(b->pose), FromPose(d.pose));
             Logf("AttachShape shape#%u -> body#%u forceLocal=%d pose=(%g,%g,%g) bodyPos=(%g,%g,%g)", s->serial, b->serial,
-                d.forceLocalPose, d.pose.pos[0], d.pose.pos[1], d.pose.pos[2], b->pose.p.x, b->pose.p.y, b->pose.p.z);
+                d.forceLocalPose, d.pose.pos.x, d.pose.pos.y, d.pose.pos.z, b->pose.p.x, b->pose.p.y, b->pose.p.z);
             break;
         }
         case PhysicsCommands::Body::DetachShape:
@@ -918,13 +915,13 @@ static void HandleBody(void* sdkObject, const Context& ctx, uint32_t index, Comm
         case PhysicsCommands::Body::SetInertiaTensorRotation:
         {
             auto& v = D<SetInertiaTensorRotation>(c).value;
-            b->inertiaRot = QNorm({ v[0], v[1], v[2], v[3] });
+            b->inertiaRot = QNorm({ v.x, v.y, v.z, v.w });
             break;
         }
         case PhysicsCommands::Body::GetInertiaTensorRotation:
         {
             auto& v = D<GetInertiaTensorRotation>(c).value;
-            v[0] = b->inertiaRot.x; v[1] = b->inertiaRot.y; v[2] = b->inertiaRot.z; v[3] = b->inertiaRot.w;
+            v.x = b->inertiaRot.x; v.y = b->inertiaRot.y; v.z = b->inertiaRot.z; v.w = b->inertiaRot.w;
             break;
         }
         case PhysicsCommands::Body::SetLocalCenterOfMass: b->com = Load3(D<SetLocalCenterOfMass>(c).value); break;
@@ -1108,15 +1105,15 @@ static void HandleShape(void* sdkObject, const Context&, uint32_t index, Command
         case PhysicsCommands::Shape::IgnoreCollision:
         {
             auto& d = D<ShapeData::IgnoreCollision>(c);
-            if (d.value) g_ignoredPairs[IgnoreKey(d.ignoreId0, d.ignoreId1)] = { d.userData0, d.userData1 };
+            if (d.value) g_ignoredPairs.insert(IgnoreKey(d.ignoreId0, d.ignoreId1));
             else g_ignoredPairs.erase(IgnoreKey(d.ignoreId0, d.ignoreId1));
             return;
         }
         case PhysicsCommands::Shape::CleanupIgnoredColliders:
         {
-            const void* p = D<CleanupIgnoredColliders>(c).colliderPtr;
+            const uint16_t id = D<CleanupIgnoredColliders>(c).ignoreID;
             for (auto it = g_ignoredPairs.begin(); it != g_ignoredPairs.end();)
-                it = (it->second.userData0 == p || it->second.userData1 == p) ? g_ignoredPairs.erase(it) : std::next(it);
+                it = (it->first == id || it->second == id) ? g_ignoredPairs.erase(it) : std::next(it);
             return;
         }
         default: break;
@@ -1197,13 +1194,13 @@ static void HandleQuery(void*, const Context&, uint32_t index, Command& c)
         case PhysicsCommands::Query::ComputeShapePenetration:
         {
             auto& d = D<ComputeShapePenetration>(c);
-            d.outDirection[0] = d.outDirection[1] = d.outDirection[2] = 0; d.outDistance = 0; d.areOverlapping = false;
+            d.outDirection = Physics::Vec3(0.0f); d.outDistance = 0; d.areOverlapping = false;
             break;
         }
         case PhysicsCommands::Query::ClosestPointOnShape:
         {
             auto& d = D<ClosestPointOnShape>(c);
-            std::memcpy(d.outPoint, d.point, sizeof(d.point)); d.outDistance = 0;
+            d.outPoint = d.point; d.outDistance = 0;
             break;
         }
         case PhysicsCommands::Query::RayCast: { auto& d = D<RayCast>(c); d.hit = Physics::QueryHit::Invalid(); d.hitCount = 0; break; }
@@ -1265,7 +1262,7 @@ static void HandleJoint(void* sdkObject, const Context&, uint32_t index, Command
         case PhysicsCommands::Joint::GetForces:
         {
             auto& d = D<GetForces>(c);
-            std::memset(d.linear, 0, sizeof(d.linear)); std::memset(d.angular, 0, sizeof(d.angular));
+            d.linear = Physics::Vec3(0.0f); d.angular = Physics::Vec3(0.0f);
             break;
         }
         case PhysicsCommands::Joint::SetInvMassAndInertiaScale:
@@ -1313,7 +1310,7 @@ static void HandleJoint(void* sdkObject, const Context&, uint32_t index, Command
         case PhysicsCommands::Joint::Set6DofMotorTargetRotation:
         {
             auto& v = D<Set6DofMotorTargetRotation>(c).value;
-            j->targetRotation = { v[0], v[1], v[2], v[3] };
+            j->targetRotation = { v.x, v.y, v.z, v.w };
             break;
         }
         case PhysicsCommands::Joint::Set6DofMotorTargetLinearVelocity: j->targetLinVel = Load3(D<Set6DofMotorTargetLinearVelocity>(c).value); break;

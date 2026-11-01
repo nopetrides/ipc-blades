@@ -115,4 +115,4 @@ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.as
 .idea/.idea.MBC/.idea/vcs.xml
 
 # Native plugin build trees (the built DLL is copied into Assets/Plugins/x86_64)
-/Native/**/build/
+/Native/**/build*/

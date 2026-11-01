@@ -340,7 +340,7 @@ public static class StationModePanelBuilder
         t.alignment = TextAlignmentOptions.Center;
         t.enableAutoSizing = false;
         t.raycastTarget = false;
-        t.enableWordWrapping = false;
+        t.textWrappingMode = TextWrappingModes.NoWrap;
         t.overflowMode = TextOverflowModes.Overflow;
         return t;
     }

@@ -133,7 +133,7 @@ public sealed class RqBladeContact : MonoBehaviour
         live = true;
         Rebind();
 
-        if (solver == null) solver = FindFirstObjectByType<RqBladeTangentialSolver>();
+        if (solver == null) solver = FindAnyObjectByType<RqBladeTangentialSolver>();
         if (solver == null)
             Debug.LogWarning(
                 "[L2] " + name + ": no RqBladeTangentialSolver in the scene, so this blade behaves as " +
