@@ -1,7 +1,9 @@
 {
     "name": "IPCBlades.Gates.Editor",
     "rootNamespace": "IPCBlades.Gates",
-    "references": [],
+    "references": [
+        "IPCBlades.Gates.Runtime"
+    ],
     "includePlatforms": [
         "Editor"
     ],

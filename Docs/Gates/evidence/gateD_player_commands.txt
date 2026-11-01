@@ -1,0 +1,312 @@
+[2026-11-01 03:43:24] ==== UnityPluginLoad (RigidIPC gate build, id=1380536387) ====
+[2026-11-01 03:43:24] cmd SDK.GetIntegrationInfo(3)                      n=1      obj=-#0
+[2026-11-01 03:43:24] IUnityPhysicsBackendSystem::Register(...) == true
+[2026-11-01 03:43:26] cmd SDK.InitializeSdk(1)                           n=1      obj=-#0
+[2026-11-01 03:43:26] InitializeSdk engineObjectIdOffset=8 vehicleModule=1 -> true
+[2026-11-01 03:43:26] cmd SDK.SetErrorVerbosityLevel(4)                  n=1      obj=-#0
+[2026-11-01 03:43:26] cmd World.CreateWorld(1)                           n=1      obj=-#0
+[2026-11-01 03:43:26] CreateWorld #2 solver=0 gravity=(0,-9.81,0) workers=15
+[2026-11-01 03:43:26] cmd World.SetScratchBufferChunkCount(8)            n=1      obj=World#2
+[2026-11-01 03:43:26] cmd SDK.SetErrorVerbosityLevel(4)                  n=2      obj=-#0
+[2026-11-01 03:43:26] cmd World.SetGravity(3)                            n=1      obj=World#2
+[2026-11-01 03:43:26] cmd World.SetBounceThreshold(5)                    n=1      obj=World#2
+[2026-11-01 03:43:26] cmd World.SetScratchBufferChunkCount(8)            n=2      obj=World#2
+[2026-11-01 03:43:27] cmd SDK.CreateMaterial(9)                          n=1      obj=-#0
+[2026-11-01 03:43:27] cmd SDK.SetMaterialConfiguration(13)               n=1      obj=Material#3
+[2026-11-01 03:43:27] cmd SDK.SetMaterialCombineModes(15)                n=1      obj=Material#3
+[2026-11-01 03:43:27] cmd SDK.GetDefaultMaterial(11)                     n=1      obj=-#0
+[2026-11-01 03:43:27] cmd SDK.SetMaterialConfiguration(13)               n=2      obj=Material#1
+[2026-11-01 03:43:27] cmd SDK.SetMaterialCombineModes(15)                n=2      obj=Material#1
+[2026-11-01 03:43:31] cmd World.CreateBody(14)                           n=1      obj=World#2
+[2026-11-01 03:43:31] CreateBody #4 world=2 static=0 flags=0x5 mass=1 pos=(-2.5,3,0) userData=00000260CB030A80
+[2026-11-01 03:43:31] cmd Body.SetCollisionDetectionMode(15)             n=1      obj=Body#4
+[2026-11-01 03:43:31] cmd Body.SetSolverIterationsOverride(48)           n=1      obj=Body#4
+[2026-11-01 03:43:31] cmd Body.SetSleepThresholdOverride(46)             n=1      obj=Body#4
+[2026-11-01 03:43:31] cmd Body.SetMaxAngularVelocity(24)                 n=1      obj=Body#4
+[2026-11-01 03:43:31] cmd Body.SetMaxDepenetrationVelocity(26)           n=1      obj=Body#4
+[2026-11-01 03:43:31] cmd Body.SetPose(7)                                n=1      obj=Body#4
+[2026-11-01 03:43:31] cmd Body.SetMass(3)                                n=1      obj=Body#4
+[2026-11-01 03:43:31] cmd Body.RecomputeMassProperties(35)               n=1      obj=Body#4
+[2026-11-01 03:43:31] cmd World.GetUserData(13)                          n=1      obj=World#2
+[2026-11-01 03:43:31] cmd World.CreateBody(14)                           n=2      obj=World#2
+[2026-11-01 03:43:31] CreateBody #5 world=2 static=0 flags=0x5 mass=2 pos=(0,4,0) userData=00000260CB0307E0
+[2026-11-01 03:43:31] cmd Body.SetCollisionDetectionMode(15)             n=2      obj=Body#5
+[2026-11-01 03:43:31] cmd Body.SetSolverIterationsOverride(48)           n=2      obj=Body#5
+[2026-11-01 03:43:31] cmd Body.SetSleepThresholdOverride(46)             n=2      obj=Body#5
+[2026-11-01 03:43:31] cmd Body.SetMaxAngularVelocity(24)                 n=2      obj=Body#5
+[2026-11-01 03:43:31] cmd Body.SetMaxDepenetrationVelocity(26)           n=2      obj=Body#5
+[2026-11-01 03:43:31] cmd Body.SetPose(7)                                n=2      obj=Body#5
+[2026-11-01 03:43:31] cmd Body.SetMass(3)                                n=2      obj=Body#5
+[2026-11-01 03:43:31] cmd Body.RecomputeMassProperties(35)               n=2      obj=Body#5
+[2026-11-01 03:43:31] cmd World.GetUserData(13)                          n=2      obj=World#2
+[2026-11-01 03:43:31] cmd World.CreateBody(14)                           n=3      obj=World#2
+[2026-11-01 03:43:31] CreateBody #6 world=2 static=0 flags=0x5 mass=1 pos=(2.5,5,0) userData=00000260CB031260
+[2026-11-01 03:43:31] cmd Body.SetCollisionDetectionMode(15)             n=3      obj=Body#6
+[2026-11-01 03:43:31] cmd Body.SetSolverIterationsOverride(48)           n=3      obj=Body#6
+[2026-11-01 03:43:31] cmd Body.SetSleepThresholdOverride(46)             n=3      obj=Body#6
+[2026-11-01 03:43:31] cmd Body.SetMaxAngularVelocity(24)                 n=3      obj=Body#6
+[2026-11-01 03:43:31] cmd Body.SetMaxDepenetrationVelocity(26)           n=3      obj=Body#6
+[2026-11-01 03:43:31] cmd Body.SetPose(7)                                n=3      obj=Body#6
+[2026-11-01 03:43:31] cmd Body.SetMass(3)                                n=3      obj=Body#6
+[2026-11-01 03:43:31] cmd Body.RecomputeMassProperties(35)               n=3      obj=Body#6
+[2026-11-01 03:43:31] cmd World.GetUserData(13)                          n=3      obj=World#2
+[2026-11-01 03:43:31] cmd SDK.GetDefaultMaterial(11)                     n=2      obj=-#0
+[2026-11-01 03:43:31] cmd Shape.CreateShape(1)                           n=1      obj=-#0
+[2026-11-01 03:43:31] CreateShape #7 geom=4 flags=0x1 userData=00000260CB0309A0
+[2026-11-01 03:43:31] cmd Body.AttachShape(9)                            n=1      obj=Body#4
+[2026-11-01 03:43:31] AttachShape shape#7 -> body#4 forceLocal=0 pose=(0,0,0) bodyPos=(-2.5,3,0)
+[2026-11-01 03:43:31] cmd Shape.GetFilterData(7)                         n=1      obj=Shape#7
+[2026-11-01 03:43:31] cmd Shape.SetFilterData(8)                         n=1      obj=Shape#7
+[2026-11-01 03:43:31] cmd Shape.GetFilterData(7)                         n=2      obj=Shape#7
+[2026-11-01 03:43:31] cmd Shape.GetActorDescriptor(3)                    n=1      obj=Shape#7
+[2026-11-01 03:43:31] cmd Shape.SetFilterData(8)                         n=2      obj=Shape#7
+[2026-11-01 03:43:31] cmd Shape.SetContactOffset(15)                     n=1      obj=Shape#7
+[2026-11-01 03:43:31] cmd Shape.GetFilterData(7)                         n=3      obj=Shape#7
+[2026-11-01 03:43:31] cmd Shape.SetFilterData(8)                         n=3      obj=Shape#7
+[2026-11-01 03:43:31] cmd Shape.GetActorDescriptor(3)                    n=2      obj=Shape#7
+[2026-11-01 03:43:31] cmd Body.RecomputeMassProperties(35)               n=4      obj=Body#4
+[2026-11-01 03:43:31] cmd SDK.GetDefaultMaterial(11)                     n=3      obj=-#0
+[2026-11-01 03:43:31] cmd Shape.CreateShape(1)                           n=2      obj=-#0
+[2026-11-01 03:43:31] CreateShape #8 geom=4 flags=0x1 userData=00000260CB030D20
+[2026-11-01 03:43:31] cmd World.CreateBody(14)                           n=4      obj=World#2
+[2026-11-01 03:43:31] CreateBody #9 world=2 static=1 flags=0x4 mass=0 pos=(0,-0.1,0) userData=0000000000000000
+[2026-11-01 03:43:31] cmd Body.AttachShape(9)                            n=2      obj=Body#9
+[2026-11-01 03:43:31] AttachShape shape#8 -> body#9 forceLocal=0 pose=(0,-0.1,0) bodyPos=(0,-0.1,0)
+[2026-11-01 03:43:31] cmd Shape.GetFilterData(7)                         n=4      obj=Shape#8
+[2026-11-01 03:43:31] cmd Shape.SetFilterData(8)                         n=4      obj=Shape#8
+[2026-11-01 03:43:31] cmd Shape.GetActorDescriptor(3)                    n=3      obj=Shape#8
+[2026-11-01 03:43:31] cmd Shape.SetContactOffset(15)                     n=2      obj=Shape#8
+[2026-11-01 03:43:31] cmd Shape.GetActorDescriptor(3)                    n=4      obj=Shape#8
+[2026-11-01 03:43:31] cmd SDK.GetDefaultMaterial(11)                     n=4      obj=-#0
+[2026-11-01 03:43:31] cmd Shape.CreateShape(1)                           n=3      obj=-#0
+[2026-11-01 03:43:31] CreateShape #10 geom=4 flags=0x1 userData=00000260CB030EE0
+[2026-11-01 03:43:31] cmd Body.AttachShape(9)                            n=3      obj=Body#5
+[2026-11-01 03:43:31] AttachShape shape#10 -> body#5 forceLocal=0 pose=(0,0,0) bodyPos=(0,4,0)
+[2026-11-01 03:43:31] cmd Shape.SetContactOffset(15)                     n=3      obj=Shape#10
+[2026-11-01 03:43:31] cmd Body.RecomputeMassProperties(35)               n=5      obj=Body#5
+[2026-11-01 03:43:31] cmd Shape.CreateShape(1)                           n=4      obj=-#0
+[2026-11-01 03:43:31] CreateShape #11 geom=4 flags=0x1 userData=00000260CB0310A0
+[2026-11-01 03:43:31] cmd Body.AttachShape(9)                            n=4      obj=Body#6
+[2026-11-01 03:43:31] AttachShape shape#11 -> body#6 forceLocal=0 pose=(0.5,0.0799999,0) bodyPos=(2.5,5,0)
+[2026-11-01 03:43:31] cmd Shape.SetContactOffset(15)                     n=4      obj=Shape#11
+[2026-11-01 03:43:31] cmd Body.RecomputeMassProperties(35)               n=6      obj=Body#6
+[2026-11-01 03:43:31] cmd Body.GetUserData(14)                           n=1      obj=Body#6
+[2026-11-01 03:43:31] cmd Body.GetUserData(14)                           n=2      obj=Body#5
+[2026-11-01 03:43:31] cmd World.CreateJoint(19)                          n=1      obj=World#2
+[2026-11-01 03:43:31] CreateJoint #12 type=6 flags=0x18 body0=#6 body1=#5
+[2026-11-01 03:43:31] cmd Joint.SetFlags(1)                              n=1      obj=Joint#12
+[2026-11-01 03:43:31] cmd Joint.SetFlags(1)                              n=2      obj=Joint#12
+[2026-11-01 03:43:31] cmd Joint.SetFlags(1)                              n=3      obj=Joint#12
+[2026-11-01 03:43:31] cmd Joint.SetInvMassAndInertiaScale(9)             n=1      obj=Joint#12
+[2026-11-01 03:43:31] cmd Joint.SetInvMassAndInertiaScale(9)             n=2      obj=Joint#12
+[2026-11-01 03:43:31] cmd Joint.SetBreakForce(6)                         n=1      obj=Joint#12
+[2026-11-01 03:43:31] cmd Joint.Set6DofAxisLock(16)                      n=1      obj=Joint#12
+[2026-11-01 03:43:31] cmd Joint.Set6DofAxisLock(16)                      n=2      obj=Joint#12
+[2026-11-01 03:43:31] cmd Joint.Set6DofAxisLock(16)                      n=3      obj=Joint#12
+[2026-11-01 03:43:31] cmd Joint.Set6DofAxisLock(16)                      n=4      obj=Joint#12
+[2026-11-01 03:43:31] cmd Joint.Set6DofAxisLock(16)                      n=5      obj=Joint#12
+[2026-11-01 03:43:31] cmd Joint.Set6DofAxisLock(16)                      n=6      obj=Joint#12
+[2026-11-01 03:43:31] cmd Joint.Set6DofLimit(13)                         n=1      obj=Joint#12
+[2026-11-01 03:43:31] cmd Joint.Set6DofSpringLimit(15)                   n=1      obj=Joint#12
+[2026-11-01 03:43:31] cmd Joint.Set6DofLimit(13)                         n=2      obj=Joint#12
+[2026-11-01 03:43:31] cmd Joint.Set6DofSpringLimit(15)                   n=2      obj=Joint#12
+[2026-11-01 03:43:31] cmd Joint.Set6DofLimit(13)                         n=3      obj=Joint#12
+[2026-11-01 03:43:31] cmd Joint.Set6DofSpringLimit(15)                   n=3      obj=Joint#12
+[2026-11-01 03:43:31] cmd Joint.Set6DofAxisMotorConfiguration(17)        n=1      obj=Joint#12
+[2026-11-01 03:43:31] Joint#12 motor LinearX spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 03:43:31] cmd Joint.Set6DofAxisMotorConfiguration(17)        n=2      obj=Joint#12
+[2026-11-01 03:43:31] Joint#12 motor LinearY spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 03:43:31] cmd Joint.Set6DofAxisMotorConfiguration(17)        n=3      obj=Joint#12
+[2026-11-01 03:43:31] Joint#12 motor LinearZ spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 03:43:31] cmd Joint.Set6DofAxisMotorConfiguration(17)        n=4      obj=Joint#12
+[2026-11-01 03:43:31] Joint#12 motor AngularX spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 03:43:31] cmd Joint.Set6DofAxisMotorConfiguration(17)        n=5      obj=Joint#12
+[2026-11-01 03:43:31] Joint#12 motor AngularYZ spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 03:43:31] cmd Joint.Set6DofMotorTargetPosition(18)           n=1      obj=Joint#12
+[2026-11-01 03:43:31] cmd Joint.Set6DofMotorTargetRotation(19)           n=1      obj=Joint#12
+[2026-11-01 03:43:31] cmd Joint.Set6DofMotorTargetLinearVelocity(20)     n=1      obj=Joint#12
+[2026-11-01 03:43:31] cmd Joint.Set6DofMotorTargetAngularVelocity(21)    n=1      obj=Joint#12
+[2026-11-01 03:43:31] cmd Joint.Set6DofProjectionTolerance(22)           n=1      obj=Joint#12
+[2026-11-01 03:43:31] cmd Joint.SetActors(10)                            n=1      obj=Joint#12
+[2026-11-01 03:43:31] cmd Joint.SetActorLocalPose(4)                     n=1      obj=Joint#12
+[2026-11-01 03:43:31] cmd Joint.SetActorLocalPose(4)                     n=2      obj=Joint#12
+[2026-11-01 03:43:31] cmd Joint.WakeUpActors(12)                         n=1      obj=Joint#12
+[2026-11-01 03:43:31] trace armed for 5 Simulate call(s)
+[2026-11-01 03:43:31] cmd SDK.SetErrorVerbosityLevel(4)                  n=3      obj=-#0
+[2026-11-01 03:43:31] cmd World.SetGravity(3)                            n=2      obj=World#2
+[2026-11-01 03:43:31] cmd World.SetBounceThreshold(5)                    n=2      obj=World#2
+[2026-11-01 03:43:31] cmd World.SetScratchBufferChunkCount(8)            n=3      obj=World#2
+[2026-11-01 03:43:31] cmd SDK.SetMaterialConfiguration(13)               n=3      obj=Material#1
+[2026-11-01 03:43:31] cmd SDK.SetMaterialCombineModes(15)                n=3      obj=Material#1
+[2026-11-01 03:43:31] cmd SDK.SetImprovedPatchFrictionEnabledGlobal(12)  n=1      obj=-#0
+[2026-11-01 03:43:31] cmd SDK.SetErrorVerbosityLevel(4)                  n=4      obj=-#0
+[2026-11-01 03:43:31] cmd World.SetGravity(3)                            n=3      obj=World#2
+[2026-11-01 03:43:31] cmd World.SetBounceThreshold(5)                    n=3      obj=World#2
+[2026-11-01 03:43:31] cmd World.SetScratchBufferChunkCount(8)            n=4      obj=World#2
+[2026-11-01 03:43:31] cmd SDK.SetMaterialConfiguration(13)               n=4      obj=Material#1
+[2026-11-01 03:43:31] cmd SDK.SetMaterialCombineModes(15)                n=4      obj=Material#1
+[2026-11-01 03:43:31] cmd SDK.SetImprovedPatchFrictionEnabledGlobal(12)  n=2      obj=-#0
+[2026-11-01 03:43:32] cmd Body.GetPose(8)                                n=1      obj=Body#4
+[2026-11-01 03:43:32] cmd Body.GetPose(8)                                n=2      obj=Body#4
+[2026-11-01 03:43:32] cmd Body.GetPose(8)                                n=3      obj=Body#5
+[2026-11-01 03:43:32] cmd Body.GetPose(8)                                n=4      obj=Body#5
+[2026-11-01 03:43:32] cmd Body.GetLinearVelocity(19)                     n=1      obj=Body#5
+[2026-11-01 03:43:32] cmd Body.GetLinearVelocity(19)                     n=2      obj=Body#6
+[2026-11-01 03:43:32] cmd Body.GetLinearVelocity(19)                     n=3      obj=Body#4
+[2026-11-01 03:43:32] cmd World.Simulate(9)                              n=1      obj=World#2
+[2026-11-01 03:43:32] trace Simulate #1 dt=0.0111111114 body#4 pos=(-2.5,2.99878883,0) rot=(0,0,0,1) linVel=(0,-0.109000005,0) angVel=(0,0,0)
+[2026-11-01 03:43:32] trace Simulate #1 dt=0.0111111114 body#5 pos=(0,3.99878883,0) rot=(0.1907911,0.280576557,0.0298407767,0.940204859) linVel=(0,-0.109000005,0) angVel=(0,0,0)
+[2026-11-01 03:43:32] trace Simulate #1 dt=0.0111111114 body#6 pos=(2.5,4.99878883,0) rot=(0,0,0.21643962,0.976296008) linVel=(0,-0.109000005,0) angVel=(0,0,0)
+[2026-11-01 03:43:32] Simulate #1 world=2 dt=0.0111111 bodies=4 joints=1
+[2026-11-01 03:43:32] cmd Body.GetFlags(2)                               n=1      obj=Body#4
+[2026-11-01 03:43:32] cmd Body.GetIsSleeping(43)                         n=1      obj=Body#4
+[2026-11-01 03:43:32] cmd Body.GetFlags(2)                               n=2      obj=Body#5
+[2026-11-01 03:43:32] cmd Body.GetIsSleeping(43)                         n=2      obj=Body#5
+[2026-11-01 03:43:32] cmd Body.GetFlags(2)                               n=3      obj=Body#6
+[2026-11-01 03:43:32] cmd Body.GetIsSleeping(43)                         n=3      obj=Body#6
+[2026-11-01 03:43:32] cmd World.GetArticulationCount(21)                 n=1      obj=World#2
+[2026-11-01 03:43:32] cmd World.GetLastSimulationStepResults(10)         n=1      obj=World#2
+[2026-11-01 03:43:32] cmd Body.GetLinearVelocity(19)                     n=4      obj=Body#5
+[2026-11-01 03:43:32] cmd Query.RayCast(3)                               n=1      obj=World#2
+[2026-11-01 03:43:32] cmd World.Simulate(9)                              n=2      obj=World#2
+[2026-11-01 03:43:32] trace Simulate #2 dt=0.0111111114 body#4 pos=(-2.5,2.9963665,0) rot=(0,0,0,1) linVel=(0,-0.21800001,0) angVel=(0,0,0)
+[2026-11-01 03:43:32] trace Simulate #2 dt=0.0111111114 body#5 pos=(0,3.9963665,0) rot=(0.1907911,0.280576557,0.0298407767,0.940204859) linVel=(0,-0.21800001,0) angVel=(0,0,0)
+[2026-11-01 03:43:32] trace Simulate #2 dt=0.0111111114 body#6 pos=(2.5,4.9963665,0) rot=(0,0,0.21643962,0.976296008) linVel=(0,-0.21800001,0) angVel=(0,0,0)
+[2026-11-01 03:43:32] Simulate #2 world=2 dt=0.0111111 bodies=4 joints=1
+[2026-11-01 03:43:32] cmd Body.GetFlags(2)                               n=4      obj=Body#4
+[2026-11-01 03:43:32] cmd Body.GetIsSleeping(43)                         n=4      obj=Body#4
+[2026-11-01 03:43:32] cmd World.GetArticulationCount(21)                 n=2      obj=World#2
+[2026-11-01 03:43:32] cmd World.GetLastSimulationStepResults(10)         n=2      obj=World#2
+[2026-11-01 03:43:32] cmd World.Simulate(9)                              n=3      obj=World#2
+[2026-11-01 03:43:32] trace Simulate #3 dt=0.0111111114 body#4 pos=(-2.5,2.99273324,0) rot=(0,0,0,1) linVel=(0,-0.327000022,0) angVel=(0,0,0)
+[2026-11-01 03:43:32] trace Simulate #3 dt=0.0111111114 body#5 pos=(0,3.99273324,0) rot=(0.1907911,0.280576557,0.0298407767,0.940204859) linVel=(0,-0.327000022,0) angVel=(0,0,0)
+[2026-11-01 03:43:32] trace Simulate #3 dt=0.0111111114 body#6 pos=(2.5,4.992733,0) rot=(0,0,0.21643962,0.976296008) linVel=(0,-0.327000022,0) angVel=(0,0,0)
+[2026-11-01 03:43:32] Simulate #3 world=2 dt=0.0111111 bodies=4 joints=1
+[2026-11-01 03:43:32] cmd World.GetArticulationCount(21)                 n=3      obj=World#2
+[2026-11-01 03:43:32] cmd World.GetLastSimulationStepResults(10)         n=3      obj=World#2
+[2026-11-01 03:43:32] cmd World.Simulate(9)                              n=4      obj=World#2
+[2026-11-01 03:43:32] trace Simulate #4 dt=0.0111111114 body#4 pos=(-2.5,2.98788881,0) rot=(0,0,0,1) linVel=(0,-0.436000019,0) angVel=(0,0,0)
+[2026-11-01 03:43:32] trace Simulate #4 dt=0.0111111114 body#5 pos=(0,3.98788881,0) rot=(0.1907911,0.280576557,0.0298407767,0.940204859) linVel=(0,-0.436000019,0) angVel=(0,0,0)
+[2026-11-01 03:43:32] trace Simulate #4 dt=0.0111111114 body#6 pos=(2.5,4.98788834,0) rot=(0,0,0.21643962,0.976296008) linVel=(0,-0.436000019,0) angVel=(0,0,0)
+[2026-11-01 03:43:32] cmd World.GetArticulationCount(21)                 n=4      obj=World#2
+[2026-11-01 03:43:32] cmd World.GetLastSimulationStepResults(10)         n=4      obj=World#2
+[2026-11-01 03:43:32] trace Simulate #5 dt=0.0111111114 body#4 pos=(-2.5,2.98183322,0) rot=(0,0,0,1) linVel=(0,-0.545000017,0) angVel=(0,0,0)
+[2026-11-01 03:43:32] trace Simulate #5 dt=0.0111111114 body#5 pos=(0,3.98183322,0) rot=(0.1907911,0.280576557,0.0298407767,0.940204859) linVel=(0,-0.545000017,0) angVel=(0,0,0)
+[2026-11-01 03:43:32] trace Simulate #5 dt=0.0111111114 body#6 pos=(2.5,4.98183298,0) rot=(0,0,0.21643962,0.976296008) linVel=(0,-0.545000017,0) angVel=(0,0,0)
+[2026-11-01 03:43:32] cmd Shape.SetPose(14)                              n=1      obj=Shape#8
+[2026-11-01 03:43:32] Shape.SetPose shape#8 body#9 static pose=(1,-0.0599999987,-1.5) rot=(0,0,0,1)
+[2026-11-01 03:43:32] cmd Shape.SetPose(14)                              n=2      obj=Shape#7
+[2026-11-01 03:43:32] Shape.SetPose shape#7 body#4 pose=(0.0999999046,0.200000048,-0.150000006) rot=(0,0,0,1)
+[2026-11-01 03:43:32] cmd Body.WakeUp(45)                                n=1      obj=Body#4
+[2026-11-01 03:43:32] cmd Body.RecomputeMassProperties(35)               n=7      obj=Body#4
+[2026-11-01 03:43:32] cmd Shape.SetPose(14)                              n=3      obj=Shape#10
+[2026-11-01 03:43:32] Shape.SetPose shape#10 body#5 pose=(0.100000024,0.100000143,-0.299999952) rot=(0,0,0,1)
+[2026-11-01 03:43:32] cmd Body.WakeUp(45)                                n=2      obj=Body#5
+[2026-11-01 03:43:32] cmd Body.RecomputeMassProperties(35)               n=8      obj=Body#5
+[2026-11-01 03:43:32] cmd Shape.SetPose(14)                              n=4      obj=Shape#11
+[2026-11-01 03:43:32] Shape.SetPose shape#11 body#6 pose=(0.47171545,0.239999771,-0.141421363) rot=(0,0.382683516,0,0.923879564)
+[2026-11-01 03:43:32] cmd Body.WakeUp(45)                                n=3      obj=Body#6
+[2026-11-01 03:43:32] cmd Body.RecomputeMassProperties(35)               n=9      obj=Body#6
+[2026-11-01 03:43:36] cmd Body.DetachShape(10)                           n=1      obj=Body#4
+[2026-11-01 03:43:36] cmd Body.RecomputeMassProperties(35)               n=10     obj=Body#4
+[2026-11-01 03:43:36] cmd Shape.DestroyShape(2)                          n=1      obj=Shape#7
+[2026-11-01 03:43:36] cmd Shape.CleanupIgnoredColliders(20)              n=1      obj=-#0
+[2026-11-01 03:43:36] cmd Body.GetShapeCount(11)                         n=1      obj=Body#4
+[2026-11-01 03:43:36] cmd World.DestroyBody(16)                          n=1      obj=World#2
+[2026-11-01 03:43:36] DestroyBody #4
+[2026-11-01 03:43:36] cmd Body.DetachShape(10)                           n=2      obj=Body#5
+[2026-11-01 03:43:36] cmd Body.RecomputeMassProperties(35)               n=11     obj=Body#5
+[2026-11-01 03:43:36] cmd Shape.DestroyShape(2)                          n=2      obj=Shape#10
+[2026-11-01 03:43:36] cmd Shape.CleanupIgnoredColliders(20)              n=2      obj=-#0
+[2026-11-01 03:43:36] cmd Body.GetShapeCount(11)                         n=2      obj=Body#5
+[2026-11-01 03:43:36] cmd World.DestroyBody(16)                          n=2      obj=World#2
+[2026-11-01 03:43:36] DestroyBody #5
+[2026-11-01 03:43:36] cmd Body.DetachShape(10)                           n=3      obj=Body#6
+[2026-11-01 03:43:36] cmd Body.RecomputeMassProperties(35)               n=12     obj=Body#6
+[2026-11-01 03:43:36] cmd Shape.DestroyShape(2)                          n=3      obj=Shape#11
+[2026-11-01 03:43:36] cmd Joint.WakeUpActors(12)                         n=2      obj=Joint#12
+[2026-11-01 03:43:36] cmd World.DestroyJoint(20)                         n=1      obj=World#2
+[2026-11-01 03:43:36] DestroyJoint #12
+[2026-11-01 03:43:36] cmd Shape.CleanupIgnoredColliders(20)              n=3      obj=-#0
+[2026-11-01 03:43:36] cmd Body.GetShapeCount(11)                         n=3      obj=Body#6
+[2026-11-01 03:43:36] cmd World.DestroyBody(16)                          n=3      obj=World#2
+[2026-11-01 03:43:36] DestroyBody #6
+[2026-11-01 03:43:36] cmd Body.DetachShape(10)                           n=4      obj=Body#9
+[2026-11-01 03:43:36] cmd World.DestroyBody(16)                          n=4      obj=World#2
+[2026-11-01 03:43:36] DestroyBody #9
+[2026-11-01 03:43:36] cmd Shape.DestroyShape(2)                          n=4      obj=Shape#8
+[2026-11-01 03:43:36] cmd Shape.CleanupIgnoredColliders(20)              n=4      obj=-#0
+[2026-11-01 03:43:36] cmd SDK.ReleaseMaterial(10)                        n=1      obj=Material#3
+[2026-11-01 03:43:36] cmd SDK.CreateMaterial(9)                          n=2      obj=-#0
+[2026-11-01 03:43:36] cmd SDK.ReleaseMaterial(10)                        n=2      obj=Material#13
+[2026-11-01 03:43:36] cmd SDK.CreateMaterial(9)                          n=3      obj=-#0
+[2026-11-01 03:43:36] cmd SDK.ReleaseMaterial(10)                        n=3      obj=Material#14
+[2026-11-01 03:43:36] cmd World.DestroyWorld(2)                          n=1      obj=World#2
+[2026-11-01 03:43:36] DestroyWorld #2
+[2026-11-01 03:43:36] cmd SDK.ShutdownSdk(2)                             n=1      obj=-#0
+[2026-11-01 03:43:36] ShutdownSdk
+[2026-11-01 03:43:36] ---- command histogram (ShutdownSdk): total=10437 simulate=300 ----
+[2026-11-01 03:43:36]     SDK.InitializeSdk(1)                             1
+[2026-11-01 03:43:36]     SDK.ShutdownSdk(2)                               1
+[2026-11-01 03:43:36]     SDK.GetIntegrationInfo(3)                        1
+[2026-11-01 03:43:36]     SDK.SetErrorVerbosityLevel(4)                    4
+[2026-11-01 03:43:36]     SDK.CreateMaterial(9)                            3
+[2026-11-01 03:43:36]     SDK.ReleaseMaterial(10)                          3
+[2026-11-01 03:43:36]     SDK.GetDefaultMaterial(11)                       9
+[2026-11-01 03:43:36]     SDK.SetImprovedPatchFrictionEnabledGlobal(12)    2
+[2026-11-01 03:43:36]     SDK.SetMaterialConfiguration(13)                 8
+[2026-11-01 03:43:36]     SDK.SetMaterialCombineModes(15)                  8
+[2026-11-01 03:43:36]     World.CreateWorld(1)                             1
+[2026-11-01 03:43:36]     World.DestroyWorld(2)                            1
+[2026-11-01 03:43:36]     World.SetGravity(3)                              3
+[2026-11-01 03:43:36]     World.SetBounceThreshold(5)                      3
+[2026-11-01 03:43:36]     World.SetScratchBufferChunkCount(8)              4
+[2026-11-01 03:43:36]     World.Simulate(9)                                300
+[2026-11-01 03:43:36]     World.GetLastSimulationStepResults(10)           300
+[2026-11-01 03:43:36]     World.GetUserData(13)                            3
+[2026-11-01 03:43:36]     World.CreateBody(14)                             4
+[2026-11-01 03:43:36]     World.DestroyBody(16)                            4
+[2026-11-01 03:43:36]     World.CreateJoint(19)                            1
+[2026-11-01 03:43:36]     World.DestroyJoint(20)                           1
+[2026-11-01 03:43:36]     World.GetArticulationCount(21)                   300
+[2026-11-01 03:43:36]     Body.GetFlags(2)                                 903
+[2026-11-01 03:43:36]     Body.SetMass(3)                                  3
+[2026-11-01 03:43:36]     Body.SetPose(7)                                  3
+[2026-11-01 03:43:36]     Body.GetPose(8)                                  5412
+[2026-11-01 03:43:36]     Body.AttachShape(9)                              4
+[2026-11-01 03:43:36]     Body.DetachShape(10)                             4
+[2026-11-01 03:43:36]     Body.GetShapeCount(11)                           3
+[2026-11-01 03:43:36]     Body.GetUserData(14)                             2
+[2026-11-01 03:43:36]     Body.SetCollisionDetectionMode(15)               3
+[2026-11-01 03:43:36]     Body.GetLinearVelocity(19)                       903
+[2026-11-01 03:43:36]     Body.SetMaxAngularVelocity(24)                   3
+[2026-11-01 03:43:36]     Body.SetMaxDepenetrationVelocity(26)             3
+[2026-11-01 03:43:36]     Body.RecomputeMassProperties(35)                 12
+[2026-11-01 03:43:36]     Body.GetIsSleeping(43)                           900
+[2026-11-01 03:43:36]     Body.WakeUp(45)                                  3
+[2026-11-01 03:43:36]     Body.SetSleepThresholdOverride(46)               3
+[2026-11-01 03:43:36]     Body.SetSolverIterationsOverride(48)             3
+[2026-11-01 03:43:36]     Shape.CreateShape(1)                             4
+[2026-11-01 03:43:36]     Shape.DestroyShape(2)                            4
+[2026-11-01 03:43:36]     Shape.GetActorDescriptor(3)                      1227
+[2026-11-01 03:43:36]     Shape.GetFilterData(7)                           12
+[2026-11-01 03:43:36]     Shape.SetFilterData(8)                           12
+[2026-11-01 03:43:36]     Shape.SetPose(14)                                4
+[2026-11-01 03:43:36]     Shape.SetContactOffset(15)                       4
+[2026-11-01 03:43:36]     Shape.CleanupIgnoredColliders(20)                4
+[2026-11-01 03:43:36]     Query.RayCast(3)                                 1
+[2026-11-01 03:43:36]     Joint.SetFlags(1)                                3
+[2026-11-01 03:43:36]     Joint.SetActorLocalPose(4)                       2
+[2026-11-01 03:43:36]     Joint.SetBreakForce(6)                           1
+[2026-11-01 03:43:36]     Joint.SetInvMassAndInertiaScale(9)               2
+[2026-11-01 03:43:36]     Joint.SetActors(10)                              1
+[2026-11-01 03:43:36]     Joint.WakeUpActors(12)                           2
+[2026-11-01 03:43:36]     Joint.Set6DofLimit(13)                           3
+[2026-11-01 03:43:36]     Joint.Set6DofSpringLimit(15)                     3
+[2026-11-01 03:43:36]     Joint.Set6DofAxisLock(16)                        6
+[2026-11-01 03:43:36]     Joint.Set6DofAxisMotorConfiguration(17)          5
+[2026-11-01 03:43:36]     Joint.Set6DofMotorTargetPosition(18)             1
+[2026-11-01 03:43:36]     Joint.Set6DofMotorTargetRotation(19)             1
+[2026-11-01 03:43:36]     Joint.Set6DofMotorTargetLinearVelocity(20)       1
+[2026-11-01 03:43:36]     Joint.Set6DofMotorTargetAngularVelocity(21)      1
+[2026-11-01 03:43:36]     Joint.Set6DofProjectionTolerance(22)             1

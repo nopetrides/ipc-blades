@@ -1,4 +1,4 @@
-// RigidIPCBackend — Track 1 gate backend for Unity's IUnityPhysicsBackendSystem (Unity 6000.4.4f1).
+// RigidIPCBackend — Track 1 gate backend for Unity's IUnityPhysicsBackendSystem (Unity 6000.6.7f1).
 //
 // Purpose: prove Unity will load, list, select, and drive a third GameObject physics backend
 // (gates A-E), and record the exact command stream Unity emits (including RA2's joint/motor
@@ -78,6 +78,7 @@ static uint64_t g_simulateCalls = 0;
 static bool g_registered = false;
 static bool g_initialized = false;
 static uint16_t g_engineObjectIdOffset = 0;
+static int g_traceSteps = 0;   // >0: log every dynamic body's pose after each of the next N Simulate calls (off by default)
 
 static void LogOpen()
 {
@@ -711,6 +712,16 @@ static void HandleWorld(void* sdkObject, const Context& ctx, uint32_t index, Com
             g_simulateCalls++;
             if (w) StepWorld(w, d.deltaTime);
             d.ranSimulation = w != nullptr;
+            if (w && g_traceSteps > 0)
+            {
+                g_traceSteps--;
+                for (Body* b : w->bodies)
+                    if (b->alive && !b->isStatic)
+                        Logf("trace Simulate #%llu dt=%.9g body#%u pos=(%.9g,%.9g,%.9g) rot=(%.9g,%.9g,%.9g,%.9g) linVel=(%.9g,%.9g,%.9g) angVel=(%.9g,%.9g,%.9g)",
+                            (unsigned long long)g_simulateCalls, d.deltaTime, b->serial, b->pose.p.x, b->pose.p.y, b->pose.p.z,
+                            b->pose.q.x, b->pose.q.y, b->pose.q.z, b->pose.q.w, b->linVel.x, b->linVel.y, b->linVel.z,
+                            b->angVel.x, b->angVel.y, b->angVel.z);
+            }
             if (g_simulateCalls <= 3 || g_simulateCalls % 450 == 0)
                 Logf("Simulate #%llu world=%u dt=%g bodies=%zu joints=%zu", (unsigned long long)g_simulateCalls, w ? w->serial : 0,
                     d.deltaTime, w ? w->bodies.size() : 0, w ? w->joints.size() : 0);
@@ -850,8 +861,11 @@ static void HandleBody(void* sdkObject, const Context& ctx, uint32_t index, Comm
                 s->body->shapes.erase(std::remove(s->body->shapes.begin(), s->body->shapes.end(), s), s->body->shapes.end());
             s->body = b;
             if (std::find(b->shapes.begin(), b->shapes.end(), s) == b->shapes.end()) b->shapes.push_back(s);
-            // Open question logged for the protocol notes: is d.pose local or world when !forceLocalPose?
-            s->local = d.forceLocalPose ? FromPose(d.pose) : Compose(Inverse(b->pose), FromPose(d.pose));
+            // Without forceLocalPose the pose's frame depends on the body type (PhysicsBodyCommandData.h):
+            // relative to the body for a Rigidbody, world for a static body. Gate D vertex compare confirmed
+            // both on 6000.6.7f1 (dynamic boxes got their body-relative offset, the static floor its world pose).
+            const bool local = d.forceLocalPose || !b->isStatic;
+            s->local = local ? FromPose(d.pose) : Compose(Inverse(b->pose), FromPose(d.pose));
             Logf("AttachShape shape#%u -> body#%u forceLocal=%d pose=(%g,%g,%g) bodyPos=(%g,%g,%g)", s->serial, b->serial,
                 d.forceLocalPose, d.pose.pos.x, d.pose.pos.y, d.pose.pos.z, b->pose.p.x, b->pose.p.y, b->pose.p.z);
             break;
@@ -1142,7 +1156,16 @@ static void HandleShape(void* sdkObject, const Context&, uint32_t index, Command
         case PhysicsCommands::Shape::SetMaterial: s->material = As<Material>(D<ShapeData::SetMaterial>(c).value, Kind::Material); break;
         case PhysicsCommands::Shape::GetLocalPose: D<GetLocalPose>(c).value = ToPose(s->local); break;
         case PhysicsCommands::Shape::GetPose: D<ShapeData::GetPose>(c).value = ToPose(ShapeWorldPose(s)); break;
-        case PhysicsCommands::Shape::SetPose: s->local = FromPose(D<ShapeData::SetPose>(c).value); break;
+        case PhysicsCommands::Shape::SetPose:
+        {
+            // Same frame rule as AttachShape: body-relative for a Rigidbody, world for a static body
+            // (Gate D: moving a static floor's collider center sent body position + scaled center).
+            const Physics::Pose& p = D<ShapeData::SetPose>(c).value;
+            s->local = (s->body && s->body->isStatic) ? Compose(Inverse(s->body->pose), FromPose(p)) : FromPose(p);
+            Logf("Shape.SetPose shape#%u body#%u%s pose=(%.9g,%.9g,%.9g) rot=(%.9g,%.9g,%.9g,%.9g)", s->serial, s->body ? s->body->serial : 0,
+                s->body && s->body->isStatic ? " static" : "", p.pos.x, p.pos.y, p.pos.z, p.quat.x, p.quat.y, p.quat.z, p.quat.w);
+            break;
+        }
         case PhysicsCommands::Shape::SetContactOffset: s->contactOffset = D<SetContactOffset>(c).value; break;
         case PhysicsCommands::Shape::GetWorldBounds:
         {
@@ -1400,9 +1423,148 @@ extern "C" UNITY_INTERFACE_EXPORT int RigidIPC_GetDiagnostics(char* buffer, int 
 {
     std::lock_guard<std::recursive_mutex> guard(g_lock);
     if (!buffer || bufferSize <= 0) return 0;
+    size_t alive[8] = {};
+    for (Obj* o : g_objects)
+        if (o->alive) alive[(int)o->kind]++;
     int n = std::snprintf(buffer, (size_t)bufferSize,
-        "registered=%d initialized=%d id=%u commands=%llu simulate=%llu objects=%zu engineObjectIdOffset=%u",
+        "registered=%d initialized=%d id=%u commands=%llu simulate=%llu objects=%zu engineObjectIdOffset=%u "
+        "alive: worlds=%zu bodies=%zu shapes=%zu joints=%zu materials=%zu meshes=%zu",
         g_registered, g_initialized, kIntegrationId, (unsigned long long)g_totalCommands, (unsigned long long)g_simulateCalls,
-        g_objects.size(), g_engineObjectIdOffset);
+        g_objects.size(), g_engineObjectIdOffset, alive[(int)Kind::World], alive[(int)Kind::Body], alive[(int)Kind::Shape],
+        alive[(int)Kind::Joint], alive[(int)Kind::Material], alive[(int)Kind::Mesh]);
     return n;
+}
+
+// ---------------------------------------------------------------------------------------------
+// Gate diagnostics (DllImport from Assets/IPC/Runtime/RigidIPCGateDiagnostics.cs). Nothing here runs
+// unless the C# side calls it, so the backend's normal path is unchanged.
+// ---------------------------------------------------------------------------------------------
+
+// One attached-or-static shape as the backend currently holds it. Layout mirrors ShapeSnapshot in C#.
+struct RigidIPC_ShapeSnapshot
+{
+    void* shapeUserData;    // what CreateShape passed as userData
+    void* bodyUserData;     // what CreateBody passed as userData (null when the shape is unattached)
+    uint32_t shapeSerial, bodySerial;
+    int32_t geometryType;   // Physics::GeometryType
+    int32_t bodyIsStatic;
+    float geom[4];          // box: half extents | sphere: radius | capsule: radius, height | mesh: scale xyz
+    float bodyPos[3], bodyRot[4];
+    float localPos[3], localRot[4];
+    float worldPos[3], worldRot[4];
+    int32_t vertexCount;    // what RigidIPC_GetShapeWorldVertices returns for this shape
+};
+
+// Characteristic points of a shape in the shape's local frame, in a fixed order the C# side mirrors.
+//   Box:     8 corners, corner i has sign (+ if bit set) x: bit 0, y: bit 1, z: bit 2.
+//   Sphere:  centre, then +x, -x, +y, -y, +z, -z at the radius.
+//   Capsule: tips at +/- height/2 on local x (the PhysX capsule axis), then +y, -y, +z, -z at the radius.
+//   Mesh:    every cooked vertex times the geometry scale.
+static std::vector<V3> LocalShapePoints(const Physics::ShapeGeometry& g)
+{
+    std::vector<V3> p;
+    switch (g.type)
+    {
+        case Physics::GeometryType::Box:
+        {
+            const auto& h = g.boxGeometry.halfExtents;
+            for (int i = 0; i < 8; ++i)
+                p.push_back({ (i & 1) ? h.x : -h.x, (i & 2) ? h.y : -h.y, (i & 4) ? h.z : -h.z });
+            break;
+        }
+        case Physics::GeometryType::Sphere:
+        {
+            const float r = g.sphereGeometry.radius;
+            p = { {}, { r, 0, 0 }, { -r, 0, 0 }, { 0, r, 0 }, { 0, -r, 0 }, { 0, 0, r }, { 0, 0, -r } };
+            break;
+        }
+        case Physics::GeometryType::Capsule:
+        {
+            const float r = g.capsuleGeometry.radius, t = 0.5f * g.capsuleGeometry.height;
+            p = { { t, 0, 0 }, { -t, 0, 0 }, { 0, r, 0 }, { 0, -r, 0 }, { 0, 0, r }, { 0, 0, -r } };
+            break;
+        }
+        case Physics::GeometryType::ConvexMesh:
+        case Physics::GeometryType::TriangleMesh:
+        {
+            Mesh* m = As<Mesh>(g.meshGeometry.mesh, Kind::Mesh);
+            if (!m) break;
+            const auto& s = g.meshGeometry.scale;
+            for (size_t i = 0; i + 2 < m->vertices.size(); i += 3)
+                p.push_back({ m->vertices[i] * s.x, m->vertices[i + 1] * s.y, m->vertices[i + 2] * s.z });
+            break;
+        }
+        default: break;
+    }
+    return p;
+}
+
+static Shape* FindShapeBySerial(uint32_t serial)
+{
+    for (Obj* o : g_objects)
+        if (o->alive && o->kind == Kind::Shape && o->serial == serial) return static_cast<Shape*>(o);
+    return nullptr;
+}
+
+static void Put3(float* d, V3 v) { d[0] = v.x; d[1] = v.y; d[2] = v.z; }
+static void Put4(float* d, Q4 q) { d[0] = q.x; d[1] = q.y; d[2] = q.z; d[3] = q.w; }
+
+// Fills up to maxCount snapshots of alive shapes (ordered by serial) and returns how many alive shapes exist.
+extern "C" UNITY_INTERFACE_EXPORT int RigidIPC_GetShapeSnapshots(RigidIPC_ShapeSnapshot* out, int maxCount)
+{
+    std::lock_guard<std::recursive_mutex> guard(g_lock);
+    std::vector<Shape*> shapes;
+    for (Obj* o : g_objects)
+        if (o->alive && o->kind == Kind::Shape) shapes.push_back(static_cast<Shape*>(o));
+    std::sort(shapes.begin(), shapes.end(), [](const Shape* a, const Shape* b) { return a->serial < b->serial; });
+    for (int i = 0; out && i < maxCount && i < (int)shapes.size(); ++i)
+    {
+        const Shape* s = shapes[i];
+        RigidIPC_ShapeSnapshot& d = out[i];
+        d = RigidIPC_ShapeSnapshot{};
+        d.shapeUserData = s->userData;
+        d.bodyUserData = s->body ? s->body->userData : nullptr;
+        d.shapeSerial = s->serial;
+        d.bodySerial = s->body ? s->body->serial : 0;
+        d.geometryType = (int32_t)s->geom.type;
+        d.bodyIsStatic = s->body && s->body->isStatic;
+        switch (s->geom.type)
+        {
+            case Physics::GeometryType::Box: Put3(d.geom, Load3(s->geom.boxGeometry.halfExtents)); break;
+            case Physics::GeometryType::Sphere: d.geom[0] = s->geom.sphereGeometry.radius; break;
+            case Physics::GeometryType::Capsule: d.geom[0] = s->geom.capsuleGeometry.radius; d.geom[1] = s->geom.capsuleGeometry.height; break;
+            case Physics::GeometryType::ConvexMesh:
+            case Physics::GeometryType::TriangleMesh: Put3(d.geom, Load3(s->geom.meshGeometry.scale)); break;
+            default: break;
+        }
+        const Xf bodyPose = s->body ? s->body->pose : Xf{};
+        const Xf world = ShapeWorldPose(s);
+        Put3(d.bodyPos, bodyPose.p); Put4(d.bodyRot, bodyPose.q);
+        Put3(d.localPos, s->local.p); Put4(d.localRot, s->local.q);
+        Put3(d.worldPos, world.p); Put4(d.worldRot, world.q);
+        d.vertexCount = (int32_t)LocalShapePoints(s->geom).size();
+    }
+    return (int)shapes.size();
+}
+
+// Writes the shape's characteristic points in world space (backend math: body pose * local pose)
+// as xyz triplets and returns how many points the shape has; -1 if the serial is not an alive shape.
+extern "C" UNITY_INTERFACE_EXPORT int RigidIPC_GetShapeWorldVertices(uint32_t shapeSerial, float* out, int maxVertices)
+{
+    std::lock_guard<std::recursive_mutex> guard(g_lock);
+    const Shape* s = FindShapeBySerial(shapeSerial);
+    if (!s) return -1;
+    const Xf world = ShapeWorldPose(s);
+    const std::vector<V3> local = LocalShapePoints(s->geom);
+    for (int i = 0; out && i < maxVertices && i < (int)local.size(); ++i)
+        Put3(out + 3 * i, Add(world.p, QRot(world.q, local[i])));
+    return (int)local.size();
+}
+
+// Logs every dynamic body's pose and velocities after each of the next 'steps' Simulate calls.
+extern "C" UNITY_INTERFACE_EXPORT void RigidIPC_TraceNextSteps(int steps)
+{
+    std::lock_guard<std::recursive_mutex> guard(g_lock);
+    g_traceSteps = std::max(0, steps);
+    Logf("trace armed for %d Simulate call(s)", g_traceSteps);
 }

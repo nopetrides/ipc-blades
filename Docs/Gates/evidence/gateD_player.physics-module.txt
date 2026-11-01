@@ -1,0 +1,10 @@
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Physics::Module] Selected backend (deferred post-plugins).
+[Physics::Module] Name: RigidIPC
+[Physics::Module] Id: 0x52495043
+[Physics::Module] SDK Version: 0.1.0
+[Physics::Module] Integration Version: 0.1.0
+[Physics::Module] Threading Mode: Multi-Threaded
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0x52495043
