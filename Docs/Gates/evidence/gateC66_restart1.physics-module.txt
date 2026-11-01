@@ -1,0 +1,9 @@
+# Restart 1 (Editor launched 02:52:16 local). Copied from Logs/Editor.log at 03:03 before the log rotated away.
+2026-11-01T10:52:18.483Z|0x4fb68|[Physics::Module] Initialized fallback backend.
+2026-11-01T10:52:18.483Z|0x4fb68|[Physics::Module] Id: 0xdecafbad
+2026-11-01T10:52:19.241Z|0x4fb68|[Physics::Module] Selected backend (deferred post-plugins).
+2026-11-01T10:52:19.241Z|0x4fb68|[Physics::Module] Name: RigidIPC
+2026-11-01T10:52:19.241Z|0x4fb68|[Physics::Module] Id: 0x52495043
+2026-11-01T10:52:19.241Z|0x4fb68|[Physics::Module] SDK Version: 0.1.0
+2026-11-01T10:52:19.241Z|0x4fb68|[Physics::Module] Integration Version: 0.1.0
+2026-11-01T10:52:19.241Z|0x4fb68|[Physics::Module] Threading Mode: Multi-Threaded

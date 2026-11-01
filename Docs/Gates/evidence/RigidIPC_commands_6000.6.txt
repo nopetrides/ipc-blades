@@ -1,0 +1,292 @@
+[2026-11-01 02:52:19] ==== UnityPluginLoad (RigidIPC gate build, id=1380536387) ====
+[2026-11-01 02:52:19] cmd SDK.GetIntegrationInfo(3)                      n=1      obj=-#0
+[2026-11-01 02:52:19] IUnityPhysicsBackendSystem::Register(...) == true
+[2026-11-01 02:52:19] cmd SDK.InitializeSdk(1)                           n=1      obj=-#0
+[2026-11-01 02:52:19] InitializeSdk engineObjectIdOffset=8 vehicleModule=1 -> true
+[2026-11-01 02:52:19] cmd SDK.SetErrorVerbosityLevel(4)                  n=1      obj=-#0
+[2026-11-01 02:52:19] cmd World.CreateWorld(1)                           n=1      obj=-#0
+[2026-11-01 02:52:19] CreateWorld #2 solver=0 gravity=(0,-9.81,0) workers=15
+[2026-11-01 02:52:19] cmd World.SetScratchBufferChunkCount(8)            n=1      obj=World#2
+[2026-11-01 02:52:21] cmd SDK.SetErrorVerbosityLevel(4)                  n=2      obj=-#0
+[2026-11-01 02:52:21] cmd World.SetGravity(3)                            n=1      obj=World#2
+[2026-11-01 02:52:21] cmd World.SetBounceThreshold(5)                    n=1      obj=World#2
+[2026-11-01 02:52:21] cmd World.SetScratchBufferChunkCount(8)            n=2      obj=World#2
+[2026-11-01 02:52:21] cmd SDK.GetDefaultMaterial(11)                     n=1      obj=-#0
+[2026-11-01 02:52:21] cmd SDK.CreateMaterial(9)                          n=1      obj=-#0
+[2026-11-01 02:52:21] cmd SDK.SetMaterialConfiguration(13)               n=1      obj=Material#3
+[2026-11-01 02:52:21] cmd SDK.SetMaterialCombineModes(15)                n=1      obj=Material#3
+[2026-11-01 02:52:21] cmd SDK.GetDefaultMaterial(11)                     n=2      obj=-#0
+[2026-11-01 02:52:21] cmd SDK.SetMaterialConfiguration(13)               n=2      obj=Material#1
+[2026-11-01 02:52:21] cmd SDK.SetMaterialCombineModes(15)                n=2      obj=Material#1
+[2026-11-01 02:52:21] cmd SDK.SetMaterialConfiguration(13)               n=3      obj=Material#1
+[2026-11-01 02:52:21] cmd SDK.SetMaterialCombineModes(15)                n=3      obj=Material#1
+[2026-11-01 02:52:21] cmd SDK.SetImprovedPatchFrictionEnabledGlobal(12)  n=1      obj=-#0
+[2026-11-01 02:52:29] cmd Shape.CleanupIgnoredColliders(20)              n=1      obj=-#0
+[2026-11-01 02:52:29] cmd Shape.CleanupIgnoredColliders(20)              n=2      obj=-#0
+[2026-11-01 02:52:29] cmd Shape.CleanupIgnoredColliders(20)              n=3      obj=-#0
+[2026-11-01 02:52:29] cmd Shape.CleanupIgnoredColliders(20)              n=4      obj=-#0
+[2026-11-01 02:52:31] ==== UnityPluginLoad (RigidIPC gate build, id=1380536387) ====
+[2026-11-01 02:52:31] cmd SDK.GetIntegrationInfo(3)                      n=1      obj=-#0
+[2026-11-01 02:52:31] IUnityPhysicsBackendSystem::Register(...) == true
+[2026-11-01 02:52:31] cmd SDK.InitializeSdk(1)                           n=1      obj=-#0
+[2026-11-01 02:52:31] InitializeSdk engineObjectIdOffset=8 vehicleModule=1 -> true
+[2026-11-01 02:52:31] cmd SDK.SetErrorVerbosityLevel(4)                  n=1      obj=-#0
+[2026-11-01 02:52:31] cmd World.CreateWorld(1)                           n=1      obj=-#0
+[2026-11-01 02:52:31] CreateWorld #2 solver=0 gravity=(0,-9.81,0) workers=7
+[2026-11-01 02:52:31] cmd World.SetScratchBufferChunkCount(8)            n=1      obj=World#2
+[2026-11-01 02:52:32] cmd SDK.SetErrorVerbosityLevel(4)                  n=2      obj=-#0
+[2026-11-01 02:52:32] cmd World.SetGravity(3)                            n=1      obj=World#2
+[2026-11-01 02:52:32] cmd World.SetBounceThreshold(5)                    n=1      obj=World#2
+[2026-11-01 02:52:32] cmd World.SetScratchBufferChunkCount(8)            n=2      obj=World#2
+[2026-11-01 02:52:32] cmd SDK.GetDefaultMaterial(11)                     n=1      obj=-#0
+[2026-11-01 02:52:32] cmd SDK.CreateMaterial(9)                          n=1      obj=-#0
+[2026-11-01 02:52:32] cmd SDK.SetMaterialConfiguration(13)               n=1      obj=Material#3
+[2026-11-01 02:52:32] cmd SDK.SetMaterialCombineModes(15)                n=1      obj=Material#3
+[2026-11-01 02:52:32] cmd SDK.GetDefaultMaterial(11)                     n=2      obj=-#0
+[2026-11-01 02:52:32] cmd SDK.SetMaterialConfiguration(13)               n=2      obj=Material#1
+[2026-11-01 02:52:32] cmd SDK.SetMaterialCombineModes(15)                n=2      obj=Material#1
+[2026-11-01 02:52:32] cmd SDK.SetMaterialConfiguration(13)               n=3      obj=Material#1
+[2026-11-01 02:52:32] cmd SDK.SetMaterialCombineModes(15)                n=3      obj=Material#1
+[2026-11-01 02:52:32] cmd SDK.SetImprovedPatchFrictionEnabledGlobal(12)  n=1      obj=-#0
+[2026-11-01 02:52:33] cmd World.CreateWorld(1)                           n=2      obj=-#0
+[2026-11-01 02:52:33] CreateWorld #4 solver=0 gravity=(0,-9.81,0) workers=15
+[2026-11-01 02:52:33] cmd World.SetScratchBufferChunkCount(8)            n=3      obj=World#4
+[2026-11-01 02:52:39] cmd SDK.SetErrorVerbosityLevel(4)                  n=3      obj=-#0
+[2026-11-01 02:52:39] cmd World.SetGravity(3)                            n=2      obj=World#2
+[2026-11-01 02:52:39] cmd World.SetBounceThreshold(5)                    n=2      obj=World#2
+[2026-11-01 02:52:39] cmd World.SetScratchBufferChunkCount(8)            n=3      obj=World#2
+[2026-11-01 02:52:39] cmd SDK.GetDefaultMaterial(11)                     n=3      obj=-#0
+[2026-11-01 02:52:39] cmd SDK.SetMaterialConfiguration(13)               n=4      obj=Material#1
+[2026-11-01 02:52:39] cmd SDK.SetMaterialCombineModes(15)                n=4      obj=Material#1
+[2026-11-01 02:52:39] cmd SDK.SetImprovedPatchFrictionEnabledGlobal(12)  n=2      obj=-#0
+[2026-11-01 02:52:45] cmd World.DestroyWorld(2)                          n=1      obj=World#4
+[2026-11-01 02:52:45] DestroyWorld #4
+[2026-11-01 02:52:45] cmd World.CreateWorld(1)                           n=3      obj=-#0
+[2026-11-01 02:52:45] CreateWorld #5 solver=0 gravity=(0,-9.81,0) workers=15
+[2026-11-01 02:52:45] cmd World.SetScratchBufferChunkCount(8)            n=4      obj=World#5
+[2026-11-01 02:52:46] cmd SDK.SetErrorVerbosityLevel(4)                  n=4      obj=-#0
+[2026-11-01 02:52:46] cmd World.SetGravity(3)                            n=3      obj=World#2
+[2026-11-01 02:52:46] cmd World.SetBounceThreshold(5)                    n=3      obj=World#2
+[2026-11-01 02:52:46] cmd World.SetScratchBufferChunkCount(8)            n=4      obj=World#2
+[2026-11-01 02:52:46] cmd SDK.GetDefaultMaterial(11)                     n=4      obj=-#0
+[2026-11-01 02:52:46] cmd SDK.SetImprovedPatchFrictionEnabledGlobal(12)  n=3      obj=-#0
+[2026-11-01 03:03:32] cmd SDK.SetErrorVerbosityLevel(4)                  n=3      obj=-#0
+[2026-11-01 03:03:32] cmd World.SetGravity(3)                            n=2      obj=World#2
+[2026-11-01 03:03:32] cmd World.SetBounceThreshold(5)                    n=2      obj=World#2
+[2026-11-01 03:03:32] cmd World.SetGravity(3)                            n=3      obj=World#5
+[2026-11-01 03:03:32] cmd World.SetBounceThreshold(5)                    n=3      obj=World#5
+[2026-11-01 03:03:32] cmd SDK.GetDefaultMaterial(11)                     n=3      obj=-#0
+[2026-11-01 03:03:32] cmd SDK.SetMaterialConfiguration(13)               n=4      obj=Material#1
+[2026-11-01 03:03:32] cmd SDK.SetMaterialCombineModes(15)                n=4      obj=Material#1
+[2026-11-01 03:03:32] cmd SDK.SetImprovedPatchFrictionEnabledGlobal(12)  n=2      obj=-#0
+[2026-11-01 03:03:32] cmd SDK.ReleaseMaterial(10)                        n=1      obj=Material#3
+[2026-11-01 03:03:32] cmd SDK.CreateMaterial(9)                          n=2      obj=-#0
+[2026-11-01 03:03:32] cmd SDK.GetDefaultMaterial(11)                     n=4      obj=-#0
+[2026-11-01 03:03:32] cmd SDK.ReleaseMaterial(10)                        n=2      obj=Material#6
+[2026-11-01 03:03:32] cmd SDK.CreateMaterial(9)                          n=3      obj=-#0
+[2026-11-01 03:03:33] cmd SDK.ReleaseMaterial(10)                        n=3      obj=Material#7
+[2026-11-01 03:03:33] cmd World.DestroyWorld(2)                          n=2      obj=World#2
+[2026-11-01 03:03:33] DestroyWorld #2
+[2026-11-01 03:03:33] cmd World.DestroyWorld(2)                          n=3      obj=World#5
+[2026-11-01 03:03:33] DestroyWorld #5
+[2026-11-01 03:03:33] cmd SDK.ShutdownSdk(2)                             n=1      obj=-#0
+[2026-11-01 03:03:33] ShutdownSdk
+[2026-11-01 03:03:33] ---- command histogram (ShutdownSdk): total=67 simulate=0 ----
+[2026-11-01 03:03:33]     SDK.InitializeSdk(1)                             1
+[2026-11-01 03:03:33]     SDK.ShutdownSdk(2)                               1
+[2026-11-01 03:03:33]     SDK.GetIntegrationInfo(3)                        1
+[2026-11-01 03:03:33]     SDK.SetErrorVerbosityLevel(4)                    3
+[2026-11-01 03:03:33]     SDK.CreateMaterial(9)                            3
+[2026-11-01 03:03:33]     SDK.ReleaseMaterial(10)                          3
+[2026-11-01 03:03:33]     SDK.GetDefaultMaterial(11)                       5
+[2026-11-01 03:03:33]     SDK.SetImprovedPatchFrictionEnabledGlobal(12)    2
+[2026-11-01 03:03:33]     SDK.SetMaterialConfiguration(13)                 8
+[2026-11-01 03:03:33]     SDK.SetMaterialCombineModes(15)                  8
+[2026-11-01 03:03:33]     World.CreateWorld(1)                             3
+[2026-11-01 03:03:33]     World.DestroyWorld(2)                            3
+[2026-11-01 03:03:33]     World.SetGravity(3)                              3
+[2026-11-01 03:03:33]     World.SetBounceThreshold(5)                      3
+[2026-11-01 03:03:33]     World.SetScratchBufferChunkCount(8)              6
+[2026-11-01 03:03:33]     Shape.CleanupIgnoredColliders(20)                14
+[2026-11-01 03:04:11] ==== UnityPluginLoad (RigidIPC gate build, id=1380536387) ====
+[2026-11-01 03:04:11] cmd SDK.GetIntegrationInfo(3)                      n=1      obj=-#0
+[2026-11-01 03:04:11] IUnityPhysicsBackendSystem::Register(...) == true
+[2026-11-01 03:04:11] cmd SDK.InitializeSdk(1)                           n=1      obj=-#0
+[2026-11-01 03:04:11] InitializeSdk engineObjectIdOffset=8 vehicleModule=1 -> true
+[2026-11-01 03:04:11] cmd SDK.SetErrorVerbosityLevel(4)                  n=1      obj=-#0
+[2026-11-01 03:04:11] cmd World.CreateWorld(1)                           n=1      obj=-#0
+[2026-11-01 03:04:11] CreateWorld #2 solver=0 gravity=(0,-9.81,0) workers=15
+[2026-11-01 03:04:11] cmd World.SetScratchBufferChunkCount(8)            n=1      obj=World#2
+[2026-11-01 03:04:13] cmd SDK.SetErrorVerbosityLevel(4)                  n=2      obj=-#0
+[2026-11-01 03:04:13] cmd World.SetGravity(3)                            n=1      obj=World#2
+[2026-11-01 03:04:13] cmd World.SetBounceThreshold(5)                    n=1      obj=World#2
+[2026-11-01 03:04:13] cmd World.SetScratchBufferChunkCount(8)            n=2      obj=World#2
+[2026-11-01 03:04:13] cmd SDK.GetDefaultMaterial(11)                     n=1      obj=-#0
+[2026-11-01 03:04:13] cmd SDK.CreateMaterial(9)                          n=1      obj=-#0
+[2026-11-01 03:04:13] cmd SDK.SetMaterialConfiguration(13)               n=1      obj=Material#3
+[2026-11-01 03:04:13] cmd SDK.SetMaterialCombineModes(15)                n=1      obj=Material#3
+[2026-11-01 03:04:13] cmd SDK.GetDefaultMaterial(11)                     n=2      obj=-#0
+[2026-11-01 03:04:13] cmd SDK.SetMaterialConfiguration(13)               n=2      obj=Material#1
+[2026-11-01 03:04:13] cmd SDK.SetMaterialCombineModes(15)                n=2      obj=Material#1
+[2026-11-01 03:04:13] cmd SDK.SetMaterialConfiguration(13)               n=3      obj=Material#1
+[2026-11-01 03:04:13] cmd SDK.SetMaterialCombineModes(15)                n=3      obj=Material#1
+[2026-11-01 03:04:13] cmd SDK.SetImprovedPatchFrictionEnabledGlobal(12)  n=1      obj=-#0
+[2026-11-01 03:04:20] cmd Shape.CleanupIgnoredColliders(20)              n=1      obj=-#0
+[2026-11-01 03:04:20] cmd Shape.CleanupIgnoredColliders(20)              n=2      obj=-#0
+[2026-11-01 03:04:20] cmd Shape.CleanupIgnoredColliders(20)              n=3      obj=-#0
+[2026-11-01 03:04:20] cmd Shape.CleanupIgnoredColliders(20)              n=4      obj=-#0
+[2026-11-01 03:04:22] ==== UnityPluginLoad (RigidIPC gate build, id=1380536387) ====
+[2026-11-01 03:04:22] cmd SDK.GetIntegrationInfo(3)                      n=1      obj=-#0
+[2026-11-01 03:04:22] IUnityPhysicsBackendSystem::Register(...) == true
+[2026-11-01 03:04:22] cmd SDK.InitializeSdk(1)                           n=1      obj=-#0
+[2026-11-01 03:04:22] InitializeSdk engineObjectIdOffset=8 vehicleModule=1 -> true
+[2026-11-01 03:04:22] cmd SDK.SetErrorVerbosityLevel(4)                  n=1      obj=-#0
+[2026-11-01 03:04:22] cmd World.CreateWorld(1)                           n=1      obj=-#0
+[2026-11-01 03:04:22] CreateWorld #2 solver=0 gravity=(0,-9.81,0) workers=7
+[2026-11-01 03:04:22] cmd World.SetScratchBufferChunkCount(8)            n=1      obj=World#2
+[2026-11-01 03:04:24] cmd SDK.SetErrorVerbosityLevel(4)                  n=2      obj=-#0
+[2026-11-01 03:04:24] cmd World.SetGravity(3)                            n=1      obj=World#2
+[2026-11-01 03:04:24] cmd World.SetBounceThreshold(5)                    n=1      obj=World#2
+[2026-11-01 03:04:24] cmd World.SetScratchBufferChunkCount(8)            n=2      obj=World#2
+[2026-11-01 03:04:24] cmd SDK.GetDefaultMaterial(11)                     n=1      obj=-#0
+[2026-11-01 03:04:24] cmd SDK.CreateMaterial(9)                          n=1      obj=-#0
+[2026-11-01 03:04:24] cmd SDK.SetMaterialConfiguration(13)               n=1      obj=Material#3
+[2026-11-01 03:04:24] cmd SDK.SetMaterialCombineModes(15)                n=1      obj=Material#3
+[2026-11-01 03:04:24] cmd SDK.GetDefaultMaterial(11)                     n=2      obj=-#0
+[2026-11-01 03:04:24] cmd SDK.SetMaterialConfiguration(13)               n=2      obj=Material#1
+[2026-11-01 03:04:24] cmd SDK.SetMaterialCombineModes(15)                n=2      obj=Material#1
+[2026-11-01 03:04:24] cmd SDK.SetMaterialConfiguration(13)               n=3      obj=Material#1
+[2026-11-01 03:04:24] cmd SDK.SetMaterialCombineModes(15)                n=3      obj=Material#1
+[2026-11-01 03:04:24] cmd SDK.SetImprovedPatchFrictionEnabledGlobal(12)  n=1      obj=-#0
+[2026-11-01 03:04:24] cmd World.CreateWorld(1)                           n=2      obj=-#0
+[2026-11-01 03:04:24] CreateWorld #4 solver=0 gravity=(0,-9.81,0) workers=15
+[2026-11-01 03:04:24] cmd World.SetScratchBufferChunkCount(8)            n=3      obj=World#4
+[2026-11-01 03:04:30] cmd SDK.SetErrorVerbosityLevel(4)                  n=3      obj=-#0
+[2026-11-01 03:04:30] cmd World.SetGravity(3)                            n=2      obj=World#2
+[2026-11-01 03:04:30] cmd World.SetBounceThreshold(5)                    n=2      obj=World#2
+[2026-11-01 03:04:30] cmd World.SetScratchBufferChunkCount(8)            n=3      obj=World#2
+[2026-11-01 03:04:30] cmd SDK.GetDefaultMaterial(11)                     n=3      obj=-#0
+[2026-11-01 03:04:30] cmd SDK.SetMaterialConfiguration(13)               n=4      obj=Material#1
+[2026-11-01 03:04:30] cmd SDK.SetMaterialCombineModes(15)                n=4      obj=Material#1
+[2026-11-01 03:04:30] cmd SDK.SetImprovedPatchFrictionEnabledGlobal(12)  n=2      obj=-#0
+[2026-11-01 03:04:36] cmd World.DestroyWorld(2)                          n=1      obj=World#4
+[2026-11-01 03:04:36] DestroyWorld #4
+[2026-11-01 03:04:36] cmd World.CreateWorld(1)                           n=3      obj=-#0
+[2026-11-01 03:04:36] CreateWorld #5 solver=0 gravity=(0,-9.81,0) workers=15
+[2026-11-01 03:04:36] cmd World.SetScratchBufferChunkCount(8)            n=4      obj=World#5
+[2026-11-01 03:04:36] cmd SDK.SetErrorVerbosityLevel(4)                  n=4      obj=-#0
+[2026-11-01 03:04:36] cmd World.SetGravity(3)                            n=3      obj=World#2
+[2026-11-01 03:04:36] cmd World.SetBounceThreshold(5)                    n=3      obj=World#2
+[2026-11-01 03:04:36] cmd World.SetScratchBufferChunkCount(8)            n=4      obj=World#2
+[2026-11-01 03:04:36] cmd SDK.GetDefaultMaterial(11)                     n=4      obj=-#0
+[2026-11-01 03:04:36] cmd SDK.SetImprovedPatchFrictionEnabledGlobal(12)  n=3      obj=-#0
+[2026-11-01 03:04:56] cmd SDK.SetErrorVerbosityLevel(4)                  n=3      obj=-#0
+[2026-11-01 03:04:56] cmd World.SetGravity(3)                            n=2      obj=World#2
+[2026-11-01 03:04:56] cmd World.SetBounceThreshold(5)                    n=2      obj=World#2
+[2026-11-01 03:04:56] cmd World.SetGravity(3)                            n=3      obj=World#5
+[2026-11-01 03:04:56] cmd World.SetBounceThreshold(5)                    n=3      obj=World#5
+[2026-11-01 03:04:56] cmd SDK.GetDefaultMaterial(11)                     n=3      obj=-#0
+[2026-11-01 03:04:56] cmd SDK.SetMaterialConfiguration(13)               n=4      obj=Material#1
+[2026-11-01 03:04:56] cmd SDK.SetMaterialCombineModes(15)                n=4      obj=Material#1
+[2026-11-01 03:04:56] cmd SDK.SetImprovedPatchFrictionEnabledGlobal(12)  n=2      obj=-#0
+[2026-11-01 03:04:56] cmd SDK.ReleaseMaterial(10)                        n=1      obj=Material#3
+[2026-11-01 03:04:56] cmd SDK.CreateMaterial(9)                          n=2      obj=-#0
+[2026-11-01 03:04:56] cmd SDK.GetDefaultMaterial(11)                     n=4      obj=-#0
+[2026-11-01 03:04:56] cmd SDK.ReleaseMaterial(10)                        n=2      obj=Material#6
+[2026-11-01 03:04:56] cmd SDK.CreateMaterial(9)                          n=3      obj=-#0
+[2026-11-01 03:04:57] cmd SDK.ReleaseMaterial(10)                        n=3      obj=Material#7
+[2026-11-01 03:04:57] cmd World.DestroyWorld(2)                          n=2      obj=World#2
+[2026-11-01 03:04:57] DestroyWorld #2
+[2026-11-01 03:04:57] cmd World.DestroyWorld(2)                          n=3      obj=World#5
+[2026-11-01 03:04:57] DestroyWorld #5
+[2026-11-01 03:04:57] cmd SDK.ShutdownSdk(2)                             n=1      obj=-#0
+[2026-11-01 03:04:57] ShutdownSdk
+[2026-11-01 03:04:57] ---- command histogram (ShutdownSdk): total=67 simulate=0 ----
+[2026-11-01 03:04:57]     SDK.InitializeSdk(1)                             1
+[2026-11-01 03:04:57]     SDK.ShutdownSdk(2)                               1
+[2026-11-01 03:04:57]     SDK.GetIntegrationInfo(3)                        1
+[2026-11-01 03:04:57]     SDK.SetErrorVerbosityLevel(4)                    3
+[2026-11-01 03:04:57]     SDK.CreateMaterial(9)                            3
+[2026-11-01 03:04:57]     SDK.ReleaseMaterial(10)                          3
+[2026-11-01 03:04:57]     SDK.GetDefaultMaterial(11)                       5
+[2026-11-01 03:04:57]     SDK.SetImprovedPatchFrictionEnabledGlobal(12)    2
+[2026-11-01 03:04:57]     SDK.SetMaterialConfiguration(13)                 8
+[2026-11-01 03:04:57]     SDK.SetMaterialCombineModes(15)                  8
+[2026-11-01 03:04:57]     World.CreateWorld(1)                             3
+[2026-11-01 03:04:57]     World.DestroyWorld(2)                            3
+[2026-11-01 03:04:57]     World.SetGravity(3)                              3
+[2026-11-01 03:04:57]     World.SetBounceThreshold(5)                      3
+[2026-11-01 03:04:57]     World.SetScratchBufferChunkCount(8)              6
+[2026-11-01 03:04:57]     Shape.CleanupIgnoredColliders(20)                14
+[2026-11-01 03:05:32] ==== UnityPluginLoad (RigidIPC gate build, id=1380536387) ====
+[2026-11-01 03:05:32] cmd SDK.GetIntegrationInfo(3)                      n=1      obj=-#0
+[2026-11-01 03:05:32] IUnityPhysicsBackendSystem::Register(...) == true
+[2026-11-01 03:05:32] cmd SDK.InitializeSdk(1)                           n=1      obj=-#0
+[2026-11-01 03:05:32] InitializeSdk engineObjectIdOffset=8 vehicleModule=1 -> true
+[2026-11-01 03:05:32] cmd SDK.SetErrorVerbosityLevel(4)                  n=1      obj=-#0
+[2026-11-01 03:05:32] cmd World.CreateWorld(1)                           n=1      obj=-#0
+[2026-11-01 03:05:32] CreateWorld #2 solver=0 gravity=(0,-9.81,0) workers=15
+[2026-11-01 03:05:32] cmd World.SetScratchBufferChunkCount(8)            n=1      obj=World#2
+[2026-11-01 03:05:33] cmd SDK.SetErrorVerbosityLevel(4)                  n=2      obj=-#0
+[2026-11-01 03:05:33] cmd World.SetGravity(3)                            n=1      obj=World#2
+[2026-11-01 03:05:33] cmd World.SetBounceThreshold(5)                    n=1      obj=World#2
+[2026-11-01 03:05:33] cmd World.SetScratchBufferChunkCount(8)            n=2      obj=World#2
+[2026-11-01 03:05:33] cmd SDK.GetDefaultMaterial(11)                     n=1      obj=-#0
+[2026-11-01 03:05:33] cmd SDK.CreateMaterial(9)                          n=1      obj=-#0
+[2026-11-01 03:05:33] cmd SDK.SetMaterialConfiguration(13)               n=1      obj=Material#3
+[2026-11-01 03:05:33] cmd SDK.SetMaterialCombineModes(15)                n=1      obj=Material#3
+[2026-11-01 03:05:33] cmd SDK.GetDefaultMaterial(11)                     n=2      obj=-#0
+[2026-11-01 03:05:33] cmd SDK.SetMaterialConfiguration(13)               n=2      obj=Material#1
+[2026-11-01 03:05:33] cmd SDK.SetMaterialCombineModes(15)                n=2      obj=Material#1
+[2026-11-01 03:05:33] cmd SDK.SetMaterialConfiguration(13)               n=3      obj=Material#1
+[2026-11-01 03:05:33] cmd SDK.SetMaterialCombineModes(15)                n=3      obj=Material#1
+[2026-11-01 03:05:33] cmd SDK.SetImprovedPatchFrictionEnabledGlobal(12)  n=1      obj=-#0
+[2026-11-01 03:05:41] cmd Shape.CleanupIgnoredColliders(20)              n=1      obj=-#0
+[2026-11-01 03:05:41] cmd Shape.CleanupIgnoredColliders(20)              n=2      obj=-#0
+[2026-11-01 03:05:41] cmd Shape.CleanupIgnoredColliders(20)              n=3      obj=-#0
+[2026-11-01 03:05:41] cmd Shape.CleanupIgnoredColliders(20)              n=4      obj=-#0
+[2026-11-01 03:05:43] ==== UnityPluginLoad (RigidIPC gate build, id=1380536387) ====
+[2026-11-01 03:05:43] cmd SDK.GetIntegrationInfo(3)                      n=1      obj=-#0
+[2026-11-01 03:05:43] IUnityPhysicsBackendSystem::Register(...) == true
+[2026-11-01 03:05:43] cmd SDK.InitializeSdk(1)                           n=1      obj=-#0
+[2026-11-01 03:05:43] InitializeSdk engineObjectIdOffset=8 vehicleModule=1 -> true
+[2026-11-01 03:05:43] cmd SDK.SetErrorVerbosityLevel(4)                  n=1      obj=-#0
+[2026-11-01 03:05:43] cmd World.CreateWorld(1)                           n=1      obj=-#0
+[2026-11-01 03:05:43] CreateWorld #2 solver=0 gravity=(0,-9.81,0) workers=7
+[2026-11-01 03:05:43] cmd World.SetScratchBufferChunkCount(8)            n=1      obj=World#2
+[2026-11-01 03:05:45] cmd SDK.SetErrorVerbosityLevel(4)                  n=2      obj=-#0
+[2026-11-01 03:05:45] cmd World.SetGravity(3)                            n=1      obj=World#2
+[2026-11-01 03:05:45] cmd World.SetBounceThreshold(5)                    n=1      obj=World#2
+[2026-11-01 03:05:45] cmd World.SetScratchBufferChunkCount(8)            n=2      obj=World#2
+[2026-11-01 03:05:45] cmd SDK.GetDefaultMaterial(11)                     n=1      obj=-#0
+[2026-11-01 03:05:45] cmd SDK.CreateMaterial(9)                          n=1      obj=-#0
+[2026-11-01 03:05:45] cmd SDK.SetMaterialConfiguration(13)               n=1      obj=Material#3
+[2026-11-01 03:05:45] cmd SDK.SetMaterialCombineModes(15)                n=1      obj=Material#3
+[2026-11-01 03:05:45] cmd SDK.GetDefaultMaterial(11)                     n=2      obj=-#0
+[2026-11-01 03:05:45] cmd SDK.SetMaterialConfiguration(13)               n=2      obj=Material#1
+[2026-11-01 03:05:45] cmd SDK.SetMaterialCombineModes(15)                n=2      obj=Material#1
+[2026-11-01 03:05:45] cmd SDK.SetMaterialConfiguration(13)               n=3      obj=Material#1
+[2026-11-01 03:05:45] cmd SDK.SetMaterialCombineModes(15)                n=3      obj=Material#1
+[2026-11-01 03:05:45] cmd SDK.SetImprovedPatchFrictionEnabledGlobal(12)  n=1      obj=-#0
+[2026-11-01 03:05:45] cmd World.CreateWorld(1)                           n=2      obj=-#0
+[2026-11-01 03:05:45] CreateWorld #4 solver=0 gravity=(0,-9.81,0) workers=15
+[2026-11-01 03:05:45] cmd World.SetScratchBufferChunkCount(8)            n=3      obj=World#4
+[2026-11-01 03:05:52] cmd SDK.SetErrorVerbosityLevel(4)                  n=3      obj=-#0
+[2026-11-01 03:05:52] cmd World.SetGravity(3)                            n=2      obj=World#2
+[2026-11-01 03:05:52] cmd World.SetBounceThreshold(5)                    n=2      obj=World#2
+[2026-11-01 03:05:52] cmd World.SetScratchBufferChunkCount(8)            n=3      obj=World#2
+[2026-11-01 03:05:52] cmd SDK.GetDefaultMaterial(11)                     n=3      obj=-#0
+[2026-11-01 03:05:52] cmd SDK.SetMaterialConfiguration(13)               n=4      obj=Material#1
+[2026-11-01 03:05:52] cmd SDK.SetMaterialCombineModes(15)                n=4      obj=Material#1
+[2026-11-01 03:05:52] cmd SDK.SetImprovedPatchFrictionEnabledGlobal(12)  n=2      obj=-#0
+[2026-11-01 03:05:56] cmd World.DestroyWorld(2)                          n=1      obj=World#4
+[2026-11-01 03:05:56] DestroyWorld #4
+[2026-11-01 03:05:56] cmd World.CreateWorld(1)                           n=3      obj=-#0
+[2026-11-01 03:05:56] CreateWorld #5 solver=0 gravity=(0,-9.81,0) workers=15
+[2026-11-01 03:05:56] cmd World.SetScratchBufferChunkCount(8)            n=4      obj=World#5
+[2026-11-01 03:05:58] cmd SDK.SetErrorVerbosityLevel(4)                  n=4      obj=-#0
+[2026-11-01 03:05:58] cmd World.SetGravity(3)                            n=3      obj=World#2
+[2026-11-01 03:05:58] cmd World.SetBounceThreshold(5)                    n=3      obj=World#2
+[2026-11-01 03:05:58] cmd World.SetScratchBufferChunkCount(8)            n=4      obj=World#2
+[2026-11-01 03:05:58] cmd SDK.GetDefaultMaterial(11)                     n=4      obj=-#0
+[2026-11-01 03:05:58] cmd SDK.SetImprovedPatchFrictionEnabledGlobal(12)  n=3      obj=-#0

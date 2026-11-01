@@ -1,0 +1,10 @@
+2026-11-01T11:04:10.426Z|0xdea4|[Physics::Module] Initialized fallback backend.
+2026-11-01T11:04:10.426Z|0xdea4|[Physics::Module] Id: 0xdecafbad
+2026-11-01T11:04:11.563Z|0xdea4|[Physics::Module] Selected backend (deferred post-plugins).
+2026-11-01T11:04:11.563Z|0xdea4|[Physics::Module] Name: RigidIPC
+2026-11-01T11:04:11.563Z|0xdea4|[Physics::Module] Id: 0x52495043
+2026-11-01T11:04:11.563Z|0xdea4|[Physics::Module] SDK Version: 0.1.0
+2026-11-01T11:04:11.563Z|0xdea4|[Physics::Module] Integration Version: 0.1.0
+2026-11-01T11:04:11.563Z|0xdea4|[Physics::Module] Threading Mode: Multi-Threaded
+2026-11-01T11:04:57.024Z|0xdea4|[Physics::Module] Cleanup current backend.
+2026-11-01T11:04:57.024Z|0xdea4|[Physics::Module] Id: 0x52495043
