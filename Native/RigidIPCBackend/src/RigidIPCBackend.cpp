@@ -358,6 +358,7 @@ struct Body : Obj
     V3 com;
     V3 force, torque, impulse, angImpulse;   // accumulated until the next Simulate
     V3 lastForce, lastTorque;                // what the last Simulate consumed (GetAccumulated*)
+    V3 lastImpulse, lastAngImpulse;          // impulses the last Simulate consumed (diagnostics only)
     bool hasKinematicTarget = false;
     Xf kinematicTarget;
     bool sleeping = false;
@@ -380,6 +381,7 @@ struct Joint : Obj
     Axis axes[9];   // indexed by Physics::ConstraintAxis
     V3 targetPosition, targetLinVel, targetAngVel;
     Q4 targetRotation;
+    uint32_t targetRotationSets = 0;   // Set6DofMotorTargetRotation calls received (diagnostics only)
 };
 
 struct World : Obj
@@ -426,9 +428,10 @@ static void LocalExtents(const Physics::ShapeGeometry& g, V3& center, V3& half)
         case Physics::GeometryType::Sphere: half = { g.sphereGeometry.radius, g.sphereGeometry.radius, g.sphereGeometry.radius }; break;
         case Physics::GeometryType::Capsule:
         {
-            // Conservative: we do not yet know whether 'height' is a half or full height.
-            float r = g.capsuleGeometry.radius + g.capsuleGeometry.height;
-            half = { r, r, r };
+            // 'height' is the PhysX half-height (half the cylinder length, caps excluded), not the total height the
+            // header comment describes: Gate E measured CapsuleCollider.height == 2 * (height + radius) on 9 capsules.
+            // The capsule axis is local x.
+            half = { g.capsuleGeometry.height + g.capsuleGeometry.radius, g.capsuleGeometry.radius, g.capsuleGeometry.radius };
             break;
         }
         case Physics::GeometryType::ConvexMesh:
@@ -537,6 +540,8 @@ static void StepWorld(World* w, float dt)
         stats.dynamicBodies++;
         b->lastForce = b->force;
         b->lastTorque = b->torque;
+        b->lastImpulse = b->impulse;
+        b->lastAngImpulse = b->angImpulse;
         if (b->sleeping || dt <= 0)
         {
             b->force = b->torque = b->impulse = b->angImpulse = {};
@@ -794,9 +799,9 @@ static void HandleWorld(void* sdkObject, const Context& ctx, uint32_t index, Com
             j->actors[1] = DescribeBody(As<Body>(d.body1, Kind::Body));
             if (w) w->joints.push_back(j);
             d.outJoint = j;
-            Logf("CreateJoint #%u type=%d flags=0x%x body0=#%u body1=#%u", j->serial, (int)d.type, (unsigned)d.flags,
+            Logf("CreateJoint #%u type=%d flags=0x%x body0=#%u body1=#%u userData=%p", j->serial, (int)d.type, (unsigned)d.flags,
                 j->actors[0].actor ? static_cast<Obj*>(j->actors[0].actor)->serial : 0,
-                j->actors[1].actor ? static_cast<Obj*>(j->actors[1].actor)->serial : 0);
+                j->actors[1].actor ? static_cast<Obj*>(j->actors[1].actor)->serial : 0, d.userData);
             break;
         }
         case PhysicsCommands::World::DestroyJoint:
@@ -1334,6 +1339,7 @@ static void HandleJoint(void* sdkObject, const Context&, uint32_t index, Command
         {
             auto& v = D<Set6DofMotorTargetRotation>(c).value;
             j->targetRotation = { v.x, v.y, v.z, v.w };
+            j->targetRotationSets++;
             break;
         }
         case PhysicsCommands::Joint::Set6DofMotorTargetLinearVelocity: j->targetLinVel = Load3(D<Set6DofMotorTargetLinearVelocity>(c).value); break;
@@ -1448,7 +1454,7 @@ struct RigidIPC_ShapeSnapshot
     uint32_t shapeSerial, bodySerial;
     int32_t geometryType;   // Physics::GeometryType
     int32_t bodyIsStatic;
-    float geom[4];          // box: half extents | sphere: radius | capsule: radius, height | mesh: scale xyz
+    float geom[4];          // box: half extents | sphere: radius | capsule: radius, half-height | mesh: scale xyz
     float bodyPos[3], bodyRot[4];
     float localPos[3], localRot[4];
     float worldPos[3], worldRot[4];
@@ -1458,7 +1464,7 @@ struct RigidIPC_ShapeSnapshot
 // Characteristic points of a shape in the shape's local frame, in a fixed order the C# side mirrors.
 //   Box:     8 corners, corner i has sign (+ if bit set) x: bit 0, y: bit 1, z: bit 2.
 //   Sphere:  centre, then +x, -x, +y, -y, +z, -z at the radius.
-//   Capsule: tips at +/- height/2 on local x (the PhysX capsule axis), then +y, -y, +z, -z at the radius.
+//   Capsule: tips at +/- (height + radius) on local x (the PhysX capsule axis; height is the half-height), then +y, -y, +z, -z at the radius.
 //   Mesh:    every cooked vertex times the geometry scale.
 static std::vector<V3> LocalShapePoints(const Physics::ShapeGeometry& g)
 {
@@ -1480,7 +1486,7 @@ static std::vector<V3> LocalShapePoints(const Physics::ShapeGeometry& g)
         }
         case Physics::GeometryType::Capsule:
         {
-            const float r = g.capsuleGeometry.radius, t = 0.5f * g.capsuleGeometry.height;
+            const float r = g.capsuleGeometry.radius, t = g.capsuleGeometry.height + r;   // height = PhysX half-height (see LocalExtents)
             p = { { t, 0, 0 }, { -t, 0, 0 }, { 0, r, 0 }, { 0, -r, 0 }, { 0, 0, r }, { 0, 0, -r } };
             break;
         }
@@ -1567,4 +1573,127 @@ extern "C" UNITY_INTERFACE_EXPORT void RigidIPC_TraceNextSteps(int steps)
     std::lock_guard<std::recursive_mutex> guard(g_lock);
     g_traceSteps = std::max(0, steps);
     Logf("trace armed for %d Simulate call(s)", g_traceSteps);
+}
+
+// One body as the backend currently holds it. Layout mirrors BodySnapshot in C#.
+struct RigidIPC_BodySnapshot
+{
+    void* userData;                 // what CreateBody passed as userData
+    uint32_t serial;
+    int32_t isStatic, flags, ccd, sleeping, hasKinematicTarget, shapeCount;
+    float mass, linearDamping, angularDamping, maxLinVel, maxAngVel, maxDepenetration;
+    float pos[3], rot[4];
+    float linVel[3], angVel[3];
+    float com[3], inertia[3], inertiaRot[4];
+    float kinematicTargetPos[3], kinematicTargetRot[4];
+    float lastForce[3], lastTorque[3], lastImpulse[3], lastAngImpulse[3];   // what the last Simulate consumed
+};
+
+// Fills up to maxCount snapshots of alive bodies (ordered by serial) and returns how many alive bodies exist.
+extern "C" UNITY_INTERFACE_EXPORT int RigidIPC_GetBodySnapshots(RigidIPC_BodySnapshot* out, int maxCount)
+{
+    std::lock_guard<std::recursive_mutex> guard(g_lock);
+    std::vector<Body*> bodies;
+    for (Obj* o : g_objects)
+        if (o->alive && o->kind == Kind::Body) bodies.push_back(static_cast<Body*>(o));
+    std::sort(bodies.begin(), bodies.end(), [](const Body* a, const Body* b) { return a->serial < b->serial; });
+    for (int i = 0; out && i < maxCount && i < (int)bodies.size(); ++i)
+    {
+        const Body* b = bodies[i];
+        RigidIPC_BodySnapshot& d = out[i];
+        d = RigidIPC_BodySnapshot{};
+        d.userData = b->userData;
+        d.serial = b->serial;
+        d.isStatic = b->isStatic;
+        d.flags = (int32_t)b->flags;
+        d.ccd = (int32_t)b->ccd;
+        d.sleeping = b->sleeping;
+        d.hasKinematicTarget = b->hasKinematicTarget;
+        d.shapeCount = (int32_t)b->shapes.size();
+        d.mass = b->mass; d.linearDamping = b->linearDamping; d.angularDamping = b->angularDamping;
+        d.maxLinVel = b->maxLinVel; d.maxAngVel = b->maxAngVel; d.maxDepenetration = b->maxDepenetration;
+        Put3(d.pos, b->pose.p); Put4(d.rot, b->pose.q);
+        Put3(d.linVel, b->linVel); Put3(d.angVel, b->angVel);
+        Put3(d.com, b->com); Put3(d.inertia, b->inertia); Put4(d.inertiaRot, b->inertiaRot);
+        Put3(d.kinematicTargetPos, b->kinematicTarget.p); Put4(d.kinematicTargetRot, b->kinematicTarget.q);
+        Put3(d.lastForce, b->lastForce); Put3(d.lastTorque, b->lastTorque);
+        Put3(d.lastImpulse, b->lastImpulse); Put3(d.lastAngImpulse, b->lastAngImpulse);
+    }
+    return (int)bodies.size();
+}
+
+// One joint as the backend currently holds it. Layout mirrors JointSnapshot in C#.
+// axes: 9 rows indexed by Physics::ConstraintAxis, each
+//   lock, min, max, limitSpring, limitDamping, driveSpring, driveDamper, driveMaxForce, driveAccel (all as float).
+struct RigidIPC_JointSnapshot
+{
+    void* userData;                 // what CreateJoint passed as userData
+    void* actorUserData[2];         // ActorDescriptor.userData for Parent (0) and Child (1)
+    uint32_t serial, actorSerial[2];
+    int32_t type, flags;
+    uint32_t targetRotationSets;
+    float breakForce, breakTorque, invMassScale[2];
+    float localPos0[3], localRot0[4], localPos1[3], localRot1[4];
+    float targetRotation[4], targetPosition[3], targetLinVel[3], targetAngVel[3];
+    float axes[9 * 9];
+};
+
+extern "C" UNITY_INTERFACE_EXPORT int RigidIPC_GetJointSnapshots(RigidIPC_JointSnapshot* out, int maxCount)
+{
+    std::lock_guard<std::recursive_mutex> guard(g_lock);
+    std::vector<Joint*> joints;
+    for (Obj* o : g_objects)
+        if (o->alive && o->kind == Kind::Joint) joints.push_back(static_cast<Joint*>(o));
+    std::sort(joints.begin(), joints.end(), [](const Joint* a, const Joint* b) { return a->serial < b->serial; });
+    for (int i = 0; out && i < maxCount && i < (int)joints.size(); ++i)
+    {
+        const Joint* j = joints[i];
+        RigidIPC_JointSnapshot& d = out[i];
+        d = RigidIPC_JointSnapshot{};
+        d.userData = j->userData;
+        d.serial = j->serial;
+        for (int k = 0; k < 2; ++k)
+        {
+            d.actorUserData[k] = j->actors[k].userData;
+            const Obj* a = (j->actors[k].actor && g_objects.count(static_cast<Obj*>(j->actors[k].actor))) ? static_cast<Obj*>(j->actors[k].actor) : nullptr;
+            d.actorSerial[k] = a ? a->serial : 0;
+            d.invMassScale[k] = j->invMassScale[k];
+        }
+        d.type = (int32_t)j->type;
+        d.flags = (int32_t)j->flags;
+        d.targetRotationSets = j->targetRotationSets;
+        d.breakForce = j->breakForce; d.breakTorque = j->breakTorque;
+        Put3(d.localPos0, j->localPose[0].p); Put4(d.localRot0, j->localPose[0].q);
+        Put3(d.localPos1, j->localPose[1].p); Put4(d.localRot1, j->localPose[1].q);
+        Put4(d.targetRotation, j->targetRotation);
+        Put3(d.targetPosition, j->targetPosition); Put3(d.targetLinVel, j->targetLinVel); Put3(d.targetAngVel, j->targetAngVel);
+        for (int a = 0; a < 9; ++a)
+        {
+            const Joint::Axis& x = j->axes[a];
+            float* r = d.axes + 9 * a;
+            r[0] = (float)(int)x.lock; r[1] = x.min; r[2] = x.max; r[3] = x.spring; r[4] = x.damping;
+            r[5] = x.driveSpring; r[6] = x.driveDamper; r[7] = x.driveMaxForce; r[8] = (float)x.driveAccel;
+        }
+    }
+    return (int)joints.size();
+}
+
+// The running per-command histogram: fills up to maxCount (code, count) pairs and returns how many codes exist.
+extern "C" UNITY_INTERFACE_EXPORT int RigidIPC_GetCommandCounts(uint32_t* codes, uint64_t* counts, int maxCount)
+{
+    std::lock_guard<std::recursive_mutex> guard(g_lock);
+    int i = 0;
+    for (auto& kv : g_cmdCounts)
+    {
+        if (codes && counts && i < maxCount) { codes[i] = kv.first; counts[i] = kv.second; }
+        ++i;
+    }
+    return i;
+}
+
+// "Group.Name(index)" for a command code, as the command log prints it.
+extern "C" UNITY_INTERFACE_EXPORT int RigidIPC_GetCommandName(uint32_t code, char* buffer, int bufferSize)
+{
+    if (!buffer || bufferSize <= 0) return 0;
+    return std::snprintf(buffer, (size_t)bufferSize, "%s", CommandName(code).c_str());
 }

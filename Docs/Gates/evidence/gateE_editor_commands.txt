@@ -1,0 +1,1560 @@
+[2026-11-01 15:19:12] cmd World.DestroyWorld(2)                          n=2      obj=World#67
+[2026-11-01 15:19:12] DestroyWorld #67
+[2026-11-01 15:19:12] cmd World.CreateWorld(1)                           n=4      obj=-#0
+[2026-11-01 15:19:12] CreateWorld #68 solver=0 gravity=(0,-9.81,0) workers=15
+[2026-11-01 15:19:12] cmd World.DestroyJoint(20)                         n=1      obj=World#2
+[2026-11-01 15:19:12] DestroyJoint #51
+[2026-11-01 15:19:12] cmd World.DestroyJoint(20)                         n=2      obj=World#2
+[2026-11-01 15:19:12] DestroyJoint #50
+[2026-11-01 15:19:12] cmd World.DestroyJoint(20)                         n=3      obj=World#2
+[2026-11-01 15:19:12] DestroyJoint #55
+[2026-11-01 15:19:12] cmd World.DestroyJoint(20)                         n=4      obj=World#2
+[2026-11-01 15:19:12] DestroyJoint #54
+[2026-11-01 15:19:12] DestroyJoint #53
+[2026-11-01 15:19:12] DestroyJoint #52
+[2026-11-01 15:19:12] DestroyJoint #59
+[2026-11-01 15:19:12] DestroyJoint #58
+[2026-11-01 15:19:12] DestroyJoint #57
+[2026-11-01 15:19:12] DestroyJoint #56
+[2026-11-01 15:19:12] DestroyJoint #49
+[2026-11-01 15:19:12] DestroyJoint #48
+[2026-11-01 15:19:12] DestroyJoint #47
+[2026-11-01 15:19:12] DestroyJoint #62
+[2026-11-01 15:19:12] DestroyJoint #61
+[2026-11-01 15:19:12] DestroyJoint #60
+[2026-11-01 15:19:12] DestroyJoint #65
+[2026-11-01 15:19:12] DestroyJoint #64
+[2026-11-01 15:19:12] DestroyJoint #63
+[2026-11-01 15:19:12] DestroyJoint #46
+[2026-11-01 15:19:12] cmd World.DestroyBody(16)                          n=1      obj=World#2
+[2026-11-01 15:19:12] DestroyBody #9
+[2026-11-01 15:19:12] cmd World.DestroyBody(16)                          n=2      obj=World#2
+[2026-11-01 15:19:12] DestroyBody #8
+[2026-11-01 15:19:12] cmd World.DestroyBody(16)                          n=3      obj=World#2
+[2026-11-01 15:19:12] DestroyBody #13
+[2026-11-01 15:19:12] cmd World.DestroyBody(16)                          n=4      obj=World#2
+[2026-11-01 15:19:12] DestroyBody #12
+[2026-11-01 15:19:12] DestroyBody #11
+[2026-11-01 15:19:12] DestroyBody #10
+[2026-11-01 15:19:12] DestroyBody #17
+[2026-11-01 15:19:12] DestroyBody #16
+[2026-11-01 15:19:12] DestroyBody #15
+[2026-11-01 15:19:12] DestroyBody #14
+[2026-11-01 15:19:12] DestroyBody #7
+[2026-11-01 15:19:12] DestroyBody #6
+[2026-11-01 15:19:12] DestroyBody #5
+[2026-11-01 15:19:12] DestroyBody #20
+[2026-11-01 15:19:12] DestroyBody #19
+[2026-11-01 15:19:12] DestroyBody #18
+[2026-11-01 15:19:12] DestroyBody #23
+[2026-11-01 15:19:12] DestroyBody #22
+[2026-11-01 15:19:12] DestroyBody #21
+[2026-11-01 15:19:12] DestroyBody #4
+[2026-11-01 15:19:12] DestroyBody #25
+[2026-11-01 15:19:12] cmd World.DestroyWorld(2)                          n=3      obj=World#2
+[2026-11-01 15:19:12] DestroyWorld #2
+[2026-11-01 15:19:12] CreateWorld #69 solver=0 gravity=(0,-9.81,0) workers=15
+[2026-11-01 15:19:14] CreateBody #70 world=69 static=0 flags=0x4 mass=8 pos=(0.0861032,0.92764,-0.0273752) userData=00000255B81C0A90
+[2026-11-01 15:19:14] CreateBody #71 world=69 static=0 flags=0x4 mass=0.42 pos=(-0.441966,1.06797,0.123494) userData=00000255B81C1210
+[2026-11-01 15:19:14] CreateBody #72 world=69 static=0 flags=0x4 mass=4.33333 pos=(-1.86264e-09,0.981099,-0.0159044) userData=00000255B81C0D90
+[2026-11-01 15:19:14] CreateBody #73 world=69 static=0 flags=0x4 mass=2.7 pos=(-0.000957253,1.43763,-0.0234093) userData=00000255B81C2290
+[2026-11-01 15:19:14] CreateBody #74 world=69 static=0 flags=0x4 mass=0.42 pos=(0.441966,1.06797,0.123494) userData=00000255B81C2E90
+[2026-11-01 15:19:14] CreateBody #75 world=69 static=0 flags=0x4 mass=4 pos=(-0.100778,0.514561,-0.0295309) userData=00000255B81C4990
+[2026-11-01 15:19:14] CreateBody #76 world=69 static=0 flags=0x4 mass=2.24 pos=(-0.115437,0.101894,-0.0598616) userData=00000255B81C5110
+[2026-11-01 15:19:14] CreateBody #77 world=69 static=0 flags=0x4 mass=6 pos=(-1.74622e-09,1.62372,-0.0145673) userData=00000255B81C6310
+[2026-11-01 15:19:14] CreateBody #78 world=69 static=0 flags=0x4 mass=3 pos=(-1.74622e-09,1.24614,-0.0146818) userData=00000255B81C2410
+[2026-11-01 15:19:14] CreateBody #79 world=69 static=0 flags=0x4 mass=4 pos=(0.100778,0.514562,-0.029531) userData=00000255B81CAC90
+[2026-11-01 15:19:14] CreateBody #80 world=69 static=0 flags=0x4 mass=3 pos=(-3.72528e-09,1.49718,-0.0300111) userData=00000255B81C6610
+[2026-11-01 15:19:14] CreateBody #81 world=69 static=0 flags=0x4 mass=8 pos=(-0.0861032,0.927641,-0.0273752) userData=00000255B81C4B10
+[2026-11-01 15:19:14] CreateBody #82 world=69 static=0 flags=0x4 mass=3 pos=(-1.74622e-09,1.03933,-0.0146818) userData=00000255B81CB710
+[2026-11-01 15:19:14] CreateBody #83 world=69 static=0 flags=0x4 mass=0.84 pos=(-0.35035,1.20813,-0.0489477) userData=00000255B81C1690
+[2026-11-01 15:19:14] CreateBody #84 world=69 static=0 flags=0x4 mass=3 pos=(-1.74622e-09,1.14273,-0.0146818) userData=00000255B81C8110
+[2026-11-01 15:19:14] CreateBody #85 world=69 static=0 flags=0x4 mass=2.24 pos=(0.115437,0.101896,-0.0598616) userData=00000255B81CC010
+[2026-11-01 15:19:14] CreateBody #86 world=69 static=0 flags=0x4 mass=1.68 pos=(0.163449,1.42306,-0.0610709) userData=00000255B81CC310
+[2026-11-01 15:19:14] CreateBody #87 world=69 static=0 flags=0x4 mass=1.68 pos=(-0.163449,1.42306,-0.0610708) userData=00000255B81CBD10
+[2026-11-01 15:19:14] CreateBody #88 world=69 static=0 flags=0x4 mass=2.7 pos=(0.000957249,1.43763,-0.0234093) userData=00000255B81CC490
+[2026-11-01 15:19:14] CreateBody #89 world=69 static=0 flags=0x4 mass=0.84 pos=(0.350349,1.20813,-0.0489478) userData=00000255B81C3310
+[2026-11-01 15:19:14] CreateShape #90 geom=3 flags=0x1 userData=00000255BEEB0210
+[2026-11-01 15:19:14] AttachShape shape#90 -> body#70 forceLocal=0 pose=(-0.0105185,-0.199604,0.00139684) bodyPos=(0.0861032,0.92764,-0.0273752)
+[2026-11-01 15:19:14] CreateShape #91 geom=4 flags=0x1 userData=00000255B81C1390
+[2026-11-01 15:19:14] AttachShape shape#91 -> body#71 forceLocal=0 pose=(-3.57628e-06,0.0465765,-2.68221e-07) bodyPos=(-0.441966,1.06797,0.123494)
+[2026-11-01 15:19:14] CreateShape #92 geom=4 flags=0x1 userData=00000255B81C1810
+[2026-11-01 15:19:14] AttachShape shape#92 -> body#72 forceLocal=0 pose=(0,0.0294128,-2.90871e-05) bodyPos=(-1.86264e-09,0.981099,-0.0159044)
+[2026-11-01 15:19:14] CreateShape #93 geom=3 flags=0x1 userData=00000255BEEB0310
+[2026-11-01 15:19:14] AttachShape shape#93 -> body#73 forceLocal=0 pose=(-0.0854392,-0.0238774,0.00103567) bodyPos=(-0.000957253,1.43763,-0.0234093)
+[2026-11-01 15:19:14] CreateShape #94 geom=4 flags=0x1 userData=00000255B81C3010
+[2026-11-01 15:19:14] AttachShape shape#94 -> body#74 forceLocal=0 pose=(-1.19209e-07,-0.0465733,-2.5332e-07) bodyPos=(0.441966,1.06797,0.123494)
+[2026-11-01 15:19:14] CreateShape #95 geom=3 flags=0x1 userData=00000255BEEB0410
+[2026-11-01 15:19:14] AttachShape shape#95 -> body#75 forceLocal=0 pose=(-4.47035e-08,0.207021,-7.45058e-09) bodyPos=(-0.100778,0.514561,-0.0295309)
+[2026-11-01 15:19:14] CreateShape #96 geom=4 flags=0x1 userData=00000255B81C5290
+[2026-11-01 15:19:14] AttachShape shape#96 -> body#76 forceLocal=0 pose=(1.19209e-07,0.0361245,-0.0590326) bodyPos=(-0.115437,0.101894,-0.0598616)
+[2026-11-01 15:19:14] CreateShape #97 geom=3 flags=0x1 userData=00000255BEEB0510
+[2026-11-01 15:19:14] AttachShape shape#97 -> body#77 forceLocal=0 pose=(0,0.0730839,-9.31323e-10) bodyPos=(-1.74622e-09,1.62372,-0.0145673)
+[2026-11-01 15:19:14] CreateShape #98 geom=4 flags=0x1 userData=00000255B81C7F90
+[2026-11-01 15:19:14] AttachShape shape#98 -> body#78 forceLocal=0 pose=(0,0.125523,-0.00766468) bodyPos=(-1.74622e-09,1.24614,-0.0146818)
+[2026-11-01 15:19:14] CreateShape #99 geom=3 flags=0x1 userData=00000255BEEB0E10
+[2026-11-01 15:19:14] AttachShape shape#99 -> body#79 forceLocal=0 pose=(-4.17233e-07,-0.20702,7.45058e-09) bodyPos=(0.100778,0.514562,-0.029531)
+[2026-11-01 15:19:14] CreateShape #100 geom=4 flags=0x1 userData=00000255B81CB410
+[2026-11-01 15:19:14] CreateBody #101 world=69 static=1 flags=0x4 mass=0 pos=(0,-0.1,0) userData=0000000000000000
+[2026-11-01 15:19:14] AttachShape shape#100 -> body#101 forceLocal=0 pose=(0,-0.1,0) bodyPos=(0,-0.1,0)
+[2026-11-01 15:19:14] CreateShape #102 geom=4 flags=0x1 userData=00000255B81CB590
+[2026-11-01 15:19:14] AttachShape shape#102 -> body#80 forceLocal=0 pose=(1.86265e-09,0.0637369,-2.98023e-08) bodyPos=(-3.72528e-09,1.49718,-0.0300111)
+[2026-11-01 15:19:14] CreateShape #103 geom=3 flags=0x1 userData=00000255BEEB0F10
+[2026-11-01 15:19:14] AttachShape shape#103 -> body#81 forceLocal=0 pose=(0.010519,0.199605,-0.00139684) bodyPos=(-0.0861032,0.927641,-0.0273752)
+[2026-11-01 15:19:14] CreateShape #104 geom=4 flags=0x1 userData=00000255B81CB890
+[2026-11-01 15:19:14] AttachShape shape#104 -> body#82 forceLocal=0 pose=(0,0.051702,0) bodyPos=(-1.74622e-09,1.03933,-0.0146818)
+[2026-11-01 15:19:14] CreateShape #105 geom=4 flags=0x1 userData=00000255B81CBB90
+[2026-11-01 15:19:14] AttachShape shape#105 -> body#83 forceLocal=0 pose=(1.19209e-07,0.120182,-8.9407e-08) bodyPos=(-0.35035,1.20813,-0.0489477)
+[2026-11-01 15:19:14] CreateShape #106 geom=4 flags=0x1 userData=00000255B81CBE90
+[2026-11-01 15:19:14] AttachShape shape#106 -> body#84 forceLocal=0 pose=(0,0.051702,0) bodyPos=(-1.74622e-09,1.14273,-0.0146818)
+[2026-11-01 15:19:14] CreateShape #107 geom=4 flags=0x1 userData=00000255B81CC190
+[2026-11-01 15:19:14] AttachShape shape#107 -> body#85 forceLocal=0 pose=(-8.9407e-08,-0.0361241,0.059035) bodyPos=(0.115437,0.101896,-0.0598616)
+[2026-11-01 15:19:14] CreateShape #108 geom=3 flags=0x1 userData=00000255BEEB0A10
+[2026-11-01 15:19:14] AttachShape shape#108 -> body#86 forceLocal=0 pose=(2.14577e-06,-0.142543,-3.72529e-07) bodyPos=(0.163449,1.42306,-0.0610709)
+[2026-11-01 15:19:14] CreateShape #109 geom=3 flags=0x1 userData=00000255BEEB0910
+[2026-11-01 15:19:14] AttachShape shape#109 -> body#87 forceLocal=0 pose=(2.38419e-07,0.142541,1.63913e-07) bodyPos=(-0.163449,1.42306,-0.0610708)
+[2026-11-01 15:19:14] CreateShape #110 geom=3 flags=0x1 userData=00000255BEEB0810
+[2026-11-01 15:19:14] AttachShape shape#110 -> body#88 forceLocal=0 pose=(0.0854389,0.0238765,-0.00103559) bodyPos=(0.000957249,1.43763,-0.0234093)
+[2026-11-01 15:19:14] CreateShape #111 geom=4 flags=0x1 userData=00000255B81CC610
+[2026-11-01 15:19:14] AttachShape shape#111 -> body#89 forceLocal=0 pose=(8.34465e-07,-0.120182,6.85453e-07) bodyPos=(0.350349,1.20813,-0.0489478)
+[2026-11-01 15:19:14] CreateJoint #112 type=6 flags=0x18 body0=#70 body1=#72 userData=00000255BEED0610
+[2026-11-01 15:19:14] Joint#112 motor LinearX spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#112 motor LinearY spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#112 motor LinearZ spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#112 motor Slerp spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] CreateJoint #113 type=6 flags=0x18 body0=#71 body1=#83 userData=00000255BEED0C10
+[2026-11-01 15:19:14] Joint#113 motor LinearX spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#113 motor LinearY spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#113 motor LinearZ spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#113 motor Slerp spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] CreateJoint #114 type=6 flags=0x18 body0=#72 body1=#0 userData=00000255BEED0910
+[2026-11-01 15:19:14] Joint#114 motor LinearX spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#114 motor LinearY spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#114 motor LinearZ spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#114 motor Slerp spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] CreateJoint #115 type=6 flags=0x18 body0=#73 body1=#78 userData=00000255BEED0F10
+[2026-11-01 15:19:14] Joint#115 motor LinearX spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#115 motor LinearY spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#115 motor LinearZ spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#115 motor Slerp spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] CreateJoint #116 type=6 flags=0x18 body0=#74 body1=#89 userData=00000255BEED1210
+[2026-11-01 15:19:14] Joint#116 motor LinearX spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#116 motor LinearY spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#116 motor LinearZ spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#116 motor Slerp spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] CreateJoint #117 type=6 flags=0x18 body0=#75 body1=#81 userData=00000255BEED1510
+[2026-11-01 15:19:14] Joint#117 motor LinearX spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#117 motor LinearY spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#117 motor LinearZ spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#117 motor Slerp spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] CreateJoint #118 type=6 flags=0x18 body0=#76 body1=#75 userData=00000255BEED1810
+[2026-11-01 15:19:14] Joint#118 motor LinearX spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#118 motor LinearY spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#118 motor LinearZ spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#118 motor Slerp spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] CreateJoint #119 type=6 flags=0x18 body0=#77 body1=#80 userData=00000255BEED1B10
+[2026-11-01 15:19:14] Joint#119 motor LinearX spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#119 motor LinearY spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#119 motor LinearZ spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#119 motor Slerp spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] CreateJoint #120 type=6 flags=0x18 body0=#78 body1=#84 userData=00000255BEED1E10
+[2026-11-01 15:19:14] Joint#120 motor LinearX spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#120 motor LinearY spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#120 motor LinearZ spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#120 motor Slerp spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] CreateJoint #121 type=6 flags=0x18 body0=#79 body1=#70 userData=00000255BEED2A10
+[2026-11-01 15:19:14] Joint#121 motor LinearX spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#121 motor LinearY spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#121 motor LinearZ spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#121 motor Slerp spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] CreateJoint #122 type=6 flags=0x18 body0=#80 body1=#78 userData=00000255BEED2410
+[2026-11-01 15:19:14] Joint#122 motor LinearX spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#122 motor LinearY spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#122 motor LinearZ spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#122 motor Slerp spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] CreateJoint #123 type=6 flags=0x18 body0=#81 body1=#72 userData=00000255BEED2110
+[2026-11-01 15:19:14] Joint#123 motor LinearX spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#123 motor LinearY spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#123 motor LinearZ spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#123 motor Slerp spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] CreateJoint #124 type=6 flags=0x18 body0=#82 body1=#72 userData=00000255BEED2710
+[2026-11-01 15:19:14] Joint#124 motor LinearX spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#124 motor LinearY spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#124 motor LinearZ spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#124 motor Slerp spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] CreateJoint #125 type=6 flags=0x18 body0=#83 body1=#87 userData=00000255BEED3010
+[2026-11-01 15:19:14] Joint#125 motor LinearX spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#125 motor LinearY spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#125 motor LinearZ spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#125 motor Slerp spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] CreateJoint #126 type=6 flags=0x18 body0=#84 body1=#82 userData=00000255BEED3310
+[2026-11-01 15:19:14] Joint#126 motor LinearX spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#126 motor LinearY spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#126 motor LinearZ spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#126 motor Slerp spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] CreateJoint #127 type=6 flags=0x18 body0=#85 body1=#79 userData=00000255BEED3610
+[2026-11-01 15:19:14] Joint#127 motor LinearX spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#127 motor LinearY spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#127 motor LinearZ spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#127 motor Slerp spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] CreateJoint #128 type=6 flags=0x18 body0=#86 body1=#88 userData=00000255BEED3910
+[2026-11-01 15:19:14] Joint#128 motor LinearX spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#128 motor LinearY spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#128 motor LinearZ spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#128 motor Slerp spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] CreateJoint #129 type=6 flags=0x18 body0=#87 body1=#73 userData=00000255BEED3C10
+[2026-11-01 15:19:14] Joint#129 motor LinearX spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#129 motor LinearY spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#129 motor LinearZ spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#129 motor Slerp spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] CreateJoint #130 type=6 flags=0x18 body0=#88 body1=#78 userData=00000255BEED3F10
+[2026-11-01 15:19:14] Joint#130 motor LinearX spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#130 motor LinearY spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#130 motor LinearZ spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#130 motor Slerp spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] CreateJoint #131 type=6 flags=0x18 body0=#89 body1=#86 userData=00000255BEED4210
+[2026-11-01 15:19:14] Joint#131 motor LinearX spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#131 motor LinearY spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#131 motor LinearZ spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] Joint#131 motor Slerp spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:14] trace armed for 3 Simulate call(s)
+[2026-11-01 15:19:15] cmd Shape.SetPose(14)                              n=1      obj=Shape#92
+[2026-11-01 15:19:15] Shape.SetPose shape#92 body#72 pose=(0,0.0352954268,-3.49041075e-05) rot=(0,0,0,1)
+[2026-11-01 15:19:15] cmd Shape.SetPose(14)                              n=2      obj=Shape#104
+[2026-11-01 15:19:15] Shape.SetPose shape#104 body#82 pose=(0,0.0620424747,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] cmd Shape.SetPose(14)                              n=3      obj=Shape#104
+[2026-11-01 15:19:15] Shape.SetPose shape#104 body#82 pose=(0,0.0517020226,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] cmd Shape.SetPose(14)                              n=4      obj=Shape#106
+[2026-11-01 15:19:15] Shape.SetPose shape#106 body#84 pose=(0,0.0620424747,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#106 body#84 pose=(0,0.0517020226,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#98 body#78 pose=(0,0.150627851,-0.00919762067) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#98 body#78 pose=(0,0.12552309,-0.00766468234) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#102 body#80 pose=(2.23517516e-09,0.0764844418,-4.47034836e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#102 body#80 pose=(1.86264559e-09,0.0637369156,-2.98023224e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#97 body#77 pose=(0,0.0877006054,-9.31322575e-10) rot=(0,0,-0.707106709,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#97 body#77 pose=(0,0.0730838776,-1.86264515e-09) rot=(0,0,-0.707106709,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#92 body#72 pose=(0,0.029412806,-2.90870667e-05) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#104 body#82 pose=(0,0.0620424747,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#92 body#72 pose=(0,0.0352954268,-3.49041075e-05) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#92 body#72 pose=(0,0.029412806,-2.90870667e-05) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#106 body#84 pose=(0,0.0620424747,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#106 body#84 pose=(0,0.0517020226,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#98 body#78 pose=(0,0.150627851,-0.00919761881) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#98 body#78 pose=(0,0.12552309,-0.00766468048) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#102 body#80 pose=(2.23517516e-09,0.0764844418,-4.47034836e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#102 body#80 pose=(1.86264515e-09,0.0637369156,-2.98023224e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#97 body#77 pose=(0,0.0877006054,0) rot=(0,0,-0.707106709,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#97 body#77 pose=(0,0.0730838776,-2.79396772e-09) rot=(0,0,-0.707106709,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#104 body#82 pose=(0,0.0517020226,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#106 body#84 pose=(0,0.0620424747,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#92 body#72 pose=(0,0.0352953076,-3.49041075e-05) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#92 body#72 pose=(0,0.029412806,-2.90870667e-05) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#104 body#82 pose=(0,0.0620424747,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#104 body#82 pose=(0,0.0517020226,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#98 body#78 pose=(0,0.150627851,-0.00919761881) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#98 body#78 pose=(0,0.12552309,-0.00766468048) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#102 body#80 pose=(2.23517471e-09,0.0764844418,-5.96046448e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#102 body#80 pose=(1.86264515e-09,0.0637369156,-2.98023224e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#97 body#77 pose=(0,0.0877006054,9.31322575e-10) rot=(0,0,-0.707106709,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#97 body#77 pose=(0,0.0730838776,-1.86264515e-09) rot=(0,0,-0.707106709,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#106 body#84 pose=(0,0.0517020226,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#98 body#78 pose=(0,0.150627851,-0.00919761881) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#92 body#72 pose=(0,0.0352953076,-3.49041075e-05) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#92 body#72 pose=(0,0.029412806,-2.90870667e-05) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#104 body#82 pose=(0,0.0620424747,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#104 body#82 pose=(0,0.0517020226,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#106 body#84 pose=(0,0.0620424747,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#106 body#84 pose=(0,0.0517020226,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#102 body#80 pose=(2.23517471e-09,0.0764844418,-5.96046448e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#102 body#80 pose=(1.86264493e-09,0.0637369156,-2.98023224e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#97 body#77 pose=(0,0.0877006054,0) rot=(0,0,-0.707106709,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#97 body#77 pose=(0,0.0730838776,-1.86264515e-09) rot=(0,0,-0.707106709,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#98 body#78 pose=(0,0.12552309,-0.00766468048) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#102 body#80 pose=(2.23517427e-09,0.0764844418,-5.96046448e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#92 body#72 pose=(0,0.0352953076,-3.49041075e-05) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#92 body#72 pose=(0,0.029412806,-2.90870667e-05) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#104 body#82 pose=(0,0.0620424747,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#104 body#82 pose=(0,0.0517020226,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#106 body#84 pose=(0,0.0620424747,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#106 body#84 pose=(0,0.0517020226,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#98 body#78 pose=(0,0.150627851,-0.00919761881) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#98 body#78 pose=(0,0.12552309,-0.00766468048) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#97 body#77 pose=(0,0.0877006054,0) rot=(0,0,-0.707106709,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#97 body#77 pose=(0,0.0730838776,-1.86264515e-09) rot=(0,0,-0.707106709,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#102 body#80 pose=(1.86264471e-09,0.0637369156,-2.98023224e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#97 body#77 pose=(0,0.0877006054,0) rot=(0,0,-0.707106709,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#92 body#72 pose=(0,0.0352953076,-3.49041075e-05) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#92 body#72 pose=(0,0.029412806,-2.90870667e-05) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#104 body#82 pose=(0,0.0620424747,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#104 body#82 pose=(0,0.0517020226,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#106 body#84 pose=(0,0.0620424747,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#106 body#84 pose=(0,0.0517020226,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#98 body#78 pose=(0,0.150627851,-0.00919761881) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#98 body#78 pose=(0,0.12552309,-0.00766468048) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#102 body#80 pose=(2.23517427e-09,0.0764844418,-5.96046448e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#102 body#80 pose=(1.86264448e-09,0.0637369156,-2.98023224e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#97 body#77 pose=(0,0.0730838776,-1.86264515e-09) rot=(0,0,-0.707106709,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#92 body#72 pose=(0,0.0352953076,-3.49041075e-05) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#90 body#70 pose=(-0.0126222298,-0.239525497,0.001676213) rot=(3.20911769e-10,3.13355231e-10,0.707106709,-0.707106709)
+[2026-11-01 15:19:15] Shape.SetPose shape#90 body#70 pose=(-0.0105185211,-0.199604452,0.0013968423) rot=(3.20911769e-10,3.13355231e-10,0.707106709,-0.707106709)
+[2026-11-01 15:19:15] Shape.SetPose shape#99 body#79 pose=(-4.91738319e-07,-0.248423934,0) rot=(9.33538047e-09,7.65043318e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#99 body#79 pose=(-4.17232513e-07,-0.207019836,7.4505806e-09) rot=(9.33538047e-09,7.65043318e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#107 body#85 pose=(-1.1920929e-07,-0.0433488451,0.070841983) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#107 body#85 pose=(-8.94069672e-08,-0.0361240506,0.0590349622) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#92 body#72 pose=(0,0.029412806,-2.90870667e-05) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#104 body#82 pose=(0,0.0620424747,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#90 body#70 pose=(-0.0126222298,-0.239525497,0.001676213) rot=(3.20911769e-10,3.13355231e-10,0.707106709,-0.707106709)
+[2026-11-01 15:19:15] Shape.SetPose shape#90 body#70 pose=(-0.0105185211,-0.199604452,0.0013968423) rot=(3.20911769e-10,3.13355231e-10,0.707106709,-0.707106709)
+[2026-11-01 15:19:15] Shape.SetPose shape#99 body#79 pose=(-4.91738319e-07,-0.248423934,0) rot=(9.33538047e-09,7.65043318e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#99 body#79 pose=(-4.17232513e-07,-0.207019836,7.4505806e-09) rot=(9.33538047e-09,7.65043318e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#107 body#85 pose=(-1.1920929e-07,-0.0433488451,0.070841983) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#107 body#85 pose=(-8.94069672e-08,-0.0361240506,0.0590349622) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#104 body#82 pose=(0,0.0517020226,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#106 body#84 pose=(0,0.0620424747,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#90 body#70 pose=(-0.0126222298,-0.239525497,0.001676213) rot=(3.20911769e-10,3.13355231e-10,0.707106709,-0.707106709)
+[2026-11-01 15:19:15] Shape.SetPose shape#90 body#70 pose=(-0.0105185211,-0.199604452,0.0013968423) rot=(3.20911769e-10,3.13355231e-10,0.707106709,-0.707106709)
+[2026-11-01 15:19:15] Shape.SetPose shape#99 body#79 pose=(-4.91738319e-07,-0.248423934,0) rot=(9.33538047e-09,7.65043318e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#99 body#79 pose=(-4.17232513e-07,-0.207019895,7.4505806e-09) rot=(9.33538047e-09,7.65043318e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#107 body#85 pose=(-1.1920929e-07,-0.0433488451,0.070841983) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#107 body#85 pose=(-8.94069672e-08,-0.0361240506,0.0590349622) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#106 body#84 pose=(0,0.0517020226,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#98 body#78 pose=(0,0.150627851,-0.00919761881) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#90 body#70 pose=(-0.0126222298,-0.239525497,0.001676213) rot=(3.20911769e-10,3.13355231e-10,0.707106709,-0.707106709)
+[2026-11-01 15:19:15] Shape.SetPose shape#90 body#70 pose=(-0.0105185211,-0.199604452,0.0013968423) rot=(3.20911769e-10,3.13355231e-10,0.707106709,-0.707106709)
+[2026-11-01 15:19:15] Shape.SetPose shape#99 body#79 pose=(-4.91738319e-07,-0.248423934,0) rot=(9.33538047e-09,7.65043318e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#99 body#79 pose=(-4.17232513e-07,-0.207019895,7.4505806e-09) rot=(9.33538047e-09,7.65043318e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#107 body#85 pose=(-1.1920929e-07,-0.0433488451,0.070841983) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#107 body#85 pose=(-8.94069672e-08,-0.0361240506,0.0590349622) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#98 body#78 pose=(0,0.12552309,-0.00766468048) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#102 body#80 pose=(2.23517382e-09,0.0764844418,-5.96046448e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#90 body#70 pose=(-0.0126222298,-0.239525497,0.001676213) rot=(3.20911769e-10,3.13355231e-10,0.707106709,-0.707106709)
+[2026-11-01 15:19:15] Shape.SetPose shape#90 body#70 pose=(-0.0105185211,-0.199604452,0.0013968423) rot=(3.20911769e-10,3.13355231e-10,0.707106709,-0.707106709)
+[2026-11-01 15:19:15] Shape.SetPose shape#99 body#79 pose=(-4.91738319e-07,-0.248423934,0) rot=(9.33538047e-09,7.65043318e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#99 body#79 pose=(-4.17232513e-07,-0.207019895,7.4505806e-09) rot=(9.33538047e-09,7.65043318e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#107 body#85 pose=(-1.1920929e-07,-0.0433488451,0.070841983) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#107 body#85 pose=(-8.94069672e-08,-0.0361240506,0.0590349622) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#102 body#80 pose=(1.86264426e-09,0.0637369156,-2.98023224e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#97 body#77 pose=(0,0.0877006054,0) rot=(0,0,-0.707106709,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#90 body#70 pose=(-0.0126222298,-0.239525497,0.001676213) rot=(3.20911769e-10,3.13355231e-10,0.707106709,-0.707106709)
+[2026-11-01 15:19:15] Shape.SetPose shape#90 body#70 pose=(-0.0105185211,-0.199604452,0.0013968423) rot=(3.20911769e-10,3.13355231e-10,0.707106709,-0.707106709)
+[2026-11-01 15:19:15] Shape.SetPose shape#99 body#79 pose=(-4.91738319e-07,-0.248423934,0) rot=(9.33538047e-09,7.65043318e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#99 body#79 pose=(-4.17232513e-07,-0.207019895,7.4505806e-09) rot=(9.33538047e-09,7.65043318e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#107 body#85 pose=(-1.1920929e-07,-0.0433488451,0.070841983) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#107 body#85 pose=(-8.94069672e-08,-0.0361240506,0.0590349622) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#97 body#77 pose=(0,0.0730838776,-1.86264515e-09) rot=(0,0,-0.707106709,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#92 body#72 pose=(0,0.0352953076,-3.49041075e-05) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#103 body#81 pose=(0.0126228184,0.239526391,-0.00167620555) rot=(5.01625547e-11,-4.21236851e-10,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#103 body#81 pose=(0.0105190054,0.199605227,-0.00139683858) rot=(5.01625547e-11,-4.21236851e-10,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#95 body#75 pose=(-6.70552254e-08,0.248424798,-2.23517418e-08) rot=(-7.23626803e-09,-7.51151852e-09,0.707106709,-0.707106829)
+[2026-11-01 15:19:15] Shape.SetPose shape#95 body#75 pose=(-5.21540642e-08,0.207020581,-7.4505806e-09) rot=(-7.23626803e-09,-7.51151852e-09,0.707106709,-0.707106829)
+[2026-11-01 15:19:15] Shape.SetPose shape#96 body#76 pose=(1.41561031e-07,0.0433494076,-0.0708391517) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#96 body#76 pose=(1.1920929e-07,0.0361244902,-0.0590325966) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#92 body#72 pose=(0,0.029412806,-2.90870667e-05) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#104 body#82 pose=(0,0.0620424747,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#103 body#81 pose=(0.0126228184,0.239526391,-0.00167620555) rot=(5.01625547e-11,-4.21236851e-10,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#103 body#81 pose=(0.0105190054,0.199605227,-0.00139683858) rot=(5.01625547e-11,-4.21236851e-10,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#95 body#75 pose=(-6.70552254e-08,0.248424798,-2.23517418e-08) rot=(-7.23626803e-09,-7.51151852e-09,0.707106709,-0.707106829)
+[2026-11-01 15:19:15] Shape.SetPose shape#95 body#75 pose=(-5.21540642e-08,0.207020581,-7.4505806e-09) rot=(-7.23626803e-09,-7.51151852e-09,0.707106709,-0.707106829)
+[2026-11-01 15:19:15] Shape.SetPose shape#96 body#76 pose=(1.41561031e-07,0.0433494076,-0.0708391517) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#96 body#76 pose=(1.1920929e-07,0.0361244902,-0.0590325966) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#104 body#82 pose=(0,0.0517020226,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#106 body#84 pose=(0,0.0620424747,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#103 body#81 pose=(0.0126228184,0.239526391,-0.00167620555) rot=(5.01625547e-11,-4.21236851e-10,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#103 body#81 pose=(0.0105190054,0.199605227,-0.00139683858) rot=(5.01625547e-11,-4.21236851e-10,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#95 body#75 pose=(-6.70552254e-08,0.248424798,-2.23517418e-08) rot=(-7.23626803e-09,-7.51151852e-09,0.707106709,-0.707106829)
+[2026-11-01 15:19:15] Shape.SetPose shape#95 body#75 pose=(-5.21540642e-08,0.207020581,-7.4505806e-09) rot=(-7.23626803e-09,-7.51151852e-09,0.707106709,-0.707106829)
+[2026-11-01 15:19:15] Shape.SetPose shape#96 body#76 pose=(1.41561031e-07,0.0433494076,-0.0708391517) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#96 body#76 pose=(1.1920929e-07,0.0361244902,-0.0590325966) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#106 body#84 pose=(0,0.0517020226,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#98 body#78 pose=(0,0.150627851,-0.00919761881) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#103 body#81 pose=(0.0126228184,0.239526391,-0.00167620555) rot=(5.01625547e-11,-4.21236851e-10,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#103 body#81 pose=(0.0105190054,0.199605227,-0.00139683858) rot=(5.01625547e-11,-4.21236851e-10,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#95 body#75 pose=(-6.70552254e-08,0.248424798,-2.23517418e-08) rot=(-7.23626803e-09,-7.51151852e-09,0.707106709,-0.707106829)
+[2026-11-01 15:19:15] Shape.SetPose shape#95 body#75 pose=(-5.21540642e-08,0.207020581,-7.4505806e-09) rot=(-7.23626803e-09,-7.51151852e-09,0.707106709,-0.707106829)
+[2026-11-01 15:19:15] Shape.SetPose shape#96 body#76 pose=(1.41561031e-07,0.0433494076,-0.0708391517) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#96 body#76 pose=(1.1920929e-07,0.0361244902,-0.0590325966) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#98 body#78 pose=(0,0.12552309,-0.00766468048) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#102 body#80 pose=(2.23517382e-09,0.0764844418,-5.96046448e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#103 body#81 pose=(0.0126228184,0.239526391,-0.00167620555) rot=(5.01625547e-11,-4.21236851e-10,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#103 body#81 pose=(0.0105190054,0.199605227,-0.00139683858) rot=(5.01625547e-11,-4.21236851e-10,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#95 body#75 pose=(-6.70552254e-08,0.248424798,-2.23517418e-08) rot=(-7.23626803e-09,-7.51151852e-09,0.707106709,-0.707106829)
+[2026-11-01 15:19:15] Shape.SetPose shape#95 body#75 pose=(-5.21540642e-08,0.207020581,-7.4505806e-09) rot=(-7.23626803e-09,-7.51151852e-09,0.707106709,-0.707106829)
+[2026-11-01 15:19:15] Shape.SetPose shape#96 body#76 pose=(1.41561031e-07,0.0433494076,-0.0708391517) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#96 body#76 pose=(1.1920929e-07,0.0361244902,-0.0590325966) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#102 body#80 pose=(1.86264404e-09,0.0637369156,-2.98023224e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#97 body#77 pose=(0,0.0877006054,0) rot=(0,0,-0.707106709,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#103 body#81 pose=(0.0126228184,0.239526391,-0.00167620555) rot=(5.01625547e-11,-4.21236851e-10,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#103 body#81 pose=(0.0105190054,0.199605227,-0.00139683858) rot=(5.01625547e-11,-4.21236851e-10,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#95 body#75 pose=(-6.70552254e-08,0.248424798,-2.23517418e-08) rot=(-7.23626803e-09,-7.51151852e-09,0.707106709,-0.707106829)
+[2026-11-01 15:19:15] Shape.SetPose shape#95 body#75 pose=(-5.21540642e-08,0.207020581,-7.4505806e-09) rot=(-7.23626803e-09,-7.51151852e-09,0.707106709,-0.707106829)
+[2026-11-01 15:19:15] Shape.SetPose shape#96 body#76 pose=(1.41561031e-07,0.0433494076,-0.0708391517) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#96 body#76 pose=(1.1920929e-07,0.0361244902,-0.0590325966) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#97 body#77 pose=(0,0.0730838776,-1.86264515e-09) rot=(0,0,-0.707106709,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#92 body#72 pose=(0,0.0352953076,-3.49041075e-05) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#110 body#88 pose=(0.102526702,0.0286518335,-0.00124271028) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#110 body#88 pose=(0.0854389071,0.0238765478,-0.00103558786) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#108 body#86 pose=(2.38418579e-06,-0.171051145,-4.32133675e-07) rot=(2.63417732e-09,2.63417732e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#108 body#86 pose=(2.14576721e-06,-0.14254266,-3.7252903e-07) rot=(2.63417732e-09,2.63417732e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#111 body#89 pose=(8.34465027e-07,-0.144218743,8.64267349e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#111 body#89 pose=(8.34465027e-07,-0.120182157,7.15255737e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#94 body#74 pose=(-3.57627869e-07,-0.0558879077,-3.12924385e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#94 body#74 pose=(-1.1920929e-07,-0.0465733111,-2.5331974e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#92 body#72 pose=(0,0.029412806,-2.90870667e-05) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#104 body#82 pose=(0,0.0620424747,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#110 body#88 pose=(0.102526702,0.0286518335,-0.00124271028) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#110 body#88 pose=(0.0854389071,0.0238765478,-0.00103558786) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#108 body#86 pose=(2.38418579e-06,-0.171051145,-4.32133675e-07) rot=(2.63417732e-09,2.63417732e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#108 body#86 pose=(2.14576721e-06,-0.14254266,-3.7252903e-07) rot=(2.63417732e-09,2.63417732e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#111 body#89 pose=(8.34465027e-07,-0.144218743,8.64267349e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#111 body#89 pose=(8.34465027e-07,-0.120182157,7.15255737e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#94 body#74 pose=(-3.57627869e-07,-0.0558879077,-3.12924385e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#94 body#74 pose=(-1.1920929e-07,-0.0465733111,-2.5331974e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#104 body#82 pose=(0,0.0517020226,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#106 body#84 pose=(0,0.0620424747,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#110 body#88 pose=(0.102526702,0.0286518335,-0.00124271028) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#110 body#88 pose=(0.0854389071,0.0238765478,-0.00103558786) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#108 body#86 pose=(2.38418579e-06,-0.171051145,-4.32133675e-07) rot=(2.63417732e-09,2.63417732e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#108 body#86 pose=(2.14576721e-06,-0.14254266,-3.7252903e-07) rot=(2.63417732e-09,2.63417732e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#111 body#89 pose=(8.34465027e-07,-0.144218743,8.64267349e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#111 body#89 pose=(8.34465027e-07,-0.120182157,7.15255737e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#94 body#74 pose=(-3.57627869e-07,-0.0558879077,-3.12924385e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#94 body#74 pose=(-1.1920929e-07,-0.0465733111,-2.5331974e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#106 body#84 pose=(0,0.0517020226,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#98 body#78 pose=(0,0.150627851,-0.00919761881) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#110 body#88 pose=(0.102526702,0.0286518335,-0.00124271028) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#110 body#88 pose=(0.0854389071,0.0238765478,-0.00103558786) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#108 body#86 pose=(2.38418579e-06,-0.171051145,-4.32133675e-07) rot=(2.63417732e-09,2.63417732e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#108 body#86 pose=(2.14576721e-06,-0.14254266,-3.7252903e-07) rot=(2.63417732e-09,2.63417732e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#111 body#89 pose=(8.34465027e-07,-0.144218743,8.64267349e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#111 body#89 pose=(8.34465027e-07,-0.120182157,7.15255737e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#94 body#74 pose=(-3.57627869e-07,-0.0558879077,-3.12924385e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#94 body#74 pose=(-1.1920929e-07,-0.0465733111,-2.5331974e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#98 body#78 pose=(0,0.12552309,-0.00766468048) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#102 body#80 pose=(2.23517338e-09,0.0764844418,-5.96046448e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#110 body#88 pose=(0.102526702,0.0286518335,-0.00124271028) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#110 body#88 pose=(0.0854389071,0.0238765478,-0.00103558786) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#108 body#86 pose=(2.38418579e-06,-0.171051145,-4.32133675e-07) rot=(2.63417732e-09,2.63417732e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#108 body#86 pose=(2.14576721e-06,-0.14254266,-3.7252903e-07) rot=(2.63417732e-09,2.63417732e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#111 body#89 pose=(8.34465027e-07,-0.144218743,8.64267349e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#111 body#89 pose=(8.34465027e-07,-0.120182157,7.15255737e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#94 body#74 pose=(-3.57627869e-07,-0.0558879077,-3.12924385e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#94 body#74 pose=(-1.1920929e-07,-0.0465733111,-2.5331974e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#102 body#80 pose=(1.86264382e-09,0.0637369156,-2.98023224e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#97 body#77 pose=(0,0.0877006054,0) rot=(0,0,-0.707106709,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#110 body#88 pose=(0.102526702,0.0286518335,-0.00124271028) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#110 body#88 pose=(0.0854389071,0.0238765478,-0.00103558786) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#108 body#86 pose=(2.38418579e-06,-0.171051145,-4.32133675e-07) rot=(2.63417732e-09,2.63417732e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#108 body#86 pose=(2.14576721e-06,-0.14254266,-3.7252903e-07) rot=(2.63417732e-09,2.63417732e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#111 body#89 pose=(8.34465027e-07,-0.144218743,8.64267349e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#111 body#89 pose=(8.34465027e-07,-0.120182157,7.15255737e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#94 body#74 pose=(-3.57627869e-07,-0.0558879077,-3.12924385e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#94 body#74 pose=(-1.1920929e-07,-0.0465733111,-2.5331974e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#97 body#77 pose=(0,0.0730838776,-1.86264515e-09) rot=(0,0,-0.707106709,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#92 body#72 pose=(0,0.0352953076,-3.49041075e-05) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#93 body#73 pose=(-0.102527097,-0.0286527872,0.00124280527) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#93 body#73 pose=(-0.0854392275,-0.0238773823,0.00103567168) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#109 body#87 pose=(3.57627869e-07,0.171048939,2.08616257e-07) rot=(-5.26835597e-09,2.63417799e-09,-0.707106769,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#109 body#87 pose=(2.38418579e-07,0.142540693,1.63912773e-07) rot=(-5.26835597e-09,2.63417799e-09,-0.707106769,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#105 body#83 pose=(1.1920929e-07,0.144218028,-1.1920929e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#105 body#83 pose=(1.1920929e-07,0.120181561,-8.94069672e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#91 body#71 pose=(-4.41074371e-06,0.0558919311,-3.27825546e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#91 body#71 pose=(-3.57627869e-06,0.0465764999,-2.68220901e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#92 body#72 pose=(0,0.029412806,-2.90870667e-05) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#104 body#82 pose=(0,0.0620424747,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#93 body#73 pose=(-0.102527082,-0.0286527872,0.00124280341) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#93 body#73 pose=(-0.0854392201,-0.0238773823,0.00103566982) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#109 body#87 pose=(3.57627869e-07,0.171048939,2.08616257e-07) rot=(-5.26835597e-09,2.63417799e-09,-0.707106769,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#109 body#87 pose=(2.38418579e-07,0.142540693,1.63912773e-07) rot=(-5.26835597e-09,2.63417799e-09,-0.707106769,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#105 body#83 pose=(1.1920929e-07,0.144218028,-1.1920929e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#105 body#83 pose=(1.1920929e-07,0.120181561,-8.94069672e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#91 body#71 pose=(-4.41074371e-06,0.0558919311,-3.27825546e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#91 body#71 pose=(-3.57627869e-06,0.0465764999,-2.68220901e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#104 body#82 pose=(0,0.0517020226,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#106 body#84 pose=(0,0.0620424747,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#93 body#73 pose=(-0.102527075,-0.0286527872,0.00124280527) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#93 body#73 pose=(-0.0854392126,-0.0238773823,0.00103566796) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#109 body#87 pose=(3.57627869e-07,0.171048939,2.08616257e-07) rot=(-5.26835597e-09,2.63417799e-09,-0.707106769,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#109 body#87 pose=(2.38418579e-07,0.142540693,1.63912773e-07) rot=(-5.26835597e-09,2.63417799e-09,-0.707106769,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#105 body#83 pose=(1.1920929e-07,0.144218028,-1.1920929e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#105 body#83 pose=(1.1920929e-07,0.120181561,-8.94069672e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#91 body#71 pose=(-4.41074371e-06,0.0558919311,-3.27825546e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#91 body#71 pose=(-3.57627869e-06,0.0465764999,-2.68220901e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#106 body#84 pose=(0,0.0517020226,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#98 body#78 pose=(0,0.150627851,-0.00919761881) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#93 body#73 pose=(-0.102527067,-0.0286527872,0.00124280713) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#93 body#73 pose=(-0.0854391977,-0.0238773823,0.00103566982) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#109 body#87 pose=(3.57627869e-07,0.171048939,2.08616257e-07) rot=(-5.26835597e-09,2.63417799e-09,-0.707106769,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#109 body#87 pose=(2.38418579e-07,0.142540693,1.63912773e-07) rot=(-5.26835597e-09,2.63417799e-09,-0.707106769,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#105 body#83 pose=(1.1920929e-07,0.144218028,-1.1920929e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#105 body#83 pose=(1.1920929e-07,0.120181561,-8.94069672e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#91 body#71 pose=(-4.41074371e-06,0.0558919311,-3.27825546e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#91 body#71 pose=(-3.57627869e-06,0.0465764999,-2.68220901e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#98 body#78 pose=(0,0.12552309,-0.00766468048) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#102 body#80 pose=(2.23517338e-09,0.0764844418,-5.96046448e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#93 body#73 pose=(-0.10252706,-0.0286527872,0.00124280527) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#93 body#73 pose=(-0.0854391903,-0.0238773823,0.00103567168) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#109 body#87 pose=(3.57627869e-07,0.171048939,2.08616257e-07) rot=(-5.26835597e-09,2.63417799e-09,-0.707106769,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#109 body#87 pose=(2.38418579e-07,0.142540693,1.63912773e-07) rot=(-5.26835597e-09,2.63417799e-09,-0.707106769,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#105 body#83 pose=(1.1920929e-07,0.144218028,-1.1920929e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#105 body#83 pose=(1.1920929e-07,0.120181561,-8.94069672e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#91 body#71 pose=(-4.41074371e-06,0.0558919311,-3.27825546e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#91 body#71 pose=(-3.57627869e-06,0.0465764999,-2.68220901e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#102 body#80 pose=(1.86264382e-09,0.0637369156,-2.98023224e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#97 body#77 pose=(0,0.0877006054,0) rot=(0,0,-0.707106709,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#93 body#73 pose=(-0.102527052,-0.0286527872,0.00124280341) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#93 body#73 pose=(-0.0854391828,-0.0238773823,0.00103566982) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#109 body#87 pose=(3.57627869e-07,0.171048939,2.08616257e-07) rot=(-5.26835597e-09,2.63417799e-09,-0.707106769,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#109 body#87 pose=(2.38418579e-07,0.142540693,1.63912773e-07) rot=(-5.26835597e-09,2.63417799e-09,-0.707106769,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#105 body#83 pose=(1.1920929e-07,0.144218028,-1.1920929e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#105 body#83 pose=(1.1920929e-07,0.120181561,-8.94069672e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#91 body#71 pose=(-4.41074371e-06,0.0558919311,-3.27825546e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#91 body#71 pose=(-3.57627869e-06,0.0465764999,-2.68220901e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#97 body#77 pose=(0,0.0730838776,-1.86264515e-09) rot=(0,0,-0.707106709,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#92 body#72 pose=(0,0.029412806,-2.90870667e-05) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#104 body#82 pose=(0,0.0517020226,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#106 body#84 pose=(0,0.0517020226,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#98 body#78 pose=(0,0.12552309,-0.00766468234) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#102 body#80 pose=(1.86264559e-09,0.0637369156,-2.98023224e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#97 body#77 pose=(0,0.0730838776,-9.31322575e-10) rot=(0,0,-0.707106709,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#90 body#70 pose=(-0.0126222298,-0.239525497,0.001676213) rot=(3.20911769e-10,3.13355231e-10,0.707106709,-0.707106709)
+[2026-11-01 15:19:15] Shape.SetPose shape#92 body#72 pose=(0,0.0352954268,-3.49041075e-05) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#92 body#72 pose=(0,0.029412806,-2.90870667e-05) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#104 body#82 pose=(0,0.0620424747,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#104 body#82 pose=(0,0.0517020226,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#106 body#84 pose=(0,0.0620424747,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#106 body#84 pose=(0,0.0517020226,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#98 body#78 pose=(0,0.150627851,-0.00919762067) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#98 body#78 pose=(0,0.12552309,-0.00766468234) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#102 body#80 pose=(2.23517516e-09,0.0764844418,-4.47034836e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#102 body#80 pose=(1.86264559e-09,0.0637369156,-2.98023224e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#97 body#77 pose=(0,0.0877006054,-9.31322575e-10) rot=(0,0,-0.707106709,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#97 body#77 pose=(0,0.0730838776,-1.86264515e-09) rot=(0,0,-0.707106709,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#90 body#70 pose=(-0.0105185211,-0.199604452,0.0013968423) rot=(3.20911769e-10,3.13355231e-10,0.707106709,-0.707106709)
+[2026-11-01 15:19:15] Shape.SetPose shape#99 body#79 pose=(-4.91738319e-07,-0.248423934,0) rot=(9.33538047e-09,7.65043318e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#92 body#72 pose=(0,0.0352954268,-3.49041075e-05) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#92 body#72 pose=(0,0.029412806,-2.90870667e-05) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#104 body#82 pose=(0,0.0620424747,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#104 body#82 pose=(0,0.0517020226,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#106 body#84 pose=(0,0.0620424747,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#106 body#84 pose=(0,0.0517020226,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#98 body#78 pose=(0,0.150627851,-0.00919761881) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#98 body#78 pose=(0,0.12552309,-0.00766468048) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#102 body#80 pose=(2.23517516e-09,0.0764844418,-4.47034836e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#102 body#80 pose=(1.86264515e-09,0.0637369156,-2.98023224e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#97 body#77 pose=(0,0.0877006054,0) rot=(0,0,-0.707106709,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#97 body#77 pose=(0,0.0730838776,-2.79396772e-09) rot=(0,0,-0.707106709,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#99 body#79 pose=(-4.17232513e-07,-0.207019895,7.4505806e-09) rot=(9.33538047e-09,7.65043318e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#107 body#85 pose=(-1.1920929e-07,-0.0433488451,0.070841983) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#92 body#72 pose=(0,0.0352953076,-3.49041075e-05) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#92 body#72 pose=(0,0.029412806,-2.90870667e-05) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#104 body#82 pose=(0,0.0620424747,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#104 body#82 pose=(0,0.0517020226,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#106 body#84 pose=(0,0.0620424747,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#106 body#84 pose=(0,0.0517020226,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#98 body#78 pose=(0,0.150627851,-0.00919761881) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#98 body#78 pose=(0,0.12552309,-0.00766468048) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#102 body#80 pose=(2.23517471e-09,0.0764844418,-5.96046448e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#102 body#80 pose=(1.86264515e-09,0.0637369156,-2.98023224e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#97 body#77 pose=(0,0.0877006054,9.31322575e-10) rot=(0,0,-0.707106709,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#97 body#77 pose=(0,0.0730838776,-1.86264515e-09) rot=(0,0,-0.707106709,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#107 body#85 pose=(-8.94069672e-08,-0.0361240506,0.0590349622) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#90 body#70 pose=(-0.0126222298,-0.239525497,0.001676213) rot=(3.20911769e-10,3.13355231e-10,0.707106709,-0.707106709)
+[2026-11-01 15:19:15] Shape.SetPose shape#99 body#79 pose=(-4.91738319e-07,-0.248423934,0) rot=(9.33538047e-09,7.65043318e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#99 body#79 pose=(-4.17232513e-07,-0.207019895,7.4505806e-09) rot=(9.33538047e-09,7.65043318e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#107 body#85 pose=(-1.1920929e-07,-0.0433488451,0.070841983) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#107 body#85 pose=(-8.94069672e-08,-0.0361240506,0.0590349622) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#90 body#70 pose=(-0.0105185211,-0.199604452,0.0013968423) rot=(3.20911769e-10,3.13355231e-10,0.707106709,-0.707106709)
+[2026-11-01 15:19:15] Shape.SetPose shape#99 body#79 pose=(-4.91738319e-07,-0.248423934,0) rot=(9.33538047e-09,7.65043318e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#90 body#70 pose=(-0.0126222298,-0.239525497,0.001676213) rot=(3.20911769e-10,3.13355231e-10,0.707106709,-0.707106709)
+[2026-11-01 15:19:15] Shape.SetPose shape#90 body#70 pose=(-0.0105185211,-0.199604452,0.0013968423) rot=(3.20911769e-10,3.13355231e-10,0.707106709,-0.707106709)
+[2026-11-01 15:19:15] Shape.SetPose shape#107 body#85 pose=(-1.1920929e-07,-0.0433488451,0.070841983) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#107 body#85 pose=(-8.94069672e-08,-0.0361240506,0.0590349622) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#99 body#79 pose=(-4.17232513e-07,-0.207019895,7.4505806e-09) rot=(9.33538047e-09,7.65043318e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#107 body#85 pose=(-1.1920929e-07,-0.0433488451,0.070841983) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#90 body#70 pose=(-0.0126222298,-0.239525497,0.001676213) rot=(3.20911769e-10,3.13355231e-10,0.707106709,-0.707106709)
+[2026-11-01 15:19:15] Shape.SetPose shape#90 body#70 pose=(-0.0105185211,-0.199604452,0.0013968423) rot=(3.20911769e-10,3.13355231e-10,0.707106709,-0.707106709)
+[2026-11-01 15:19:15] Shape.SetPose shape#99 body#79 pose=(-4.91738319e-07,-0.248423934,0) rot=(9.33538047e-09,7.65043318e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#99 body#79 pose=(-4.17232513e-07,-0.207019895,7.4505806e-09) rot=(9.33538047e-09,7.65043318e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#107 body#85 pose=(-8.94069672e-08,-0.0361240506,0.0590349622) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#90 body#70 pose=(-0.0126222298,-0.239525497,0.001676213) rot=(3.20911769e-10,3.13355231e-10,0.707106709,-0.707106709)
+[2026-11-01 15:19:15] Shape.SetPose shape#103 body#81 pose=(0.0126228184,0.239526391,-0.00167620555) rot=(5.01625547e-11,-4.21236851e-10,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#103 body#81 pose=(0.0105190054,0.199605227,-0.00139683858) rot=(5.01625547e-11,-4.21236851e-10,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#95 body#75 pose=(-6.70552254e-08,0.248424798,-2.23517418e-08) rot=(-7.23626803e-09,-7.51151852e-09,0.707106709,-0.707106829)
+[2026-11-01 15:19:15] Shape.SetPose shape#95 body#75 pose=(-5.21540642e-08,0.207020581,-7.4505806e-09) rot=(-7.23626803e-09,-7.51151852e-09,0.707106709,-0.707106829)
+[2026-11-01 15:19:15] Shape.SetPose shape#96 body#76 pose=(1.41561031e-07,0.0433494076,-0.0708391517) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#96 body#76 pose=(1.1920929e-07,0.0361244902,-0.0590325966) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#90 body#70 pose=(-0.0105185211,-0.199604452,0.0013968423) rot=(3.20911769e-10,3.13355231e-10,0.707106709,-0.707106709)
+[2026-11-01 15:19:15] Shape.SetPose shape#99 body#79 pose=(-4.91738319e-07,-0.248423934,0) rot=(9.33538047e-09,7.65043318e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#103 body#81 pose=(0.0126228184,0.239526391,-0.00167620555) rot=(5.01625547e-11,-4.21236851e-10,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#103 body#81 pose=(0.0105190054,0.199605227,-0.00139683858) rot=(5.01625547e-11,-4.21236851e-10,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#95 body#75 pose=(-6.70552254e-08,0.248424798,-2.23517418e-08) rot=(-7.23626803e-09,-7.51151852e-09,0.707106709,-0.707106829)
+[2026-11-01 15:19:15] Shape.SetPose shape#95 body#75 pose=(-5.21540642e-08,0.207020581,-7.4505806e-09) rot=(-7.23626803e-09,-7.51151852e-09,0.707106709,-0.707106829)
+[2026-11-01 15:19:15] Shape.SetPose shape#96 body#76 pose=(1.41561031e-07,0.0433494076,-0.0708391517) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#96 body#76 pose=(1.1920929e-07,0.0361244902,-0.0590325966) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#99 body#79 pose=(-4.17232513e-07,-0.207019895,7.4505806e-09) rot=(9.33538047e-09,7.65043318e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#107 body#85 pose=(-1.1920929e-07,-0.0433488451,0.070841983) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#103 body#81 pose=(0.0126228184,0.239526391,-0.00167620555) rot=(5.01625547e-11,-4.21236851e-10,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#103 body#81 pose=(0.0105190054,0.199605227,-0.00139683858) rot=(5.01625547e-11,-4.21236851e-10,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#95 body#75 pose=(-6.70552254e-08,0.248424798,-2.23517418e-08) rot=(-7.23626803e-09,-7.51151852e-09,0.707106709,-0.707106829)
+[2026-11-01 15:19:15] Shape.SetPose shape#95 body#75 pose=(-5.21540642e-08,0.207020581,-7.4505806e-09) rot=(-7.23626803e-09,-7.51151852e-09,0.707106709,-0.707106829)
+[2026-11-01 15:19:15] Shape.SetPose shape#96 body#76 pose=(1.41561031e-07,0.0433494076,-0.0708391517) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#96 body#76 pose=(1.1920929e-07,0.0361244902,-0.0590325966) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#107 body#85 pose=(-8.94069672e-08,-0.0361240506,0.0590349622) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#90 body#70 pose=(-0.0126222298,-0.239525497,0.001676213) rot=(3.20911769e-10,3.13355231e-10,0.707106709,-0.707106709)
+[2026-11-01 15:19:15] Shape.SetPose shape#110 body#88 pose=(0.102526702,0.0286518335,-0.00124271028) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#110 body#88 pose=(0.0854389071,0.0238765478,-0.00103558786) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#108 body#86 pose=(2.38418579e-06,-0.171051145,-4.32133675e-07) rot=(2.63417732e-09,2.63417732e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#108 body#86 pose=(2.14576721e-06,-0.14254266,-3.7252903e-07) rot=(2.63417732e-09,2.63417732e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#111 body#89 pose=(8.34465027e-07,-0.144218743,8.64267349e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#111 body#89 pose=(8.34465027e-07,-0.120182157,7.15255737e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#94 body#74 pose=(-3.57627869e-07,-0.0558879077,-3.12924385e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#94 body#74 pose=(-1.1920929e-07,-0.0465733111,-2.5331974e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#90 body#70 pose=(-0.0105185211,-0.199604452,0.0013968423) rot=(3.20911769e-10,3.13355231e-10,0.707106709,-0.707106709)
+[2026-11-01 15:19:15] Shape.SetPose shape#99 body#79 pose=(-4.91738319e-07,-0.248423934,0) rot=(9.33538047e-09,7.65043318e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#110 body#88 pose=(0.102526702,0.0286518335,-0.00124271028) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#110 body#88 pose=(0.0854389071,0.0238765478,-0.00103558786) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#108 body#86 pose=(2.38418579e-06,-0.171051145,-4.32133675e-07) rot=(2.63417732e-09,2.63417732e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#108 body#86 pose=(2.14576721e-06,-0.14254266,-3.7252903e-07) rot=(2.63417732e-09,2.63417732e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#111 body#89 pose=(8.34465027e-07,-0.144218743,8.64267349e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#111 body#89 pose=(8.34465027e-07,-0.120182157,7.15255737e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#94 body#74 pose=(-3.57627869e-07,-0.0558879077,-3.12924385e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#94 body#74 pose=(-1.1920929e-07,-0.0465733111,-2.5331974e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#99 body#79 pose=(-4.17232513e-07,-0.207019895,7.4505806e-09) rot=(9.33538047e-09,7.65043318e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#107 body#85 pose=(-1.1920929e-07,-0.0433488451,0.070841983) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#110 body#88 pose=(0.102526702,0.0286518335,-0.00124271028) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#110 body#88 pose=(0.0854389071,0.0238765478,-0.00103558786) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#108 body#86 pose=(2.38418579e-06,-0.171051145,-4.32133675e-07) rot=(2.63417732e-09,2.63417732e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#108 body#86 pose=(2.14576721e-06,-0.14254266,-3.7252903e-07) rot=(2.63417732e-09,2.63417732e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#111 body#89 pose=(8.34465027e-07,-0.144218743,8.64267349e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#111 body#89 pose=(8.34465027e-07,-0.120182157,7.15255737e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#94 body#74 pose=(-3.57627869e-07,-0.0558879077,-3.12924385e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#94 body#74 pose=(-1.1920929e-07,-0.0465733111,-2.5331974e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#107 body#85 pose=(-8.94069672e-08,-0.0361240506,0.0590349622) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#90 body#70 pose=(-0.0126222298,-0.239525497,0.001676213) rot=(3.20911769e-10,3.13355231e-10,0.707106709,-0.707106709)
+[2026-11-01 15:19:15] Shape.SetPose shape#93 body#73 pose=(-0.102527037,-0.0286527872,0.00124280341) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#93 body#73 pose=(-0.0854391828,-0.0238773823,0.00103566796) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#109 body#87 pose=(3.57627869e-07,0.171048939,2.08616257e-07) rot=(-5.26835597e-09,2.63417799e-09,-0.707106769,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#109 body#87 pose=(2.38418579e-07,0.142540693,1.63912773e-07) rot=(-5.26835597e-09,2.63417799e-09,-0.707106769,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#105 body#83 pose=(1.1920929e-07,0.144218028,-1.1920929e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#105 body#83 pose=(1.1920929e-07,0.120181561,-8.94069672e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#91 body#71 pose=(-4.41074371e-06,0.0558919311,-3.27825546e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#91 body#71 pose=(-3.57627869e-06,0.0465764999,-2.68220901e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#90 body#70 pose=(-0.0105185211,-0.199604452,0.0013968423) rot=(3.20911769e-10,3.13355231e-10,0.707106709,-0.707106709)
+[2026-11-01 15:19:15] Shape.SetPose shape#99 body#79 pose=(-4.91738319e-07,-0.248423934,0) rot=(9.33538047e-09,7.65043318e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#93 body#73 pose=(-0.10252703,-0.0286527872,0.00124280527) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#93 body#73 pose=(-0.0854391754,-0.0238773823,0.00103567168) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#109 body#87 pose=(3.57627869e-07,0.171048939,2.08616257e-07) rot=(-5.26835597e-09,2.63417799e-09,-0.707106769,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#109 body#87 pose=(2.38418579e-07,0.142540693,1.63912773e-07) rot=(-5.26835597e-09,2.63417799e-09,-0.707106769,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#105 body#83 pose=(1.1920929e-07,0.144218028,-1.1920929e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#105 body#83 pose=(1.1920929e-07,0.120181561,-8.94069672e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#91 body#71 pose=(-4.41074371e-06,0.0558919311,-3.27825546e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#91 body#71 pose=(-3.57627869e-06,0.0465764999,-2.68220901e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#99 body#79 pose=(-4.17232513e-07,-0.207019895,7.4505806e-09) rot=(9.33538047e-09,7.65043318e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#107 body#85 pose=(-1.1920929e-07,-0.0433488451,0.070841983) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#93 body#73 pose=(-0.102527022,-0.0286527872,0.00124280341) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#93 body#73 pose=(-0.0854391679,-0.0238773823,0.00103566982) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#109 body#87 pose=(3.57627869e-07,0.171048939,2.08616257e-07) rot=(-5.26835597e-09,2.63417799e-09,-0.707106769,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#109 body#87 pose=(2.38418579e-07,0.142540693,1.63912773e-07) rot=(-5.26835597e-09,2.63417799e-09,-0.707106769,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#105 body#83 pose=(1.1920929e-07,0.144218028,-1.1920929e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#105 body#83 pose=(1.1920929e-07,0.120181561,-8.94069672e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#91 body#71 pose=(-4.41074371e-06,0.0558919311,-3.27825546e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#91 body#71 pose=(-3.57627869e-06,0.0465764999,-2.68220901e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#107 body#85 pose=(-8.94069672e-08,-0.0361240506,0.0590349622) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#99 body#79 pose=(-4.17232513e-07,-0.207019836,7.4505806e-09) rot=(9.33538047e-09,7.65043318e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#107 body#85 pose=(-8.94069672e-08,-0.0361240506,0.0590349622) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#103 body#81 pose=(0.0126228184,0.239526391,-0.00167620555) rot=(5.01625547e-11,-4.21236851e-10,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#92 body#72 pose=(0,0.0352953076,-3.49041075e-05) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#92 body#72 pose=(0,0.029412806,-2.90870667e-05) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#104 body#82 pose=(0,0.0620424747,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#104 body#82 pose=(0,0.0517020226,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#106 body#84 pose=(0,0.0620424747,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#106 body#84 pose=(0,0.0517020226,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#98 body#78 pose=(0,0.150627851,-0.00919761881) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#98 body#78 pose=(0,0.12552309,-0.00766468048) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#102 body#80 pose=(2.23517471e-09,0.0764844418,-5.96046448e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#102 body#80 pose=(1.86264493e-09,0.0637369156,-2.98023224e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#97 body#77 pose=(0,0.0877006054,0) rot=(0,0,-0.707106709,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#97 body#77 pose=(0,0.0730838776,-1.86264515e-09) rot=(0,0,-0.707106709,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#103 body#81 pose=(0.0105190054,0.199605227,-0.00139683858) rot=(5.01625547e-11,-4.21236851e-10,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#95 body#75 pose=(-6.70552254e-08,0.248424798,-2.23517418e-08) rot=(-7.23626803e-09,-7.51151852e-09,0.707106709,-0.707106829)
+[2026-11-01 15:19:15] Shape.SetPose shape#92 body#72 pose=(0,0.0352953076,-3.49041075e-05) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#92 body#72 pose=(0,0.029412806,-2.90870667e-05) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#104 body#82 pose=(0,0.0620424747,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#104 body#82 pose=(0,0.0517020226,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#106 body#84 pose=(0,0.0620424747,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#106 body#84 pose=(0,0.0517020226,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#98 body#78 pose=(0,0.150627851,-0.00919761881) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#98 body#78 pose=(0,0.12552309,-0.00766468048) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#102 body#80 pose=(2.23517427e-09,0.0764844418,-5.96046448e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#102 body#80 pose=(1.86264471e-09,0.0637369156,-2.98023224e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#97 body#77 pose=(0,0.0877006054,0) rot=(0,0,-0.707106709,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#97 body#77 pose=(0,0.0730838776,-1.86264515e-09) rot=(0,0,-0.707106709,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#95 body#75 pose=(-5.21540642e-08,0.207020581,-7.4505806e-09) rot=(-7.23626803e-09,-7.51151852e-09,0.707106709,-0.707106829)
+[2026-11-01 15:19:15] Shape.SetPose shape#96 body#76 pose=(1.41561031e-07,0.0433494076,-0.0708391517) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#92 body#72 pose=(0,0.0352953076,-3.49041075e-05) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#92 body#72 pose=(0,0.029412806,-2.90870667e-05) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#104 body#82 pose=(0,0.0620424747,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#104 body#82 pose=(0,0.0517020226,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#106 body#84 pose=(0,0.0620424747,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#106 body#84 pose=(0,0.0517020226,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#98 body#78 pose=(0,0.150627851,-0.00919761881) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#98 body#78 pose=(0,0.12552309,-0.00766468048) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#102 body#80 pose=(2.23517427e-09,0.0764844418,-5.96046448e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#102 body#80 pose=(1.86264448e-09,0.0637369156,-2.98023224e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#97 body#77 pose=(0,0.0877006054,0) rot=(0,0,-0.707106709,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#97 body#77 pose=(0,0.0730838776,-1.86264515e-09) rot=(0,0,-0.707106709,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#96 body#76 pose=(1.1920929e-07,0.0361244902,-0.0590325966) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#103 body#81 pose=(0.0126228184,0.239526391,-0.00167620555) rot=(5.01625547e-11,-4.21236851e-10,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#90 body#70 pose=(-0.0126222298,-0.239525497,0.001676213) rot=(3.20911769e-10,3.13355231e-10,0.707106709,-0.707106709)
+[2026-11-01 15:19:15] Shape.SetPose shape#90 body#70 pose=(-0.0105185211,-0.199604452,0.0013968423) rot=(3.20911769e-10,3.13355231e-10,0.707106709,-0.707106709)
+[2026-11-01 15:19:15] Shape.SetPose shape#99 body#79 pose=(-4.91738319e-07,-0.248423934,0) rot=(9.33538047e-09,7.65043318e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#99 body#79 pose=(-4.17232513e-07,-0.207019836,7.4505806e-09) rot=(9.33538047e-09,7.65043318e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#107 body#85 pose=(-1.1920929e-07,-0.0433488451,0.070841983) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#107 body#85 pose=(-8.94069672e-08,-0.0361240506,0.0590349622) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#103 body#81 pose=(0.0105190054,0.199605227,-0.00139683858) rot=(5.01625547e-11,-4.21236851e-10,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#95 body#75 pose=(-6.70552254e-08,0.248424798,-2.23517418e-08) rot=(-7.23626803e-09,-7.51151852e-09,0.707106709,-0.707106829)
+[2026-11-01 15:19:15] Shape.SetPose shape#90 body#70 pose=(-0.0126222298,-0.239525497,0.001676213) rot=(3.20911769e-10,3.13355231e-10,0.707106709,-0.707106709)
+[2026-11-01 15:19:15] Shape.SetPose shape#90 body#70 pose=(-0.0105185211,-0.199604452,0.0013968423) rot=(3.20911769e-10,3.13355231e-10,0.707106709,-0.707106709)
+[2026-11-01 15:19:15] Shape.SetPose shape#99 body#79 pose=(-4.91738319e-07,-0.248423934,0) rot=(9.33538047e-09,7.65043318e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#99 body#79 pose=(-4.17232513e-07,-0.207019836,7.4505806e-09) rot=(9.33538047e-09,7.65043318e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#107 body#85 pose=(-1.1920929e-07,-0.0433488451,0.070841983) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#107 body#85 pose=(-8.94069672e-08,-0.0361240506,0.0590349622) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#95 body#75 pose=(-5.21540642e-08,0.207020581,-7.4505806e-09) rot=(-7.23626803e-09,-7.51151852e-09,0.707106709,-0.707106829)
+[2026-11-01 15:19:15] Shape.SetPose shape#96 body#76 pose=(1.41561031e-07,0.0433494076,-0.0708391517) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#90 body#70 pose=(-0.0126222298,-0.239525497,0.001676213) rot=(3.20911769e-10,3.13355231e-10,0.707106709,-0.707106709)
+[2026-11-01 15:19:15] Shape.SetPose shape#90 body#70 pose=(-0.0105185211,-0.199604452,0.0013968423) rot=(3.20911769e-10,3.13355231e-10,0.707106709,-0.707106709)
+[2026-11-01 15:19:15] Shape.SetPose shape#99 body#79 pose=(-4.91738319e-07,-0.248423934,0) rot=(9.33538047e-09,7.65043318e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#99 body#79 pose=(-4.17232513e-07,-0.207019895,7.4505806e-09) rot=(9.33538047e-09,7.65043318e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#107 body#85 pose=(-1.1920929e-07,-0.0433488451,0.070841983) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#107 body#85 pose=(-8.94069672e-08,-0.0361240506,0.0590349622) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#96 body#76 pose=(1.1920929e-07,0.0361244902,-0.0590325966) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#103 body#81 pose=(0.0126228184,0.239526391,-0.00167620555) rot=(5.01625547e-11,-4.21236851e-10,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#95 body#75 pose=(-6.70552254e-08,0.248424798,-2.23517418e-08) rot=(-7.23626803e-09,-7.51151852e-09,0.707106709,-0.707106829)
+[2026-11-01 15:19:15] Shape.SetPose shape#95 body#75 pose=(-5.21540642e-08,0.207020581,-7.4505806e-09) rot=(-7.23626803e-09,-7.51151852e-09,0.707106709,-0.707106829)
+[2026-11-01 15:19:15] Shape.SetPose shape#96 body#76 pose=(1.41561031e-07,0.0433494076,-0.0708391517) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#96 body#76 pose=(1.1920929e-07,0.0361244902,-0.0590325966) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#103 body#81 pose=(0.0105190054,0.199605227,-0.00139683858) rot=(5.01625547e-11,-4.21236851e-10,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#95 body#75 pose=(-6.70552254e-08,0.248424798,-2.23517418e-08) rot=(-7.23626803e-09,-7.51151852e-09,0.707106709,-0.707106829)
+[2026-11-01 15:19:15] Shape.SetPose shape#103 body#81 pose=(0.0126228184,0.239526391,-0.00167620555) rot=(5.01625547e-11,-4.21236851e-10,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#103 body#81 pose=(0.0105190054,0.199605227,-0.00139683858) rot=(5.01625547e-11,-4.21236851e-10,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#96 body#76 pose=(1.41561031e-07,0.0433494076,-0.0708391517) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#96 body#76 pose=(1.1920929e-07,0.0361244902,-0.0590325966) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#95 body#75 pose=(-5.21540642e-08,0.207020581,-7.4505806e-09) rot=(-7.23626803e-09,-7.51151852e-09,0.707106709,-0.707106829)
+[2026-11-01 15:19:15] Shape.SetPose shape#96 body#76 pose=(1.41561031e-07,0.0433494076,-0.0708391517) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#103 body#81 pose=(0.0126228184,0.239526391,-0.00167620555) rot=(5.01625547e-11,-4.21236851e-10,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#103 body#81 pose=(0.0105190054,0.199605227,-0.00139683858) rot=(5.01625547e-11,-4.21236851e-10,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#95 body#75 pose=(-6.70552254e-08,0.248424798,-2.23517418e-08) rot=(-7.23626803e-09,-7.51151852e-09,0.707106709,-0.707106829)
+[2026-11-01 15:19:15] Shape.SetPose shape#95 body#75 pose=(-5.21540642e-08,0.207020581,-7.4505806e-09) rot=(-7.23626803e-09,-7.51151852e-09,0.707106709,-0.707106829)
+[2026-11-01 15:19:15] Shape.SetPose shape#96 body#76 pose=(1.1920929e-07,0.0361244902,-0.0590325966) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#103 body#81 pose=(0.0126228184,0.239526391,-0.00167620555) rot=(5.01625547e-11,-4.21236851e-10,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#110 body#88 pose=(0.102526702,0.0286518335,-0.00124271028) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#110 body#88 pose=(0.0854389071,0.0238765478,-0.00103558786) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#108 body#86 pose=(2.38418579e-06,-0.171051145,-4.32133675e-07) rot=(2.63417732e-09,2.63417732e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#108 body#86 pose=(2.14576721e-06,-0.14254266,-3.7252903e-07) rot=(2.63417732e-09,2.63417732e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#111 body#89 pose=(8.34465027e-07,-0.144218743,8.64267349e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#111 body#89 pose=(8.34465027e-07,-0.120182157,7.15255737e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#94 body#74 pose=(-3.57627869e-07,-0.0558879077,-3.12924385e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#94 body#74 pose=(-1.1920929e-07,-0.0465733111,-2.5331974e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#103 body#81 pose=(0.0105190054,0.199605227,-0.00139683858) rot=(5.01625547e-11,-4.21236851e-10,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#95 body#75 pose=(-6.70552254e-08,0.248424798,-2.23517418e-08) rot=(-7.23626803e-09,-7.51151852e-09,0.707106709,-0.707106829)
+[2026-11-01 15:19:15] Shape.SetPose shape#110 body#88 pose=(0.102526702,0.0286518335,-0.00124271028) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#110 body#88 pose=(0.0854389071,0.0238765478,-0.00103558786) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#108 body#86 pose=(2.38418579e-06,-0.171051145,-4.32133675e-07) rot=(2.63417732e-09,2.63417732e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#108 body#86 pose=(2.14576721e-06,-0.14254266,-3.7252903e-07) rot=(2.63417732e-09,2.63417732e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#111 body#89 pose=(8.34465027e-07,-0.144218743,8.64267349e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#111 body#89 pose=(8.34465027e-07,-0.120182157,7.15255737e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#94 body#74 pose=(-3.57627869e-07,-0.0558879077,-3.12924385e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#94 body#74 pose=(-1.1920929e-07,-0.0465733111,-2.5331974e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#95 body#75 pose=(-5.21540642e-08,0.207020581,-7.4505806e-09) rot=(-7.23626803e-09,-7.51151852e-09,0.707106709,-0.707106829)
+[2026-11-01 15:19:15] Shape.SetPose shape#96 body#76 pose=(1.41561031e-07,0.0433494076,-0.0708391517) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#110 body#88 pose=(0.102526702,0.0286518335,-0.00124271028) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#110 body#88 pose=(0.0854389071,0.0238765478,-0.00103558786) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#108 body#86 pose=(2.38418579e-06,-0.171051145,-4.32133675e-07) rot=(2.63417732e-09,2.63417732e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#108 body#86 pose=(2.14576721e-06,-0.14254266,-3.7252903e-07) rot=(2.63417732e-09,2.63417732e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#111 body#89 pose=(8.34465027e-07,-0.144218743,8.64267349e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#111 body#89 pose=(8.34465027e-07,-0.120182157,7.15255737e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#94 body#74 pose=(-3.57627869e-07,-0.0558879077,-3.12924385e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#94 body#74 pose=(-1.1920929e-07,-0.0465733111,-2.5331974e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#96 body#76 pose=(1.1920929e-07,0.0361244902,-0.0590325966) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#103 body#81 pose=(0.0126228184,0.239526391,-0.00167620555) rot=(5.01625547e-11,-4.21236851e-10,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#93 body#73 pose=(-0.102527015,-0.0286527872,0.00124280155) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#93 body#73 pose=(-0.0854391605,-0.0238773823,0.00103567168) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#109 body#87 pose=(3.57627869e-07,0.171048939,2.08616257e-07) rot=(-5.26835597e-09,2.63417799e-09,-0.707106769,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#109 body#87 pose=(2.38418579e-07,0.142540693,1.63912773e-07) rot=(-5.26835597e-09,2.63417799e-09,-0.707106769,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#105 body#83 pose=(1.1920929e-07,0.144218028,-1.1920929e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#105 body#83 pose=(1.1920929e-07,0.120181561,-8.94069672e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#91 body#71 pose=(-4.41074371e-06,0.0558919311,-3.27825546e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#91 body#71 pose=(-3.57627869e-06,0.0465764999,-2.68220901e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#103 body#81 pose=(0.0105190054,0.199605227,-0.00139683858) rot=(5.01625547e-11,-4.21236851e-10,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#95 body#75 pose=(-6.70552254e-08,0.248424798,-2.23517418e-08) rot=(-7.23626803e-09,-7.51151852e-09,0.707106709,-0.707106829)
+[2026-11-01 15:19:15] Shape.SetPose shape#93 body#73 pose=(-0.102527007,-0.0286527872,0.00124280527) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#93 body#73 pose=(-0.085439153,-0.0238773823,0.00103566982) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#109 body#87 pose=(3.57627869e-07,0.171048939,2.08616257e-07) rot=(-5.26835597e-09,2.63417799e-09,-0.707106769,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#109 body#87 pose=(2.38418579e-07,0.142540693,1.63912773e-07) rot=(-5.26835597e-09,2.63417799e-09,-0.707106769,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#105 body#83 pose=(1.1920929e-07,0.144218028,-1.1920929e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#105 body#83 pose=(1.1920929e-07,0.120181561,-8.94069672e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#91 body#71 pose=(-4.41074371e-06,0.0558919311,-3.27825546e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#91 body#71 pose=(-3.57627869e-06,0.0465764999,-2.68220901e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#95 body#75 pose=(-5.21540642e-08,0.207020581,-7.4505806e-09) rot=(-7.23626803e-09,-7.51151852e-09,0.707106709,-0.707106829)
+[2026-11-01 15:19:15] Shape.SetPose shape#96 body#76 pose=(1.41561031e-07,0.0433494076,-0.0708391517) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#93 body#73 pose=(-0.102526993,-0.0286527872,0.00124280527) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#93 body#73 pose=(-0.0854391456,-0.0238773823,0.00103566796) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#109 body#87 pose=(3.57627869e-07,0.171048939,2.08616257e-07) rot=(-5.26835597e-09,2.63417799e-09,-0.707106769,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#109 body#87 pose=(2.38418579e-07,0.142540693,1.63912773e-07) rot=(-5.26835597e-09,2.63417799e-09,-0.707106769,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#105 body#83 pose=(1.1920929e-07,0.144218028,-1.1920929e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#105 body#83 pose=(1.1920929e-07,0.120181561,-8.94069672e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#91 body#71 pose=(-4.41074371e-06,0.0558919311,-3.27825546e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#91 body#71 pose=(-3.57627869e-06,0.0465764999,-2.68220901e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#96 body#76 pose=(1.1920929e-07,0.0361244902,-0.0590325966) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#95 body#75 pose=(-4.47034836e-08,0.207020521,-7.4505806e-09) rot=(-7.23626803e-09,-7.51151852e-09,0.707106709,-0.707106829)
+[2026-11-01 15:19:15] Shape.SetPose shape#110 body#88 pose=(0.102526702,0.0286518335,-0.00124271028) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#92 body#72 pose=(0,0.0352953076,-3.49041075e-05) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#92 body#72 pose=(0,0.029412806,-2.90870667e-05) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#104 body#82 pose=(0,0.0620424747,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#104 body#82 pose=(0,0.0517020226,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#106 body#84 pose=(0,0.0620424747,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#106 body#84 pose=(0,0.0517020226,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#98 body#78 pose=(0,0.150627851,-0.00919761881) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#98 body#78 pose=(0,0.12552309,-0.00766468048) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#102 body#80 pose=(2.23517382e-09,0.0764844418,-5.96046448e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#102 body#80 pose=(1.86264426e-09,0.0637369156,-2.98023224e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#97 body#77 pose=(0,0.0877006054,0) rot=(0,0,-0.707106709,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#97 body#77 pose=(0,0.0730838776,-1.86264515e-09) rot=(0,0,-0.707106709,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#110 body#88 pose=(0.0854389071,0.0238765478,-0.00103558786) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#108 body#86 pose=(2.38418579e-06,-0.171051145,-4.32133675e-07) rot=(2.63417732e-09,2.63417732e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#92 body#72 pose=(0,0.0352953076,-3.49041075e-05) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#92 body#72 pose=(0,0.029412806,-2.90870667e-05) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#104 body#82 pose=(0,0.0620424747,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#104 body#82 pose=(0,0.0517020226,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#106 body#84 pose=(0,0.0620424747,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#106 body#84 pose=(0,0.0517020226,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#98 body#78 pose=(0,0.150627851,-0.00919761881) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#98 body#78 pose=(0,0.12552309,-0.00766468048) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#102 body#80 pose=(2.23517382e-09,0.0764844418,-5.96046448e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#102 body#80 pose=(1.86264404e-09,0.0637369156,-2.98023224e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#97 body#77 pose=(0,0.0877006054,0) rot=(0,0,-0.707106709,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#97 body#77 pose=(0,0.0730838776,-1.86264515e-09) rot=(0,0,-0.707106709,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#108 body#86 pose=(2.14576721e-06,-0.14254266,-3.7252903e-07) rot=(2.63417732e-09,2.63417732e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#111 body#89 pose=(8.34465027e-07,-0.144218743,8.64267349e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#92 body#72 pose=(0,0.0352953076,-3.49041075e-05) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#92 body#72 pose=(0,0.029412806,-2.90870667e-05) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#104 body#82 pose=(0,0.0620424747,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#104 body#82 pose=(0,0.0517020226,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#106 body#84 pose=(0,0.0620424747,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#106 body#84 pose=(0,0.0517020226,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#98 body#78 pose=(0,0.150627851,-0.00919761881) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#98 body#78 pose=(0,0.12552309,-0.00766468048) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#102 body#80 pose=(2.23517338e-09,0.0764844418,-5.96046448e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#102 body#80 pose=(1.86264382e-09,0.0637369156,-2.98023224e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#97 body#77 pose=(0,0.0877006054,0) rot=(0,0,-0.707106709,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#97 body#77 pose=(0,0.0730838776,-1.86264515e-09) rot=(0,0,-0.707106709,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#111 body#89 pose=(8.34465027e-07,-0.120182157,7.15255737e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#94 body#74 pose=(-3.57627869e-07,-0.0558879077,-3.12924385e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#92 body#72 pose=(0,0.0352953076,-3.49041075e-05) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#92 body#72 pose=(0,0.029412806,-2.90870667e-05) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#104 body#82 pose=(0,0.0620424747,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#104 body#82 pose=(0,0.0517020226,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#106 body#84 pose=(0,0.0620424747,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#106 body#84 pose=(0,0.0517020226,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#98 body#78 pose=(0,0.150627851,-0.00919761881) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#98 body#78 pose=(0,0.12552309,-0.00766468048) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#102 body#80 pose=(2.23517338e-09,0.0764844418,-5.96046448e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#102 body#80 pose=(1.86264382e-09,0.0637369156,-2.98023224e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#97 body#77 pose=(0,0.0877006054,0) rot=(0,0,-0.707106709,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#97 body#77 pose=(0,0.0730838776,-1.86264515e-09) rot=(0,0,-0.707106709,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#94 body#74 pose=(-1.1920929e-07,-0.0465733111,-2.5331974e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#110 body#88 pose=(0.102526702,0.0286518335,-0.00124271028) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#90 body#70 pose=(-0.0126222298,-0.239525497,0.001676213) rot=(3.20911769e-10,3.13355231e-10,0.707106709,-0.707106709)
+[2026-11-01 15:19:15] Shape.SetPose shape#90 body#70 pose=(-0.0105185211,-0.199604452,0.0013968423) rot=(3.20911769e-10,3.13355231e-10,0.707106709,-0.707106709)
+[2026-11-01 15:19:15] Shape.SetPose shape#99 body#79 pose=(-4.91738319e-07,-0.248423934,0) rot=(9.33538047e-09,7.65043318e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#99 body#79 pose=(-4.17232513e-07,-0.207019895,7.4505806e-09) rot=(9.33538047e-09,7.65043318e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#107 body#85 pose=(-1.1920929e-07,-0.0433488451,0.070841983) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#107 body#85 pose=(-8.94069672e-08,-0.0361240506,0.0590349622) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#110 body#88 pose=(0.0854389071,0.0238765478,-0.00103558786) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#108 body#86 pose=(2.38418579e-06,-0.171051145,-4.32133675e-07) rot=(2.63417732e-09,2.63417732e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#90 body#70 pose=(-0.0126222298,-0.239525497,0.001676213) rot=(3.20911769e-10,3.13355231e-10,0.707106709,-0.707106709)
+[2026-11-01 15:19:15] Shape.SetPose shape#90 body#70 pose=(-0.0105185211,-0.199604452,0.0013968423) rot=(3.20911769e-10,3.13355231e-10,0.707106709,-0.707106709)
+[2026-11-01 15:19:15] Shape.SetPose shape#99 body#79 pose=(-4.91738319e-07,-0.248423934,0) rot=(9.33538047e-09,7.65043318e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#99 body#79 pose=(-4.17232513e-07,-0.207019895,7.4505806e-09) rot=(9.33538047e-09,7.65043318e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#107 body#85 pose=(-1.1920929e-07,-0.0433488451,0.070841983) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#107 body#85 pose=(-8.94069672e-08,-0.0361240506,0.0590349622) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#108 body#86 pose=(2.14576721e-06,-0.14254266,-3.7252903e-07) rot=(2.63417732e-09,2.63417732e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#111 body#89 pose=(8.34465027e-07,-0.144218743,8.64267349e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#90 body#70 pose=(-0.0126222298,-0.239525497,0.001676213) rot=(3.20911769e-10,3.13355231e-10,0.707106709,-0.707106709)
+[2026-11-01 15:19:15] Shape.SetPose shape#90 body#70 pose=(-0.0105185211,-0.199604452,0.0013968423) rot=(3.20911769e-10,3.13355231e-10,0.707106709,-0.707106709)
+[2026-11-01 15:19:15] Shape.SetPose shape#99 body#79 pose=(-4.91738319e-07,-0.248423934,0) rot=(9.33538047e-09,7.65043318e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#99 body#79 pose=(-4.17232513e-07,-0.207019895,7.4505806e-09) rot=(9.33538047e-09,7.65043318e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#107 body#85 pose=(-1.1920929e-07,-0.0433488451,0.070841983) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#107 body#85 pose=(-8.94069672e-08,-0.0361240506,0.0590349622) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#111 body#89 pose=(8.34465027e-07,-0.120182157,7.15255737e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#94 body#74 pose=(-3.57627869e-07,-0.0558879077,-3.12924385e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#90 body#70 pose=(-0.0126222298,-0.239525497,0.001676213) rot=(3.20911769e-10,3.13355231e-10,0.707106709,-0.707106709)
+[2026-11-01 15:19:15] Shape.SetPose shape#90 body#70 pose=(-0.0105185211,-0.199604452,0.0013968423) rot=(3.20911769e-10,3.13355231e-10,0.707106709,-0.707106709)
+[2026-11-01 15:19:15] Shape.SetPose shape#99 body#79 pose=(-4.91738319e-07,-0.248423934,0) rot=(9.33538047e-09,7.65043318e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#99 body#79 pose=(-4.17232513e-07,-0.207019895,7.4505806e-09) rot=(9.33538047e-09,7.65043318e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#107 body#85 pose=(-1.1920929e-07,-0.0433488451,0.070841983) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#107 body#85 pose=(-8.94069672e-08,-0.0361240506,0.0590349622) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#94 body#74 pose=(-1.1920929e-07,-0.0465733111,-2.5331974e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#110 body#88 pose=(0.102526702,0.0286518335,-0.00124271028) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#103 body#81 pose=(0.0126228184,0.239526391,-0.00167620555) rot=(5.01625547e-11,-4.21236851e-10,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#103 body#81 pose=(0.0105190054,0.199605227,-0.00139683858) rot=(5.01625547e-11,-4.21236851e-10,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#95 body#75 pose=(-6.70552254e-08,0.248424798,-2.23517418e-08) rot=(-7.23626803e-09,-7.51151852e-09,0.707106709,-0.707106829)
+[2026-11-01 15:19:15] Shape.SetPose shape#95 body#75 pose=(-5.21540642e-08,0.207020581,-7.4505806e-09) rot=(-7.23626803e-09,-7.51151852e-09,0.707106709,-0.707106829)
+[2026-11-01 15:19:15] Shape.SetPose shape#96 body#76 pose=(1.41561031e-07,0.0433494076,-0.0708391517) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#96 body#76 pose=(1.1920929e-07,0.0361244902,-0.0590325966) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#110 body#88 pose=(0.0854389071,0.0238765478,-0.00103558786) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#108 body#86 pose=(2.38418579e-06,-0.171051145,-4.32133675e-07) rot=(2.63417732e-09,2.63417732e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#103 body#81 pose=(0.0126228184,0.239526391,-0.00167620555) rot=(5.01625547e-11,-4.21236851e-10,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#103 body#81 pose=(0.0105190054,0.199605227,-0.00139683858) rot=(5.01625547e-11,-4.21236851e-10,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#95 body#75 pose=(-6.70552254e-08,0.248424798,-2.23517418e-08) rot=(-7.23626803e-09,-7.51151852e-09,0.707106709,-0.707106829)
+[2026-11-01 15:19:15] Shape.SetPose shape#95 body#75 pose=(-5.21540642e-08,0.207020581,-7.4505806e-09) rot=(-7.23626803e-09,-7.51151852e-09,0.707106709,-0.707106829)
+[2026-11-01 15:19:15] Shape.SetPose shape#96 body#76 pose=(1.41561031e-07,0.0433494076,-0.0708391517) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#96 body#76 pose=(1.1920929e-07,0.0361244902,-0.0590325966) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#108 body#86 pose=(2.14576721e-06,-0.14254266,-3.7252903e-07) rot=(2.63417732e-09,2.63417732e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#111 body#89 pose=(8.34465027e-07,-0.144218743,8.64267349e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#103 body#81 pose=(0.0126228184,0.239526391,-0.00167620555) rot=(5.01625547e-11,-4.21236851e-10,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#103 body#81 pose=(0.0105190054,0.199605227,-0.00139683858) rot=(5.01625547e-11,-4.21236851e-10,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#95 body#75 pose=(-6.70552254e-08,0.248424798,-2.23517418e-08) rot=(-7.23626803e-09,-7.51151852e-09,0.707106709,-0.707106829)
+[2026-11-01 15:19:15] Shape.SetPose shape#95 body#75 pose=(-5.21540642e-08,0.207020581,-7.4505806e-09) rot=(-7.23626803e-09,-7.51151852e-09,0.707106709,-0.707106829)
+[2026-11-01 15:19:15] Shape.SetPose shape#96 body#76 pose=(1.41561031e-07,0.0433494076,-0.0708391517) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#96 body#76 pose=(1.1920929e-07,0.0361244902,-0.0590325966) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#111 body#89 pose=(8.34465027e-07,-0.120182157,7.15255737e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#94 body#74 pose=(-3.57627869e-07,-0.0558879077,-3.12924385e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#103 body#81 pose=(0.0126228184,0.239526391,-0.00167620555) rot=(5.01625547e-11,-4.21236851e-10,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#103 body#81 pose=(0.0105190054,0.199605227,-0.00139683858) rot=(5.01625547e-11,-4.21236851e-10,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#95 body#75 pose=(-6.70552254e-08,0.248424798,-2.23517418e-08) rot=(-7.23626803e-09,-7.51151852e-09,0.707106709,-0.707106829)
+[2026-11-01 15:19:15] Shape.SetPose shape#95 body#75 pose=(-5.21540642e-08,0.207020581,-7.4505806e-09) rot=(-7.23626803e-09,-7.51151852e-09,0.707106709,-0.707106829)
+[2026-11-01 15:19:15] Shape.SetPose shape#96 body#76 pose=(1.41561031e-07,0.0433494076,-0.0708391517) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#96 body#76 pose=(1.1920929e-07,0.0361244902,-0.0590325966) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#94 body#74 pose=(-1.1920929e-07,-0.0465733111,-2.5331974e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#110 body#88 pose=(0.102526702,0.0286518335,-0.00124271028) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#108 body#86 pose=(2.38418579e-06,-0.171051145,-4.32133675e-07) rot=(2.63417732e-09,2.63417732e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#108 body#86 pose=(2.14576721e-06,-0.14254266,-3.7252903e-07) rot=(2.63417732e-09,2.63417732e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#111 body#89 pose=(8.34465027e-07,-0.144218743,8.64267349e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#111 body#89 pose=(8.34465027e-07,-0.120182157,7.15255737e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#94 body#74 pose=(-3.57627869e-07,-0.0558879077,-3.12924385e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#94 body#74 pose=(-1.1920929e-07,-0.0465733111,-2.5331974e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#110 body#88 pose=(0.0854389071,0.0238765478,-0.00103558786) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#108 body#86 pose=(2.38418579e-06,-0.171051145,-4.32133675e-07) rot=(2.63417732e-09,2.63417732e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#110 body#88 pose=(0.102526702,0.0286518335,-0.00124271028) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#110 body#88 pose=(0.0854389071,0.0238765478,-0.00103558786) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#111 body#89 pose=(8.34465027e-07,-0.144218743,8.64267349e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#111 body#89 pose=(8.34465027e-07,-0.120182157,7.15255737e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#94 body#74 pose=(-3.57627869e-07,-0.0558879077,-3.12924385e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#94 body#74 pose=(-1.1920929e-07,-0.0465733111,-2.5331974e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#108 body#86 pose=(2.14576721e-06,-0.14254266,-3.7252903e-07) rot=(2.63417732e-09,2.63417732e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#111 body#89 pose=(8.34465027e-07,-0.144218743,8.64267349e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#110 body#88 pose=(0.102526702,0.0286518335,-0.00124271028) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#110 body#88 pose=(0.0854389071,0.0238765478,-0.00103558786) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#108 body#86 pose=(2.38418579e-06,-0.171051145,-4.32133675e-07) rot=(2.63417732e-09,2.63417732e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#108 body#86 pose=(2.14576721e-06,-0.14254266,-3.7252903e-07) rot=(2.63417732e-09,2.63417732e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#94 body#74 pose=(-3.57627869e-07,-0.0558879077,-3.12924385e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#94 body#74 pose=(-1.1920929e-07,-0.0465733111,-2.5331974e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#111 body#89 pose=(8.34465027e-07,-0.120182157,7.15255737e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#94 body#74 pose=(-3.57627869e-07,-0.0558879077,-3.12924385e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#110 body#88 pose=(0.102526702,0.0286518335,-0.00124271028) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#110 body#88 pose=(0.0854389071,0.0238765478,-0.00103558786) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#108 body#86 pose=(2.38418579e-06,-0.171051145,-4.32133675e-07) rot=(2.63417732e-09,2.63417732e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#108 body#86 pose=(2.14576721e-06,-0.14254266,-3.7252903e-07) rot=(2.63417732e-09,2.63417732e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#111 body#89 pose=(8.34465027e-07,-0.144218743,8.64267349e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#111 body#89 pose=(8.34465027e-07,-0.120182157,7.15255737e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#94 body#74 pose=(-1.1920929e-07,-0.0465733111,-2.5331974e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#110 body#88 pose=(0.102526702,0.0286518335,-0.00124271028) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#93 body#73 pose=(-0.102526985,-0.0286527872,0.00124280341) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#93 body#73 pose=(-0.0854391381,-0.0238773823,0.00103566982) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#109 body#87 pose=(3.57627869e-07,0.171048939,2.08616257e-07) rot=(-5.26835597e-09,2.63417799e-09,-0.707106769,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#109 body#87 pose=(2.38418579e-07,0.142540693,1.63912773e-07) rot=(-5.26835597e-09,2.63417799e-09,-0.707106769,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#105 body#83 pose=(1.1920929e-07,0.144218028,-1.1920929e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#105 body#83 pose=(1.1920929e-07,0.120181561,-8.94069672e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#91 body#71 pose=(-4.41074371e-06,0.0558919311,-3.27825546e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#91 body#71 pose=(-3.57627869e-06,0.0465764999,-2.68220901e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#110 body#88 pose=(0.0854389071,0.0238765478,-0.00103558786) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#108 body#86 pose=(2.38418579e-06,-0.171051145,-4.32133675e-07) rot=(2.63417732e-09,2.63417732e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#93 body#73 pose=(-0.102526985,-0.0286527872,0.00124280155) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#93 body#73 pose=(-0.0854391307,-0.0238773823,0.00103567168) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#109 body#87 pose=(3.57627869e-07,0.171048939,2.08616257e-07) rot=(-5.26835597e-09,2.63417799e-09,-0.707106769,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#109 body#87 pose=(2.38418579e-07,0.142540693,1.63912773e-07) rot=(-5.26835597e-09,2.63417799e-09,-0.707106769,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#105 body#83 pose=(1.1920929e-07,0.144218028,-1.1920929e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#105 body#83 pose=(1.1920929e-07,0.120181561,-8.94069672e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#91 body#71 pose=(-4.41074371e-06,0.0558919311,-3.27825546e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#91 body#71 pose=(-3.57627869e-06,0.0465764999,-2.68220901e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#108 body#86 pose=(2.14576721e-06,-0.14254266,-3.7252903e-07) rot=(2.63417732e-09,2.63417732e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#111 body#89 pose=(8.34465027e-07,-0.144218743,8.64267349e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#93 body#73 pose=(-0.10252697,-0.0286527872,0.00124280341) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#93 body#73 pose=(-0.0854391232,-0.0238773823,0.00103566982) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#109 body#87 pose=(3.57627869e-07,0.171048939,2.08616257e-07) rot=(-5.26835597e-09,2.63417799e-09,-0.707106769,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#109 body#87 pose=(2.38418579e-07,0.142540693,1.63912773e-07) rot=(-5.26835597e-09,2.63417799e-09,-0.707106769,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#105 body#83 pose=(1.1920929e-07,0.144218028,-1.1920929e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#105 body#83 pose=(1.1920929e-07,0.120181561,-8.94069672e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#91 body#71 pose=(-4.41074371e-06,0.0558919311,-3.27825546e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#91 body#71 pose=(-3.57627869e-06,0.0465764999,-2.68220901e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#111 body#89 pose=(8.34465027e-07,-0.120182157,7.15255737e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#94 body#74 pose=(-3.57627869e-07,-0.0558879077,-3.12924385e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#93 body#73 pose=(-0.102526963,-0.0286527872,0.00124280527) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#93 body#73 pose=(-0.0854391158,-0.0238773823,0.00103566796) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#109 body#87 pose=(3.57627869e-07,0.171048939,2.08616257e-07) rot=(-5.26835597e-09,2.63417799e-09,-0.707106769,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#109 body#87 pose=(2.38418579e-07,0.142540693,1.63912773e-07) rot=(-5.26835597e-09,2.63417799e-09,-0.707106769,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#105 body#83 pose=(1.1920929e-07,0.144218028,-1.1920929e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#105 body#83 pose=(1.1920929e-07,0.120181561,-8.94069672e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#91 body#71 pose=(-4.41074371e-06,0.0558919311,-3.27825546e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#91 body#71 pose=(-3.57627869e-06,0.0465764999,-2.68220901e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#94 body#74 pose=(-1.1920929e-07,-0.0465733111,-2.5331974e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#110 body#88 pose=(0.0854389071,0.0238765478,-0.00103558786) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#111 body#89 pose=(8.34465027e-07,-0.120182157,6.85453415e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#93 body#73 pose=(-0.102526948,-0.0286527872,0.00124280155) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#92 body#72 pose=(0,0.0352953076,-3.49041075e-05) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#92 body#72 pose=(0,0.029412806,-2.90870667e-05) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#104 body#82 pose=(0,0.0620424747,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#104 body#82 pose=(0,0.0517020226,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#106 body#84 pose=(0,0.0620424747,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#106 body#84 pose=(0,0.0517020226,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#98 body#78 pose=(0,0.150627851,-0.00919761881) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#98 body#78 pose=(0,0.12552309,-0.00766468048) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#102 body#80 pose=(2.23517294e-09,0.0764844418,-5.96046448e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#102 body#80 pose=(1.86264359e-09,0.0637369156,-2.98023224e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#97 body#77 pose=(0,0.0877006054,0) rot=(0,0,-0.707106709,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#97 body#77 pose=(0,0.0730838776,-1.86264515e-09) rot=(0,0,-0.707106709,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#93 body#73 pose=(-0.0854391083,-0.0238773823,0.00103566982) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#109 body#87 pose=(3.57627869e-07,0.171048939,2.08616257e-07) rot=(-5.26835597e-09,2.63417799e-09,-0.707106769,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#92 body#72 pose=(0,0.0352953076,-3.49041075e-05) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#92 body#72 pose=(0,0.029412806,-2.90870667e-05) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#104 body#82 pose=(0,0.0620424747,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#104 body#82 pose=(0,0.0517020226,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#106 body#84 pose=(0,0.0620424747,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#106 body#84 pose=(0,0.0517020226,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#98 body#78 pose=(0,0.150627851,-0.00919761881) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#98 body#78 pose=(0,0.12552309,-0.00766468048) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#102 body#80 pose=(2.23517294e-09,0.0764844418,-5.96046448e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#102 body#80 pose=(1.86264337e-09,0.0637369156,-2.98023224e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#97 body#77 pose=(0,0.0877006054,0) rot=(0,0,-0.707106709,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#97 body#77 pose=(0,0.0730838776,-1.86264515e-09) rot=(0,0,-0.707106709,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#109 body#87 pose=(2.38418579e-07,0.142540693,1.63912773e-07) rot=(-5.26835597e-09,2.63417799e-09,-0.707106769,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#105 body#83 pose=(1.1920929e-07,0.144218028,-1.1920929e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#92 body#72 pose=(0,0.0352953076,-3.49041075e-05) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#92 body#72 pose=(0,0.029412806,-2.90870667e-05) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#104 body#82 pose=(0,0.0620424747,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#104 body#82 pose=(0,0.0517020226,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#106 body#84 pose=(0,0.0620424747,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#106 body#84 pose=(0,0.0517020226,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#98 body#78 pose=(0,0.150627851,-0.00919761881) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#98 body#78 pose=(0,0.12552309,-0.00766468048) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#102 body#80 pose=(2.23517249e-09,0.0764844418,-5.96046448e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#102 body#80 pose=(1.86264315e-09,0.0637369156,-2.98023224e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#97 body#77 pose=(0,0.0877006054,0) rot=(0,0,-0.707106709,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#97 body#77 pose=(0,0.0730838776,-1.86264515e-09) rot=(0,0,-0.707106709,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#105 body#83 pose=(1.1920929e-07,0.120181561,-8.94069672e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#91 body#71 pose=(-4.41074371e-06,0.0558919311,-3.27825546e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#92 body#72 pose=(0,0.0352953076,-3.49041075e-05) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#92 body#72 pose=(0,0.029412806,-2.90870667e-05) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#104 body#82 pose=(0,0.0620424747,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#104 body#82 pose=(0,0.0517020226,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#106 body#84 pose=(0,0.0620424747,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#106 body#84 pose=(0,0.0517020226,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#98 body#78 pose=(0,0.150627851,-0.00919761881) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#98 body#78 pose=(0,0.12552309,-0.00766468048) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#102 body#80 pose=(2.23517249e-09,0.0764844418,-5.96046448e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#102 body#80 pose=(1.86264293e-09,0.0637369156,-2.98023224e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#97 body#77 pose=(0,0.0877006054,0) rot=(0,0,-0.707106709,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#97 body#77 pose=(0,0.0730838776,-1.86264515e-09) rot=(0,0,-0.707106709,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#91 body#71 pose=(-3.57627869e-06,0.0465764999,-2.68220901e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#93 body#73 pose=(-0.102526948,-0.0286527872,0.00124280527) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#90 body#70 pose=(-0.0126222298,-0.239525497,0.001676213) rot=(3.20911769e-10,3.13355231e-10,0.707106709,-0.707106709)
+[2026-11-01 15:19:15] Shape.SetPose shape#90 body#70 pose=(-0.0105185211,-0.199604452,0.0013968423) rot=(3.20911769e-10,3.13355231e-10,0.707106709,-0.707106709)
+[2026-11-01 15:19:15] Shape.SetPose shape#99 body#79 pose=(-4.91738319e-07,-0.248423934,0) rot=(9.33538047e-09,7.65043318e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#99 body#79 pose=(-4.17232513e-07,-0.207019895,7.4505806e-09) rot=(9.33538047e-09,7.65043318e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#107 body#85 pose=(-1.1920929e-07,-0.0433488451,0.070841983) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#107 body#85 pose=(-8.94069672e-08,-0.0361240506,0.0590349622) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#93 body#73 pose=(-0.0854390934,-0.0238772631,0.00103567168) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#109 body#87 pose=(3.57627869e-07,0.171048939,2.08616257e-07) rot=(-5.26835597e-09,2.63417799e-09,-0.707106769,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#90 body#70 pose=(-0.0126222298,-0.239525497,0.001676213) rot=(3.20911769e-10,3.13355231e-10,0.707106709,-0.707106709)
+[2026-11-01 15:19:15] Shape.SetPose shape#90 body#70 pose=(-0.0105185211,-0.199604452,0.0013968423) rot=(3.20911769e-10,3.13355231e-10,0.707106709,-0.707106709)
+[2026-11-01 15:19:15] Shape.SetPose shape#99 body#79 pose=(-4.91738319e-07,-0.248423934,0) rot=(9.33538047e-09,7.65043318e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#99 body#79 pose=(-4.17232513e-07,-0.207019895,7.4505806e-09) rot=(9.33538047e-09,7.65043318e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#107 body#85 pose=(-1.1920929e-07,-0.0433488451,0.070841983) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#107 body#85 pose=(-8.94069672e-08,-0.0361240506,0.0590349622) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#109 body#87 pose=(2.38418579e-07,0.142540693,1.63912773e-07) rot=(-5.26835597e-09,2.63417799e-09,-0.707106769,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#105 body#83 pose=(1.1920929e-07,0.144218028,-1.1920929e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#90 body#70 pose=(-0.0126222298,-0.239525497,0.001676213) rot=(3.20911769e-10,3.13355231e-10,0.707106709,-0.707106709)
+[2026-11-01 15:19:15] Shape.SetPose shape#90 body#70 pose=(-0.0105185211,-0.199604452,0.0013968423) rot=(3.20911769e-10,3.13355231e-10,0.707106709,-0.707106709)
+[2026-11-01 15:19:15] Shape.SetPose shape#99 body#79 pose=(-4.91738319e-07,-0.248423934,0) rot=(9.33538047e-09,7.65043318e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#99 body#79 pose=(-4.17232513e-07,-0.207019895,7.4505806e-09) rot=(9.33538047e-09,7.65043318e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#107 body#85 pose=(-1.1920929e-07,-0.0433488451,0.070841983) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#107 body#85 pose=(-8.94069672e-08,-0.0361240506,0.0590349622) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#105 body#83 pose=(1.1920929e-07,0.120181561,-8.94069672e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#91 body#71 pose=(-4.41074371e-06,0.0558919311,-3.27825546e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#90 body#70 pose=(-0.0126222298,-0.239525497,0.001676213) rot=(3.20911769e-10,3.13355231e-10,0.707106709,-0.707106709)
+[2026-11-01 15:19:15] Shape.SetPose shape#90 body#70 pose=(-0.0105185211,-0.199604452,0.0013968423) rot=(3.20911769e-10,3.13355231e-10,0.707106709,-0.707106709)
+[2026-11-01 15:19:15] Shape.SetPose shape#99 body#79 pose=(-4.91738319e-07,-0.248423934,0) rot=(9.33538047e-09,7.65043318e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#99 body#79 pose=(-4.17232513e-07,-0.207019895,7.4505806e-09) rot=(9.33538047e-09,7.65043318e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#107 body#85 pose=(-1.1920929e-07,-0.0433488451,0.070841983) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#107 body#85 pose=(-8.94069672e-08,-0.0361240506,0.0590349622) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#91 body#71 pose=(-3.57627869e-06,0.0465764999,-2.68220901e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#93 body#73 pose=(-0.102526933,-0.0286527872,0.00124280527) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#103 body#81 pose=(0.0126228184,0.239526391,-0.00167620555) rot=(5.01625547e-11,-4.21236851e-10,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#103 body#81 pose=(0.0105190054,0.199605227,-0.00139683858) rot=(5.01625547e-11,-4.21236851e-10,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#95 body#75 pose=(-6.70552254e-08,0.248424798,-2.23517418e-08) rot=(-7.23626803e-09,-7.51151852e-09,0.707106709,-0.707106829)
+[2026-11-01 15:19:15] Shape.SetPose shape#95 body#75 pose=(-5.21540642e-08,0.207020581,-7.4505806e-09) rot=(-7.23626803e-09,-7.51151852e-09,0.707106709,-0.707106829)
+[2026-11-01 15:19:15] Shape.SetPose shape#96 body#76 pose=(1.41561031e-07,0.0433494076,-0.0708391517) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#96 body#76 pose=(1.1920929e-07,0.0361244902,-0.0590325966) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#93 body#73 pose=(-0.085439086,-0.0238772631,0.00103567168) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#109 body#87 pose=(3.57627869e-07,0.171048939,2.08616257e-07) rot=(-5.26835597e-09,2.63417799e-09,-0.707106769,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#103 body#81 pose=(0.0126228184,0.239526391,-0.00167620555) rot=(5.01625547e-11,-4.21236851e-10,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#103 body#81 pose=(0.0105190054,0.199605227,-0.00139683858) rot=(5.01625547e-11,-4.21236851e-10,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#95 body#75 pose=(-6.70552254e-08,0.248424798,-2.23517418e-08) rot=(-7.23626803e-09,-7.51151852e-09,0.707106709,-0.707106829)
+[2026-11-01 15:19:15] Shape.SetPose shape#95 body#75 pose=(-5.21540642e-08,0.207020581,-7.4505806e-09) rot=(-7.23626803e-09,-7.51151852e-09,0.707106709,-0.707106829)
+[2026-11-01 15:19:15] Shape.SetPose shape#96 body#76 pose=(1.41561031e-07,0.0433494076,-0.0708391517) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#96 body#76 pose=(1.1920929e-07,0.0361244902,-0.0590325966) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#109 body#87 pose=(2.38418579e-07,0.142540693,1.63912773e-07) rot=(-5.26835597e-09,2.63417799e-09,-0.707106769,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#105 body#83 pose=(1.1920929e-07,0.144218028,-1.1920929e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#103 body#81 pose=(0.0126228184,0.239526391,-0.00167620555) rot=(5.01625547e-11,-4.21236851e-10,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#103 body#81 pose=(0.0105190054,0.199605227,-0.00139683858) rot=(5.01625547e-11,-4.21236851e-10,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#95 body#75 pose=(-6.70552254e-08,0.248424798,-2.23517418e-08) rot=(-7.23626803e-09,-7.51151852e-09,0.707106709,-0.707106829)
+[2026-11-01 15:19:15] Shape.SetPose shape#95 body#75 pose=(-5.21540642e-08,0.207020581,-7.4505806e-09) rot=(-7.23626803e-09,-7.51151852e-09,0.707106709,-0.707106829)
+[2026-11-01 15:19:15] Shape.SetPose shape#96 body#76 pose=(1.41561031e-07,0.0433494076,-0.0708391517) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#96 body#76 pose=(1.1920929e-07,0.0361244902,-0.0590325966) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#105 body#83 pose=(1.1920929e-07,0.120181561,-8.94069672e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#91 body#71 pose=(-4.41074371e-06,0.0558919311,-3.27825546e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#103 body#81 pose=(0.0126228184,0.239526391,-0.00167620555) rot=(5.01625547e-11,-4.21236851e-10,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#103 body#81 pose=(0.0105190054,0.199605227,-0.00139683858) rot=(5.01625547e-11,-4.21236851e-10,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#95 body#75 pose=(-6.70552254e-08,0.248424798,-2.23517418e-08) rot=(-7.23626803e-09,-7.51151852e-09,0.707106709,-0.707106829)
+[2026-11-01 15:19:15] Shape.SetPose shape#95 body#75 pose=(-5.21540642e-08,0.207020581,-7.4505806e-09) rot=(-7.23626803e-09,-7.51151852e-09,0.707106709,-0.707106829)
+[2026-11-01 15:19:15] Shape.SetPose shape#96 body#76 pose=(1.41561031e-07,0.0433494076,-0.0708391517) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#96 body#76 pose=(1.1920929e-07,0.0361244902,-0.0590325966) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#91 body#71 pose=(-3.57627869e-06,0.0465764999,-2.68220901e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#93 body#73 pose=(-0.102526933,-0.0286527872,0.00124280527) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#110 body#88 pose=(0.102526702,0.0286518335,-0.00124271028) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#110 body#88 pose=(0.0854389071,0.0238765478,-0.00103558786) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#108 body#86 pose=(2.38418579e-06,-0.171051145,-4.32133675e-07) rot=(2.63417732e-09,2.63417732e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#108 body#86 pose=(2.14576721e-06,-0.14254266,-3.7252903e-07) rot=(2.63417732e-09,2.63417732e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#111 body#89 pose=(8.34465027e-07,-0.144218743,8.64267349e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#111 body#89 pose=(8.34465027e-07,-0.120182157,7.15255737e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#94 body#74 pose=(-3.57627869e-07,-0.0558879077,-3.12924385e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#94 body#74 pose=(-1.1920929e-07,-0.0465733111,-2.5331974e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#93 body#73 pose=(-0.0854390785,-0.0238772631,0.00103566982) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#109 body#87 pose=(3.57627869e-07,0.171048939,2.08616257e-07) rot=(-5.26835597e-09,2.63417799e-09,-0.707106769,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#110 body#88 pose=(0.102526702,0.0286518335,-0.00124271028) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#110 body#88 pose=(0.0854389071,0.0238765478,-0.00103558786) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#108 body#86 pose=(2.38418579e-06,-0.171051145,-4.32133675e-07) rot=(2.63417732e-09,2.63417732e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#108 body#86 pose=(2.14576721e-06,-0.14254266,-3.7252903e-07) rot=(2.63417732e-09,2.63417732e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#111 body#89 pose=(8.34465027e-07,-0.144218743,8.64267349e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#111 body#89 pose=(8.34465027e-07,-0.120182157,7.15255737e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#94 body#74 pose=(-3.57627869e-07,-0.0558879077,-3.12924385e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#94 body#74 pose=(-1.1920929e-07,-0.0465733111,-2.5331974e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#109 body#87 pose=(2.38418579e-07,0.142540693,1.63912773e-07) rot=(-5.26835597e-09,2.63417799e-09,-0.707106769,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#105 body#83 pose=(1.1920929e-07,0.144218028,-1.1920929e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#110 body#88 pose=(0.102526702,0.0286518335,-0.00124271028) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#110 body#88 pose=(0.0854389071,0.0238765478,-0.00103558786) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#108 body#86 pose=(2.38418579e-06,-0.171051145,-4.32133675e-07) rot=(2.63417732e-09,2.63417732e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#108 body#86 pose=(2.14576721e-06,-0.14254266,-3.7252903e-07) rot=(2.63417732e-09,2.63417732e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#111 body#89 pose=(8.34465027e-07,-0.144218743,8.64267349e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#111 body#89 pose=(8.34465027e-07,-0.120182157,7.15255737e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#94 body#74 pose=(-3.57627869e-07,-0.0558879077,-3.12924385e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#94 body#74 pose=(-1.1920929e-07,-0.0465733111,-2.5331974e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#105 body#83 pose=(1.1920929e-07,0.120181561,-8.94069672e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#91 body#71 pose=(-4.41074371e-06,0.0558919311,-3.27825546e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#110 body#88 pose=(0.102526702,0.0286518335,-0.00124271028) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#110 body#88 pose=(0.0854389071,0.0238765478,-0.00103558786) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#108 body#86 pose=(2.38418579e-06,-0.171051145,-4.32133675e-07) rot=(2.63417732e-09,2.63417732e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#108 body#86 pose=(2.14576721e-06,-0.14254266,-3.7252903e-07) rot=(2.63417732e-09,2.63417732e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#111 body#89 pose=(8.34465027e-07,-0.144218743,8.64267349e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#111 body#89 pose=(8.34465027e-07,-0.120182157,7.15255737e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#94 body#74 pose=(-3.57627869e-07,-0.0558879077,-3.12924385e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#94 body#74 pose=(-1.1920929e-07,-0.0465733111,-2.5331974e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#91 body#71 pose=(-3.57627869e-06,0.0465764999,-2.68220901e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#93 body#73 pose=(-0.102526926,-0.0286527872,0.00124280527) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#109 body#87 pose=(3.57627869e-07,0.171048939,2.08616257e-07) rot=(-5.26835597e-09,2.63417799e-09,-0.707106769,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#109 body#87 pose=(2.38418579e-07,0.142540693,1.63912773e-07) rot=(-5.26835597e-09,2.63417799e-09,-0.707106769,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#105 body#83 pose=(1.1920929e-07,0.144218028,-1.1920929e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#105 body#83 pose=(1.1920929e-07,0.120181561,-8.94069672e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#91 body#71 pose=(-4.41074371e-06,0.0558919311,-3.27825546e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#91 body#71 pose=(-3.57627869e-06,0.0465764999,-2.68220901e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#93 body#73 pose=(-0.0854390711,-0.0238772631,0.00103566796) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#109 body#87 pose=(3.57627869e-07,0.171048939,2.08616257e-07) rot=(-5.26835597e-09,2.63417799e-09,-0.707106769,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#93 body#73 pose=(-0.102526918,-0.0286527872,0.00124280713) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#93 body#73 pose=(-0.0854390636,-0.0238772631,0.00103566982) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#105 body#83 pose=(1.1920929e-07,0.144218028,-1.1920929e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#105 body#83 pose=(1.1920929e-07,0.120181561,-8.94069672e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#91 body#71 pose=(-4.41074371e-06,0.0558919311,-3.27825546e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#91 body#71 pose=(-3.57627869e-06,0.0465764999,-2.68220901e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#109 body#87 pose=(2.38418579e-07,0.142540693,1.63912773e-07) rot=(-5.26835597e-09,2.63417799e-09,-0.707106769,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#105 body#83 pose=(1.1920929e-07,0.144218028,-1.1920929e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#93 body#73 pose=(-0.102526911,-0.0286527872,0.00124280527) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#93 body#73 pose=(-0.0854390487,-0.0238772631,0.00103567168) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#109 body#87 pose=(3.57627869e-07,0.171048939,2.08616257e-07) rot=(-5.26835597e-09,2.63417799e-09,-0.707106769,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#109 body#87 pose=(2.38418579e-07,0.142540693,1.63912773e-07) rot=(-5.26835597e-09,2.63417799e-09,-0.707106769,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#91 body#71 pose=(-4.41074371e-06,0.0558919311,-3.27825546e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#91 body#71 pose=(-3.57627869e-06,0.0465764999,-2.68220901e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#105 body#83 pose=(1.1920929e-07,0.120181561,-8.94069672e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#91 body#71 pose=(-4.41074371e-06,0.0558919311,-3.27825546e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#93 body#73 pose=(-0.102526903,-0.0286527872,0.00124280713) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#93 body#73 pose=(-0.0854390413,-0.0238772631,0.00103566982) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#109 body#87 pose=(3.57627869e-07,0.171048939,2.08616257e-07) rot=(-5.26835597e-09,2.63417799e-09,-0.707106769,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#109 body#87 pose=(2.38418579e-07,0.142540693,1.63912773e-07) rot=(-5.26835597e-09,2.63417799e-09,-0.707106769,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#105 body#83 pose=(1.1920929e-07,0.144218028,-1.1920929e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#105 body#83 pose=(1.1920929e-07,0.120181561,-8.94069672e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#91 body#71 pose=(-3.57627869e-06,0.0465764999,-2.68220901e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#93 body#73 pose=(-0.085439235,-0.0238773823,0.00103566982) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#91 body#71 pose=(-3.57627869e-06,0.0465764999,-2.68220901e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#92 body#72 pose=(0,0.029412806,-2.90870667e-05) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#104 body#82 pose=(0,0.0517020226,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#106 body#84 pose=(0,0.0517020226,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#98 body#78 pose=(0,0.12552309,-0.00766468234) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#102 body#80 pose=(1.86264559e-09,0.0637369156,-2.98023224e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#97 body#77 pose=(0,0.0730838776,-9.31322575e-10) rot=(0,0,-0.707106709,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#99 body#79 pose=(-4.17232513e-07,-0.207019836,7.4505806e-09) rot=(9.33538047e-09,7.65043318e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#107 body#85 pose=(-8.94069672e-08,-0.0361240506,0.0590349622) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#95 body#75 pose=(-4.47034836e-08,0.207020521,-7.4505806e-09) rot=(-7.23626803e-09,-7.51151852e-09,0.707106709,-0.707106829)
+[2026-11-01 15:19:15] Shape.SetPose shape#110 body#88 pose=(0.0854389071,0.0238765478,-0.00103558786) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#111 body#89 pose=(8.34465027e-07,-0.120182157,6.85453415e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Joint#124 motor Slerp spring=5000 damper=40 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:15] Joint#126 motor Slerp spring=5000 damper=40 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:15] Joint#120 motor Slerp spring=5000 damper=40 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:15] Joint#122 motor Slerp spring=5000 damper=40 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:15] Joint#119 motor Slerp spring=5000 damper=40 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:15] Joint#112 motor Slerp spring=5000 damper=40 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:15] Joint#121 motor Slerp spring=5000 damper=40 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:15] Joint#127 motor Slerp spring=5000 damper=40 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:15] Joint#123 motor Slerp spring=5000 damper=40 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:15] Joint#117 motor Slerp spring=5000 damper=40 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:15] Joint#118 motor Slerp spring=5000 damper=40 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:15] Joint#130 motor Slerp spring=5000 damper=40 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:15] Joint#128 motor Slerp spring=5000 damper=40 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:15] Joint#131 motor Slerp spring=5000 damper=40 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:15] Joint#116 motor Slerp spring=5000 damper=40 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:15] Joint#115 motor Slerp spring=5000 damper=40 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:15] Joint#129 motor Slerp spring=5000 damper=40 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:15] Joint#125 motor Slerp spring=5000 damper=40 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:15] Joint#113 motor Slerp spring=5000 damper=40 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:15] Shape.SetPose shape#92 body#72 pose=(0,0.029412806,-2.90870667e-05) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#104 body#82 pose=(0,0.0517020226,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#106 body#84 pose=(0,0.0517020226,0) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#98 body#78 pose=(0,0.12552309,-0.00766468234) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#102 body#80 pose=(1.86264559e-09,0.0637369156,-2.98023224e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#97 body#77 pose=(0,0.0730838776,-9.31322575e-10) rot=(0,0,-0.707106709,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#110 body#88 pose=(0.0854389071,0.0238765478,-0.00103558786) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#108 body#86 pose=(2.14576721e-06,-0.14254266,-3.7252903e-07) rot=(2.63417732e-09,2.63417732e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#111 body#89 pose=(8.34465027e-07,-0.120182157,6.85453415e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#94 body#74 pose=(-1.1920929e-07,-0.0465733111,-2.5331974e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#93 body#73 pose=(-0.085439235,-0.0238773823,0.00103566982) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#109 body#87 pose=(2.38418579e-07,0.142540693,1.63912773e-07) rot=(-5.26835597e-09,2.63417799e-09,-0.707106769,0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#105 body#83 pose=(1.1920929e-07,0.120181561,-8.94069672e-08) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#91 body#71 pose=(-3.57627869e-06,0.0465764999,-2.68220901e-07) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#90 body#70 pose=(-0.0105185211,-0.199604452,0.0013968423) rot=(3.20911769e-10,3.13355231e-10,0.707106709,-0.707106709)
+[2026-11-01 15:19:15] Shape.SetPose shape#99 body#79 pose=(-4.17232513e-07,-0.207019836,7.4505806e-09) rot=(9.33538047e-09,7.65043318e-09,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#107 body#85 pose=(-8.94069672e-08,-0.0361240506,0.0590349622) rot=(0,0,0,1)
+[2026-11-01 15:19:15] Shape.SetPose shape#103 body#81 pose=(0.0105190054,0.199605227,-0.00139683858) rot=(5.01625547e-11,-4.21236851e-10,0.707106769,-0.707106769)
+[2026-11-01 15:19:15] Shape.SetPose shape#95 body#75 pose=(-4.47034836e-08,0.207020521,-7.4505806e-09) rot=(-7.23626803e-09,-7.51151852e-09,0.707106709,-0.707106829)
+[2026-11-01 15:19:15] Shape.SetPose shape#96 body#76 pose=(1.1920929e-07,0.0361244902,-0.0590325966) rot=(0,0,0,1)
+[2026-11-01 15:19:15] trace Simulate #1 dt=0.0111111114 body#70 pos=(0.0861032233,0.927640438,-0.0273751765) rot=(0.00260750391,4.62772332e-05,0.0177537389,0.999839008) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:15] trace Simulate #1 dt=0.0111111114 body#71 pos=(-0.441966772,1.06797457,0.123494595) rot=(0.390416861,0.21955055,0.813933432,0.369979322) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:15] trace Simulate #1 dt=0.0111111114 body#72 pos=(-1.86264515e-09,0.981098592,-0.0159043688) rot=(0,0,0,1) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:15] trace Simulate #1 dt=0.0111111114 body#73 pos=(-0.000957250595,1.43762875,-0.0234093089) rot=(-0.00494942535,-0.113521852,0.0432753935,0.992580295) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:15] trace Simulate #1 dt=0.0111111114 body#74 pos=(0.441966146,1.0679698,0.123494312) rot=(0.369979322,-0.813933313,0.219550729,-0.390416801) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:15] trace Simulate #1 dt=0.0111111114 body#75 pos=(-0.100777678,0.514561355,-0.029530935) rot=(0.999170542,-0.0177418683,0.000650747155,-0.0366465561) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:15] trace Simulate #1 dt=0.0111111114 body#76 pos=(-0.115437344,0.10189414,-0.0598616078) rot=(0.998716533,1.11758709e-08,0.0506494641,1.38534233e-08) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:15] trace Simulate #1 dt=0.0111111114 body#77 pos=(-1.86264515e-09,1.62371814,-0.0145673193) rot=(0,0,0,1) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:15] trace Simulate #1 dt=0.0111111114 body#78 pos=(-1.86264515e-09,1.24613655,-0.0146817584) rot=(0,0,0,1) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:15] trace Simulate #1 dt=0.0111111114 body#79 pos=(0.10077814,0.514562488,-0.0295309629) rot=(0.0366465785,0.000650747214,0.0177418757,0.999170542) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:15] trace Simulate #1 dt=0.0111111114 body#80 pos=(-3.72529074e-09,1.49718308,-0.0300111249) rot=(0.060688436,0,0,0.998156786) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:15] trace Simulate #1 dt=0.0111111114 body#81 pos=(-0.0861032382,0.927640557,-0.0273751579) rot=(0.999839008,-0.017753737,4.62772332e-05,-0.00260748528) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:15] trace Simulate #1 dt=0.0111111114 body#82 pos=(-1.86264515e-09,1.03932798,-0.0146817584) rot=(0,0,0,1) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:15] trace Simulate #1 dt=0.0111111114 body#83 pos=(-0.350350082,1.20813179,-0.048947718) rot=(0.197720945,0.34550035,0.867445052,0.298454463) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:15] trace Simulate #1 dt=0.0111111114 body#84 pos=(-1.86264515e-09,1.14273226,-0.0146817584) rot=(0,0,0,1) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:15] trace Simulate #1 dt=0.0111111114 body#85 pos=(0.115437075,0.101895511,-0.0598616451) rot=(-1.16415311e-09,0.0506493747,-8.2072793e-09,0.998716474) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:15] trace Simulate #1 dt=0.0111111114 body#86 pos=(0.163449094,1.42306042,-0.0610709041) rot=(0.350755274,-0.933709919,-0.00415914506,-0.0716893524) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:15] trace Simulate #1 dt=0.0111111114 body#87 pos=(-0.16344963,1.4230566,-0.0610708594) rot=(0.0716893524,-0.00415911525,0.9337098,0.350755394) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:15] trace Simulate #1 dt=0.0111111114 body#88 pos=(0.000957250595,1.43763041,-0.0234093126) rot=(0.992580295,-0.0432753973,-0.113521852,0.00494939368) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:15] trace Simulate #1 dt=0.0111111114 body#89 pos=(0.350349098,1.20812976,-0.0489477478) rot=(0.298454553,-0.867444932,0.345500529,-0.19772087) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:20] trace Simulate #2 dt=0.0111111114 body#70 pos=(0.0861032233,0.927640438,-0.0273751765) rot=(0.00260750391,4.62772332e-05,0.0177537389,0.999839008) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:20] trace Simulate #2 dt=0.0111111114 body#71 pos=(-0.441966772,1.06797457,0.123494595) rot=(0.390416861,0.21955055,0.813933432,0.369979322) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:20] trace Simulate #2 dt=0.0111111114 body#72 pos=(-1.86264515e-09,0.981098592,-0.0159043688) rot=(0,0,0,1) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:20] trace Simulate #2 dt=0.0111111114 body#73 pos=(-0.000957250595,1.43762875,-0.0234093089) rot=(-0.00494942535,-0.113521852,0.0432753935,0.992580295) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:20] trace Simulate #2 dt=0.0111111114 body#74 pos=(0.441966146,1.0679698,0.123494312) rot=(0.369979322,-0.813933313,0.219550729,-0.390416801) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:20] trace Simulate #2 dt=0.0111111114 body#75 pos=(-0.100777678,0.514561355,-0.029530935) rot=(0.999170542,-0.0177418683,0.000650747155,-0.0366465561) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:20] trace Simulate #2 dt=0.0111111114 body#76 pos=(-0.115437344,0.10189414,-0.0598616078) rot=(0.998716533,1.11758709e-08,0.0506494641,1.38534233e-08) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:20] trace Simulate #2 dt=0.0111111114 body#77 pos=(-1.86264515e-09,1.62371814,-0.0145673193) rot=(0,0,0,1) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:20] trace Simulate #2 dt=0.0111111114 body#78 pos=(-1.86264515e-09,1.24613655,-0.0146817584) rot=(0,0,0,1) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:20] trace Simulate #2 dt=0.0111111114 body#79 pos=(0.10077814,0.514562488,-0.0295309629) rot=(0.0366465785,0.000650747214,0.0177418757,0.999170542) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:20] trace Simulate #2 dt=0.0111111114 body#80 pos=(-3.72529074e-09,1.49718308,-0.0300111249) rot=(0.060688436,0,0,0.998156786) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:20] trace Simulate #2 dt=0.0111111114 body#81 pos=(-0.0861032382,0.927640557,-0.0273751579) rot=(0.999839008,-0.017753737,4.62772332e-05,-0.00260748528) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:20] trace Simulate #2 dt=0.0111111114 body#82 pos=(-1.86264515e-09,1.03932798,-0.0146817584) rot=(0,0,0,1) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:20] trace Simulate #2 dt=0.0111111114 body#83 pos=(-0.350350082,1.20813179,-0.048947718) rot=(0.197720945,0.34550035,0.867445052,0.298454463) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:20] trace Simulate #2 dt=0.0111111114 body#84 pos=(-1.86264515e-09,1.14273226,-0.0146817584) rot=(0,0,0,1) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:20] trace Simulate #2 dt=0.0111111114 body#85 pos=(0.115437075,0.101895511,-0.0598616451) rot=(-1.16415311e-09,0.0506493747,-8.2072793e-09,0.998716474) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:20] trace Simulate #2 dt=0.0111111114 body#86 pos=(0.163449094,1.42306042,-0.0610709041) rot=(0.350755274,-0.933709919,-0.00415914506,-0.0716893524) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:20] trace Simulate #2 dt=0.0111111114 body#87 pos=(-0.16344963,1.4230566,-0.0610708594) rot=(0.0716893524,-0.00415911525,0.9337098,0.350755394) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:20] trace Simulate #2 dt=0.0111111114 body#88 pos=(0.000957250595,1.43763041,-0.0234093126) rot=(0.992580295,-0.0432753973,-0.113521852,0.00494939368) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:20] trace Simulate #2 dt=0.0111111114 body#89 pos=(0.350349098,1.20812976,-0.0489477478) rot=(0.298454553,-0.867444932,0.345500529,-0.19772087) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:21] trace Simulate #3 dt=0.0111111114 body#70 pos=(0.0861032009,0.927640438,-0.0273751728) rot=(0.00260750391,4.62829885e-05,0.0177537408,0.999839067) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:21] trace Simulate #3 dt=0.0111111114 body#71 pos=(-0.441966504,1.06797457,0.123494551) rot=(0.390416801,0.219550565,0.813933372,0.369979292) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:21] trace Simulate #3 dt=0.0111111114 body#72 pos=(-1.86264515e-09,0.981098592,-0.0159043688) rot=(-0,-0,-0,1) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:21] trace Simulate #3 dt=0.0111111114 body#73 pos=(-0.000957250595,1.43762875,-0.023409307) rot=(-0.00494942488,-0.113521814,0.0432753898,0.992580295) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:21] trace Simulate #3 dt=0.0111111114 body#74 pos=(0.441966236,1.0679698,0.123494215) rot=(0.369979352,-0.813933372,0.219550654,-0.390416831) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:21] trace Simulate #3 dt=0.0111111114 body#75 pos=(-0.100777641,0.514561653,-0.0295309331) rot=(0.999170601,-0.017741872,0.000650733651,-0.0366465598) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:21] trace Simulate #3 dt=0.0111111114 body#76 pos=(-0.115437299,0.101894714,-0.0598615631) rot=(0.998716474,1.117587e-08,0.050649453,1.00699244e-08) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:21] trace Simulate #3 dt=0.0111111114 body#77 pos=(-1.86264515e-09,1.62371814,-0.0145673174) rot=(0,0,0,1) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:21] trace Simulate #3 dt=0.0111111114 body#78 pos=(-1.86264515e-09,1.24613655,-0.0146817584) rot=(0,0,0,1) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:21] trace Simulate #3 dt=0.0111111114 body#79 pos=(0.100778118,0.514562488,-0.0295309611) rot=(0.0366465822,0.000650733651,0.0177418757,0.999170601) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:21] trace Simulate #3 dt=0.0111111114 body#80 pos=(-3.7252903e-09,1.49718308,-0.0300111212) rot=(0.060688436,0,0,0.998156786) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:21] trace Simulate #3 dt=0.0111111114 body#81 pos=(-0.0861032158,0.927640557,-0.0273751542) rot=(0.999839067,-0.017753737,4.62829885e-05,-0.00260748528) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:21] trace Simulate #3 dt=0.0111111114 body#82 pos=(-1.86264515e-09,1.03932798,-0.0146817584) rot=(0,0,0,1) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:21] trace Simulate #3 dt=0.0111111114 body#83 pos=(-0.350349933,1.20813203,-0.0489476919) rot=(0.19772093,0.34550038,0.867445052,0.298454463) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:21] trace Simulate #3 dt=0.0111111114 body#84 pos=(-1.86264515e-09,1.14273226,-0.0146817584) rot=(0,0,0,1) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:21] trace Simulate #3 dt=0.0111111114 body#85 pos=(0.115437046,0.101895511,-0.0598616302) rot=(-5.35510436e-09,0.0506493784,-1.19325687e-08,0.998716474) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:21] trace Simulate #3 dt=0.0111111114 body#86 pos=(0.163449049,1.42306042,-0.0610708818) rot=(0.350755244,-0.933709919,-0.00415915251,-0.0716893226) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:21] trace Simulate #3 dt=0.0111111114 body#87 pos=(-0.163449585,1.4230566,-0.0610708371) rot=(0.07168933,-0.0041591078,0.93370986,0.350755364) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:21] trace Simulate #3 dt=0.0111111114 body#88 pos=(0.000957250595,1.43763041,-0.0234093107) rot=(0.992580295,-0.0432753973,-0.113521814,0.00494939322) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:21] trace Simulate #3 dt=0.0111111114 body#89 pos=(0.350349098,1.20812988,-0.0489477441) rot=(0.298454553,-0.867444992,0.34550041,-0.197720841) linVel=(0,0,0) angVel=(0,0,0)
+[2026-11-01 15:19:26]     World.CreateWorld(1)                             5
+[2026-11-01 15:19:26]     World.DestroyWorld(2)                            3
+[2026-11-01 15:19:26]     World.DestroyBody(16)                            21
+[2026-11-01 15:19:26]     World.DestroyJoint(20)                           20
+[2026-11-01 15:19:26]     Body.AttachShape(9)                              42
+[2026-11-01 15:19:26]     Shape.SetPose(14)                                1004
+[2026-11-01 15:19:31]     World.CreateWorld(1)                             5
+[2026-11-01 15:19:31]     World.DestroyWorld(2)                            3
+[2026-11-01 15:19:31]     World.DestroyBody(16)                            21
+[2026-11-01 15:19:31]     World.DestroyJoint(20)                           20
+[2026-11-01 15:19:31]     Body.AttachShape(9)                              42
+[2026-11-01 15:19:31]     Shape.SetPose(14)                                1004
+[2026-11-01 15:19:36]     World.CreateWorld(1)                             5
+[2026-11-01 15:19:36]     World.DestroyWorld(2)                            3
+[2026-11-01 15:19:36]     World.DestroyBody(16)                            21
+[2026-11-01 15:19:36]     World.DestroyJoint(20)                           20
+[2026-11-01 15:19:36]     Body.AttachShape(9)                              42
+[2026-11-01 15:19:36]     Shape.SetPose(14)                                1004
+[2026-11-01 15:19:41]     World.CreateWorld(1)                             5
+[2026-11-01 15:19:41]     World.DestroyWorld(2)                            3
+[2026-11-01 15:19:41]     World.DestroyBody(16)                            21
+[2026-11-01 15:19:41]     World.DestroyJoint(20)                           20
+[2026-11-01 15:19:41]     Body.AttachShape(9)                              42
+[2026-11-01 15:19:41]     Shape.SetPose(14)                                1004
+[2026-11-01 15:19:43] DestroyBody #101
+[2026-11-01 15:19:43] DestroyJoint #119
+[2026-11-01 15:19:43] DestroyJoint #122
+[2026-11-01 15:19:43] DestroyJoint #116
+[2026-11-01 15:19:43] DestroyJoint #131
+[2026-11-01 15:19:43] DestroyJoint #128
+[2026-11-01 15:19:43] DestroyJoint #130
+[2026-11-01 15:19:43] DestroyJoint #113
+[2026-11-01 15:19:43] DestroyJoint #125
+[2026-11-01 15:19:43] DestroyJoint #129
+[2026-11-01 15:19:43] DestroyJoint #115
+[2026-11-01 15:19:43] DestroyJoint #120
+[2026-11-01 15:19:43] DestroyJoint #126
+[2026-11-01 15:19:43] DestroyJoint #124
+[2026-11-01 15:19:43] DestroyJoint #127
+[2026-11-01 15:19:43] DestroyJoint #121
+[2026-11-01 15:19:43] DestroyJoint #112
+[2026-11-01 15:19:43] DestroyJoint #118
+[2026-11-01 15:19:43] DestroyJoint #117
+[2026-11-01 15:19:43] DestroyJoint #123
+[2026-11-01 15:19:43] DestroyJoint #114
+[2026-11-01 15:19:43] DestroyBody #77
+[2026-11-01 15:19:43] DestroyBody #80
+[2026-11-01 15:19:43] DestroyBody #74
+[2026-11-01 15:19:43] DestroyBody #89
+[2026-11-01 15:19:43] DestroyBody #86
+[2026-11-01 15:19:43] DestroyBody #88
+[2026-11-01 15:19:43] DestroyBody #71
+[2026-11-01 15:19:43] DestroyBody #83
+[2026-11-01 15:19:43] DestroyBody #87
+[2026-11-01 15:19:43] DestroyBody #73
+[2026-11-01 15:19:43] DestroyBody #78
+[2026-11-01 15:19:43] DestroyBody #84
+[2026-11-01 15:19:43] DestroyBody #82
+[2026-11-01 15:19:43] DestroyBody #85
+[2026-11-01 15:19:43] DestroyBody #79
+[2026-11-01 15:19:43] DestroyBody #70
+[2026-11-01 15:19:43] DestroyBody #76
+[2026-11-01 15:19:43] DestroyBody #75
+[2026-11-01 15:19:43] DestroyBody #81
+[2026-11-01 15:19:43] DestroyBody #72
+[2026-11-01 15:19:43] cmd World.DestroyWorld(2)                          n=4      obj=World#69
+[2026-11-01 15:19:43] DestroyWorld #69
+[2026-11-01 15:19:43] CreateWorld #132 solver=0 gravity=(0,-9.81,0) workers=15
+[2026-11-01 15:19:43] CreateBody #133 world=132 static=0 flags=0x4 mass=8 pos=(0.0861032,0.92764,-0.0273752) userData=00000255B81CC910
+[2026-11-01 15:19:43] CreateBody #134 world=132 static=0 flags=0x4 mass=0.42 pos=(-0.441966,1.06797,0.123494) userData=00000255B81C5B90
+[2026-11-01 15:19:43] CreateBody #135 world=132 static=0 flags=0x4 mass=4.33333 pos=(-1.86264e-09,0.981099,-0.0159044) userData=00000255B81C3790
+[2026-11-01 15:19:43] CreateBody #136 world=132 static=0 flags=0x4 mass=2.7 pos=(-0.000957253,1.43763,-0.0234093) userData=00000255B81C5A10
+[2026-11-01 15:19:43] CreateBody #137 world=132 static=0 flags=0x4 mass=0.42 pos=(0.441966,1.06797,0.123494) userData=00000255B81C0790
+[2026-11-01 15:19:43] CreateBody #138 world=132 static=0 flags=0x4 mass=4 pos=(-0.100778,0.514561,-0.0295309) userData=00000255B81C3F10
+[2026-11-01 15:19:43] CreateBody #139 world=132 static=0 flags=0x4 mass=2.24 pos=(-0.115437,0.101894,-0.0598616) userData=00000255B81C8B90
+[2026-11-01 15:19:43] CreateBody #140 world=132 static=0 flags=0x4 mass=6 pos=(-1.74622e-09,1.62372,-0.0145673) userData=00000255B81C9C10
+[2026-11-01 15:19:43] CreateBody #141 world=132 static=0 flags=0x4 mass=3 pos=(-1.74622e-09,1.24614,-0.0146818) userData=00000255B81CAE10
+[2026-11-01 15:19:43] CreateBody #142 world=132 static=0 flags=0x4 mass=4 pos=(0.100778,0.514562,-0.029531) userData=00000255B81CC190
+[2026-11-01 15:19:43] CreateBody #143 world=132 static=0 flags=0x4 mass=3 pos=(-3.72528e-09,1.49718,-0.0300111) userData=00000255B81C1690
+[2026-11-01 15:19:43] CreateBody #144 world=132 static=0 flags=0x4 mass=8 pos=(-0.0861032,0.927641,-0.0273752) userData=00000255B81CC490
+[2026-11-01 15:19:43] CreateBody #145 world=132 static=0 flags=0x4 mass=3 pos=(-1.74622e-09,1.03933,-0.0146818) userData=00000255B81C8D10
+[2026-11-01 15:19:43] CreateBody #146 world=132 static=0 flags=0x4 mass=0.84 pos=(-0.35035,1.20813,-0.0489477) userData=00000255B81C3190
+[2026-11-01 15:19:43] CreateBody #147 world=132 static=0 flags=0x4 mass=3 pos=(-1.74622e-09,1.14273,-0.0146818) userData=00000255B81C2E90
+[2026-11-01 15:19:43] CreateBody #148 world=132 static=0 flags=0x4 mass=2.24 pos=(0.115437,0.101896,-0.0598616) userData=00000255B81CB590
+[2026-11-01 15:19:43] CreateBody #149 world=132 static=0 flags=0x4 mass=1.68 pos=(0.163449,1.42306,-0.0610709) userData=00000255B81C6490
+[2026-11-01 15:19:43] CreateBody #150 world=132 static=0 flags=0x4 mass=1.68 pos=(-0.163449,1.42306,-0.0610708) userData=00000255B81C6310
+[2026-11-01 15:19:43] CreateBody #151 world=132 static=0 flags=0x4 mass=2.7 pos=(0.000957249,1.43763,-0.0234093) userData=00000255B81C6190
+[2026-11-01 15:19:43] CreateBody #152 world=132 static=0 flags=0x4 mass=0.84 pos=(0.350349,1.20813,-0.0489478) userData=00000255B81CB410
+[2026-11-01 15:19:43] CreateShape #153 geom=3 flags=0x1 userData=00000254A0630210
+[2026-11-01 15:19:43] AttachShape shape#153 -> body#133 forceLocal=0 pose=(-0.0105185,-0.199604,0.00139684) bodyPos=(0.0861032,0.92764,-0.0273752)
+[2026-11-01 15:19:43] CreateShape #154 geom=4 flags=0x1 userData=00000255B81C5E90
+[2026-11-01 15:19:43] AttachShape shape#154 -> body#134 forceLocal=0 pose=(-3.57628e-06,0.0465765,-2.68221e-07) bodyPos=(-0.441966,1.06797,0.123494)
+[2026-11-01 15:19:43] CreateShape #155 geom=4 flags=0x1 userData=00000255B81C3910
+[2026-11-01 15:19:43] AttachShape shape#155 -> body#135 forceLocal=0 pose=(0,0.0294128,-2.90871e-05) bodyPos=(-1.86264e-09,0.981099,-0.0159044)
+[2026-11-01 15:19:43] CreateShape #156 geom=3 flags=0x1 userData=00000254A0630310
+[2026-11-01 15:19:43] AttachShape shape#156 -> body#136 forceLocal=0 pose=(-0.0854392,-0.0238774,0.00103567) bodyPos=(-0.000957253,1.43763,-0.0234093)
+[2026-11-01 15:19:43] CreateShape #157 geom=4 flags=0x1 userData=00000255B81C0310
+[2026-11-01 15:19:43] AttachShape shape#157 -> body#137 forceLocal=0 pose=(-1.19209e-07,-0.0465733,-2.5332e-07) bodyPos=(0.441966,1.06797,0.123494)
+[2026-11-01 15:19:43] CreateShape #158 geom=3 flags=0x1 userData=00000254A0630410
+[2026-11-01 15:19:43] AttachShape shape#158 -> body#138 forceLocal=0 pose=(-4.47035e-08,0.207021,-7.45058e-09) bodyPos=(-0.100778,0.514561,-0.0295309)
+[2026-11-01 15:19:43] CreateShape #159 geom=4 flags=0x1 userData=00000255B81C8A10
+[2026-11-01 15:19:43] AttachShape shape#159 -> body#139 forceLocal=0 pose=(1.19209e-07,0.0361245,-0.0590326) bodyPos=(-0.115437,0.101894,-0.0598616)
+[2026-11-01 15:19:43] CreateShape #160 geom=3 flags=0x1 userData=00000254A0630510
+[2026-11-01 15:19:43] AttachShape shape#160 -> body#140 forceLocal=0 pose=(0,0.0730839,-9.31323e-10) bodyPos=(-1.74622e-09,1.62372,-0.0145673)
+[2026-11-01 15:19:43] CreateShape #161 geom=4 flags=0x1 userData=00000255B81C1C90
+[2026-11-01 15:19:43] AttachShape shape#161 -> body#141 forceLocal=0 pose=(0,0.125523,-0.00766468) bodyPos=(-1.74622e-09,1.24614,-0.0146818)
+[2026-11-01 15:19:43] CreateShape #162 geom=3 flags=0x1 userData=00000254A0630610
+[2026-11-01 15:19:43] AttachShape shape#162 -> body#142 forceLocal=0 pose=(-4.17233e-07,-0.20702,7.45058e-09) bodyPos=(0.100778,0.514562,-0.029531)
+[2026-11-01 15:19:43] CreateShape #163 geom=4 flags=0x1 userData=00000255B81CBD10
+[2026-11-01 15:19:43] CreateBody #164 world=132 static=1 flags=0x4 mass=0 pos=(0,-0.1,0) userData=0000000000000000
+[2026-11-01 15:19:43] AttachShape shape#163 -> body#164 forceLocal=0 pose=(0,-0.1,0) bodyPos=(0,-0.1,0)
+[2026-11-01 15:19:43] CreateShape #165 geom=4 flags=0x1 userData=00000255B81C1510
+[2026-11-01 15:19:43] AttachShape shape#165 -> body#143 forceLocal=0 pose=(1.86265e-09,0.0637369,-2.98023e-08) bodyPos=(-3.72528e-09,1.49718,-0.0300111)
+[2026-11-01 15:19:43] CreateShape #166 geom=3 flags=0x1 userData=00000254A0630710
+[2026-11-01 15:19:43] AttachShape shape#166 -> body#144 forceLocal=0 pose=(0.010519,0.199605,-0.00139684) bodyPos=(-0.0861032,0.927641,-0.0273752)
+[2026-11-01 15:19:43] CreateShape #167 geom=4 flags=0x1 userData=00000255B81CC610
+[2026-11-01 15:19:43] AttachShape shape#167 -> body#145 forceLocal=0 pose=(0,0.051702,0) bodyPos=(-1.74622e-09,1.03933,-0.0146818)
+[2026-11-01 15:19:43] CreateShape #168 geom=4 flags=0x1 userData=00000255B81C3010
+[2026-11-01 15:19:43] AttachShape shape#168 -> body#146 forceLocal=0 pose=(1.19209e-07,0.120182,-8.9407e-08) bodyPos=(-0.35035,1.20813,-0.0489477)
+[2026-11-01 15:19:43] CreateShape #169 geom=4 flags=0x1 userData=00000255B81C2D10
+[2026-11-01 15:19:43] AttachShape shape#169 -> body#147 forceLocal=0 pose=(0,0.051702,0) bodyPos=(-1.74622e-09,1.14273,-0.0146818)
+[2026-11-01 15:19:43] CreateShape #170 geom=4 flags=0x1 userData=00000255B81C6610
+[2026-11-01 15:19:43] AttachShape shape#170 -> body#148 forceLocal=0 pose=(-8.9407e-08,-0.0361241,0.059035) bodyPos=(0.115437,0.101896,-0.0598616)
+[2026-11-01 15:19:43] CreateShape #171 geom=3 flags=0x1 userData=00000254A0630B10
+[2026-11-01 15:19:43] AttachShape shape#171 -> body#149 forceLocal=0 pose=(2.14577e-06,-0.142543,-3.72529e-07) bodyPos=(0.163449,1.42306,-0.0610709)
+[2026-11-01 15:19:43] CreateShape #172 geom=3 flags=0x1 userData=00000254A0630C10
+[2026-11-01 15:19:43] AttachShape shape#172 -> body#150 forceLocal=0 pose=(2.38419e-07,0.142541,1.63913e-07) bodyPos=(-0.163449,1.42306,-0.0610708)
+[2026-11-01 15:19:43] CreateShape #173 geom=3 flags=0x1 userData=00000254A0630D10
+[2026-11-01 15:19:43] AttachShape shape#173 -> body#151 forceLocal=0 pose=(0.0854389,0.0238765,-0.00103559) bodyPos=(0.000957249,1.43763,-0.0234093)
+[2026-11-01 15:19:43] CreateShape #174 geom=4 flags=0x1 userData=00000255B81CB290
+[2026-11-01 15:19:43] AttachShape shape#174 -> body#152 forceLocal=0 pose=(8.34465e-07,-0.120182,6.85453e-07) bodyPos=(0.350349,1.20813,-0.0489478)
+[2026-11-01 15:19:43] CreateJoint #175 type=6 flags=0x18 body0=#133 body1=#135 userData=00000255BEED4810
+[2026-11-01 15:19:43] Joint#175 motor LinearX spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#175 motor LinearY spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#175 motor LinearZ spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#175 motor Slerp spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] CreateJoint #176 type=6 flags=0x18 body0=#134 body1=#146 userData=00000255BEED0910
+[2026-11-01 15:19:43] Joint#176 motor LinearX spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#176 motor LinearY spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#176 motor LinearZ spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#176 motor Slerp spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] CreateJoint #177 type=6 flags=0x18 body0=#135 body1=#0 userData=00000255BEED2110
+[2026-11-01 15:19:43] Joint#177 motor LinearX spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#177 motor LinearY spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#177 motor LinearZ spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#177 motor Slerp spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] CreateJoint #178 type=6 flags=0x18 body0=#136 body1=#141 userData=00000255BEED1510
+[2026-11-01 15:19:43] Joint#178 motor LinearX spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#178 motor LinearY spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#178 motor LinearZ spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#178 motor Slerp spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] CreateJoint #179 type=6 flags=0x18 body0=#137 body1=#152 userData=00000255BEED1810
+[2026-11-01 15:19:43] Joint#179 motor LinearX spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#179 motor LinearY spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#179 motor LinearZ spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#179 motor Slerp spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] CreateJoint #180 type=6 flags=0x18 body0=#138 body1=#144 userData=00000255BEED0610
+[2026-11-01 15:19:43] Joint#180 motor LinearX spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#180 motor LinearY spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#180 motor LinearZ spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#180 motor Slerp spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] CreateJoint #181 type=6 flags=0x18 body0=#139 body1=#138 userData=00000255BEED2A10
+[2026-11-01 15:19:43] Joint#181 motor LinearX spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#181 motor LinearY spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#181 motor LinearZ spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#181 motor Slerp spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] CreateJoint #182 type=6 flags=0x18 body0=#140 body1=#143 userData=00000255BEED3610
+[2026-11-01 15:19:43] Joint#182 motor LinearX spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#182 motor LinearY spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#182 motor LinearZ spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#182 motor Slerp spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] CreateJoint #183 type=6 flags=0x18 body0=#141 body1=#147 userData=00000255BEED2710
+[2026-11-01 15:19:43] Joint#183 motor LinearX spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#183 motor LinearY spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#183 motor LinearZ spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#183 motor Slerp spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] CreateJoint #184 type=6 flags=0x18 body0=#142 body1=#133 userData=00000255BEED0F10
+[2026-11-01 15:19:43] Joint#184 motor LinearX spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#184 motor LinearY spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#184 motor LinearZ spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#184 motor Slerp spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] CreateJoint #185 type=6 flags=0x18 body0=#143 body1=#141 userData=00000255BEED3C10
+[2026-11-01 15:19:43] Joint#185 motor LinearX spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#185 motor LinearY spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#185 motor LinearZ spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#185 motor Slerp spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] CreateJoint #186 type=6 flags=0x18 body0=#144 body1=#135 userData=00000255BEED3010
+[2026-11-01 15:19:43] Joint#186 motor LinearX spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#186 motor LinearY spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#186 motor LinearZ spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#186 motor Slerp spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] CreateJoint #187 type=6 flags=0x18 body0=#145 body1=#135 userData=00000255BEED0C10
+[2026-11-01 15:19:43] Joint#187 motor LinearX spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#187 motor LinearY spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#187 motor LinearZ spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#187 motor Slerp spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] CreateJoint #188 type=6 flags=0x18 body0=#146 body1=#150 userData=00000255BEED3910
+[2026-11-01 15:19:43] Joint#188 motor LinearX spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#188 motor LinearY spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#188 motor LinearZ spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#188 motor Slerp spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] CreateJoint #189 type=6 flags=0x18 body0=#147 body1=#145 userData=00000255BEED4210
+[2026-11-01 15:19:43] Joint#189 motor LinearX spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#189 motor LinearY spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#189 motor LinearZ spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#189 motor Slerp spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] CreateJoint #190 type=6 flags=0x18 body0=#148 body1=#142 userData=00000255BEED1210
+[2026-11-01 15:19:43] Joint#190 motor LinearX spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#190 motor LinearY spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#190 motor LinearZ spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#190 motor Slerp spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] CreateJoint #191 type=6 flags=0x18 body0=#149 body1=#151 userData=00000255BEED2410
+[2026-11-01 15:19:43] Joint#191 motor LinearX spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#191 motor LinearY spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#191 motor LinearZ spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#191 motor Slerp spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] CreateJoint #192 type=6 flags=0x18 body0=#150 body1=#136 userData=00000255BEED1B10
+[2026-11-01 15:19:43] Joint#192 motor LinearX spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#192 motor LinearY spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#192 motor LinearZ spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#192 motor Slerp spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] CreateJoint #193 type=6 flags=0x18 body0=#151 body1=#141 userData=00000255BEED1E10
+[2026-11-01 15:19:43] Joint#193 motor LinearX spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#193 motor LinearY spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#193 motor LinearZ spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#193 motor Slerp spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] CreateJoint #194 type=6 flags=0x18 body0=#152 body1=#149 userData=00000255BEED3310
+[2026-11-01 15:19:43] Joint#194 motor LinearX spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#194 motor LinearY spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#194 motor LinearZ spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] Joint#194 motor Slerp spring=0 damper=0 maxForce=3.40282e+38 accel=0
+[2026-11-01 15:19:43] cmd World.CreateWorld(1)                           n=2      obj=-#0
+[2026-11-01 15:19:43] CreateWorld #4 solver=0 gravity=(0,-9.81,0) workers=7
+[2026-11-01 15:19:43] cmd World.DestroyWorld(2)                          n=1      obj=World#4
+[2026-11-01 15:19:43] DestroyWorld #4
+[2026-11-01 15:19:43] cmd World.CreateWorld(1)                           n=3      obj=-#0
+[2026-11-01 15:19:43] CreateWorld #5 solver=0 gravity=(0,-9.81,0) workers=7
+[2026-11-01 15:19:43] cmd World.DestroyWorld(2)                          n=2      obj=World#5
+[2026-11-01 15:19:43] DestroyWorld #5
+[2026-11-01 15:19:43] cmd World.CreateWorld(1)                           n=4      obj=-#0
+[2026-11-01 15:19:43] CreateWorld #6 solver=0 gravity=(0,-9.81,0) workers=7
+[2026-11-01 15:19:43] cmd World.DestroyWorld(2)                          n=3      obj=World#6
+[2026-11-01 15:19:43] DestroyWorld #6
+[2026-11-01 15:19:43] CreateWorld #7 solver=0 gravity=(0,-9.81,0) workers=7
+[2026-11-01 15:19:43] cmd World.DestroyWorld(2)                          n=4      obj=World#7
+[2026-11-01 15:19:43] DestroyWorld #7
+[2026-11-01 15:19:43] CreateWorld #8 solver=0 gravity=(0,-9.81,0) workers=7
+[2026-11-01 15:19:43] DestroyWorld #8
+[2026-11-01 15:19:43] CreateWorld #9 solver=0 gravity=(0,-9.81,0) workers=7
+[2026-11-01 15:19:43] DestroyWorld #9
+[2026-11-01 15:19:43] CreateWorld #10 solver=0 gravity=(0,-9.81,0) workers=7
+[2026-11-01 15:19:43] DestroyWorld #10
+[2026-11-01 15:19:43] CreateWorld #11 solver=0 gravity=(0,-9.81,0) workers=7

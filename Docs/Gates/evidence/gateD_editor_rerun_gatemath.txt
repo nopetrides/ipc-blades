@@ -1,0 +1,332 @@
+==== 2026-11-01 15:21:22 Play: Unity 6000.6.7f1, scene 'IPC_GateD', fixedDeltaTime=0.0111111114, gravity=(0, -9.81, 0), backend=RigidIPC
+native at Play: registered=1 initialized=1 id=1380536387 commands=1297228 simulate=1960 objects=215 engineObjectIdOffset=8 alive: worlds=2 bodies=4 shapes=4 joints=1 materials=2 meshes=0
+step 0 (simulate=1960, delta=0): shapes matched=4, backend-only=0, collider-only=0 | max body d: rb 0.000E+000 m 2.385E-015 deg, transform 0.000E+000 m 2.385E-015 deg | gravity d: step 0.000E+000 m, accumulated 0.000E+000 m | vertices d: ordered 7.177E-007 m, nearest 7.177E-007 m
+  shape#210 'Box_A' BoxCollider body#207: backend pos=(-2.5, 3, 0) rot=(0, 0, 0, 1) | rb pos=(-2.5, 3, 0) d=0.000E+000 m, 0.000E+000 deg | transform d=0.000E+000 m, 0.000E+000 deg
+    vertices shape#210 geom=4 params=(0.5, 0.5, 0.5) local pos=(0, 0, 0) rot=(0, 0, 0, 1): backend=8 unity=8 ordered max=0.000E+000 nearest max=0.000E+000
+      [0] backend (-3, 2.5, -0.5) unity (-3, 2.5, -0.5) d=0.000E+000
+      [1] backend (-2, 2.5, -0.5) unity (-2, 2.5, -0.5) d=0.000E+000
+      [2] backend (-3, 3.5, -0.5) unity (-3, 3.5, -0.5) d=0.000E+000
+      [3] backend (-2, 3.5, -0.5) unity (-2, 3.5, -0.5) d=0.000E+000
+      [4] backend (-3, 2.5, 0.5) unity (-3, 2.5, 0.5) d=0.000E+000
+      [5] backend (-2, 2.5, 0.5) unity (-2, 2.5, 0.5) d=0.000E+000
+      [6] backend (-3, 3.5, 0.5) unity (-3, 3.5, 0.5) d=0.000E+000
+      [7] backend (-2, 3.5, 0.5) unity (-2, 3.5, 0.5) d=0.000E+000
+  shape#211 'Floor' BoxCollider body#212 static: backend pos=(0, -0.1, 0) rot=(0, 0, 0, 1) | rb pos=(0, -0.1, 0) d=0.000E+000 m, 0.000E+000 deg | transform d=0.000E+000 m, 0.000E+000 deg
+    vertices shape#211 geom=4 params=(5, 0.1, 5) local pos=(0, 0, 0) rot=(0, 0, 0, 1): backend=8 unity=8 ordered max=0.000E+000 nearest max=0.000E+000
+      [0] backend (-5, -0.2, -5) unity (-5, -0.2, -5) d=0.000E+000
+      [1] backend (5, -0.2, -5) unity (5, -0.2, -5) d=0.000E+000
+      [2] backend (-5, 0, -5) unity (-5, 0, -5) d=0.000E+000
+      [3] backend (5, 0, -5) unity (5, 0, -5) d=0.000E+000
+      [4] backend (-5, -0.2, 5) unity (-5, -0.2, 5) d=0.000E+000
+      [5] backend (5, -0.2, 5) unity (5, -0.2, 5) d=0.000E+000
+      [6] backend (-5, 0, 5) unity (-5, 0, 5) d=0.000E+000
+      [7] backend (5, 0, 5) unity (5, 0, 5) d=0.000E+000
+  shape#213 'Box_B' BoxCollider body#208: backend pos=(0, 4, 0) rot=(0.1907911, 0.280576557, 0.0298407767, 0.940204859) | rb pos=(0, 4, 0) d=0.000E+000 m, 2.385E-015 deg | transform d=0.000E+000 m, 2.385E-015 deg
+    vertices shape#213 geom=4 params=(0.5, 0.25, 0.99999994) local pos=(0, 0, 0) rot=(0, 0, 0, 1): backend=8 unity=8 ordered max=5.960E-008 nearest max=5.960E-008
+      [0] backend (-0.9721093, 4.029078, -0.605522633) unity (-0.9721094, 4.029078, -0.605522633) d=5.960E-008
+      [1] backend (-0.131336749, 4.192254, -1.12173486) unity (-0.131336749, 4.192254, -1.12173486) d=0.000E+000
+      [2] backend (-0.946634352, 4.49178648, -0.417767316) unity (-0.946634352, 4.49178648, -0.417767316) d=0.000E+000
+      [3] backend (-0.105861679, 4.65496254, -0.9339795) unity (-0.105861723, 4.65496254, -0.9339795) d=4.470E-008
+      [4] backend (0.105861679, 3.3450377, 0.9339795) unity (0.105861723, 3.3450377, 0.9339795) d=4.470E-008
+      [5] backend (0.946634352, 3.50821352, 0.417767316) unity (0.946634352, 3.50821352, 0.417767316) d=0.000E+000
+      [6] backend (0.131336749, 3.807746, 1.12173486) unity (0.131336749, 3.807746, 1.12173486) d=0.000E+000
+      [7] backend (0.9721093, 3.970922, 0.605522633) unity (0.9721094, 3.970922, 0.605522633) d=5.960E-008
+  shape#214 'Box_C/Box_C_Collider' BoxCollider body#209: backend pos=(2.5, 5, 0) rot=(0, 0, 0.21643962, 0.976296) | rb pos=(2.5, 5, 0) d=0.000E+000 m, 0.000E+000 deg | transform d=0.000E+000 m, 0.000E+000 deg
+    vertices shape#214 geom=4 params=(0.399999976, 0.399999976, 0.399999976) local pos=(0.499999523, 0.07999992, 0) rot=(0, 0.382683516, 0, 0.923879564): backend=8 unity=8 ordered max=7.177E-007 nearest max=7.177E-007
+      [0] backend (2.57570624, 4.68222141, 1.1920929E-07) unity (2.57570672, 4.68222141, 2.23517418E-08) d=4.866E-007
+      [1] backend (3.088391, 4.9212904, -0.5656854) unity (3.08839178, 4.9212904, -0.565685451) d=7.177E-007
+      [2] backend (2.23761153, 5.40726757, 7.4505806E-08) unity (2.237612, 5.407268, 2.23517418E-08) d=6.764E-007
+      [3] backend (2.75029659, 5.64633656, -0.565685451) unity (2.750297, 5.646337, -0.565685451) d=6.743E-007
+      [4] backend (3.0883913, 4.9212904, 0.565685451) unity (3.08839178, 4.9212904, 0.565685451) d=4.768E-007
+      [5] backend (3.60107636, 5.16035938, -7.4505806E-08) unity (3.60107684, 5.16035938, -2.23517418E-08) d=4.797E-007
+      [6] backend (2.75029683, 5.64633656, 0.5656854) unity (2.750297, 5.646337, 0.565685451) d=5.364E-007
+      [7] backend (3.26298165, 5.88540554, -1.1920929E-07) unity (3.26298213, 5.885406, -2.23517418E-08) d=6.813E-007
+  gravity baseline 'Box_B' pos=(0, 4, 0) vel=(0, 0, 0) damping=0 useGravity=True
+  gravity baseline 'Box_C' pos=(2.5, 5, 0) vel=(0, 0, 0) damping=0 useGravity=True
+  gravity baseline 'Box_A' pos=(-2.5, 3, 0) vel=(0, 0, 0) damping=0 useGravity=True
+step 1 (simulate=1961, delta=1): shapes matched=4, backend-only=0, collider-only=0 | max body d: rb 0.000E+000 m 2.385E-015 deg, transform 0.000E+000 m 2.385E-015 deg | gravity d: step 0.000E+000 m, accumulated 5.516E-008 m | vertices d: ordered 7.177E-007 m, nearest 7.177E-007 m
+  shape#210 'Box_A' BoxCollider body#207: backend pos=(-2.5, 2.99878883, 0) rot=(0, 0, 0, 1) | rb pos=(-2.5, 2.99878883, 0) d=0.000E+000 m, 0.000E+000 deg | transform d=0.000E+000 m, 0.000E+000 deg
+    vertices shape#210 geom=4 params=(0.5, 0.5, 0.5) local pos=(0, 0, 0) rot=(0, 0, 0, 1): backend=8 unity=8 ordered max=0.000E+000 nearest max=0.000E+000
+      [0] backend (-3, 2.49878883, -0.5) unity (-3, 2.49878883, -0.5) d=0.000E+000
+      [1] backend (-2, 2.49878883, -0.5) unity (-2, 2.49878883, -0.5) d=0.000E+000
+      [2] backend (-3, 3.49878883, -0.5) unity (-3, 3.49878883, -0.5) d=0.000E+000
+      [3] backend (-2, 3.49878883, -0.5) unity (-2, 3.49878883, -0.5) d=0.000E+000
+      [4] backend (-3, 2.49878883, 0.5) unity (-3, 2.49878883, 0.5) d=0.000E+000
+      [5] backend (-2, 2.49878883, 0.5) unity (-2, 2.49878883, 0.5) d=0.000E+000
+      [6] backend (-3, 3.49878883, 0.5) unity (-3, 3.49878883, 0.5) d=0.000E+000
+      [7] backend (-2, 3.49878883, 0.5) unity (-2, 3.49878883, 0.5) d=0.000E+000
+  shape#211 'Floor' BoxCollider body#212 static: backend pos=(0, -0.1, 0) rot=(0, 0, 0, 1) | rb pos=(0, -0.1, 0) d=0.000E+000 m, 0.000E+000 deg | transform d=0.000E+000 m, 0.000E+000 deg
+    vertices shape#211 geom=4 params=(5, 0.1, 5) local pos=(0, 0, 0) rot=(0, 0, 0, 1): backend=8 unity=8 ordered max=0.000E+000 nearest max=0.000E+000
+      [0] backend (-5, -0.2, -5) unity (-5, -0.2, -5) d=0.000E+000
+      [1] backend (5, -0.2, -5) unity (5, -0.2, -5) d=0.000E+000
+      [2] backend (-5, 0, -5) unity (-5, 0, -5) d=0.000E+000
+      [3] backend (5, 0, -5) unity (5, 0, -5) d=0.000E+000
+      [4] backend (-5, -0.2, 5) unity (-5, -0.2, 5) d=0.000E+000
+      [5] backend (5, -0.2, 5) unity (5, -0.2, 5) d=0.000E+000
+      [6] backend (-5, 0, 5) unity (-5, 0, 5) d=0.000E+000
+      [7] backend (5, 0, 5) unity (5, 0, 5) d=0.000E+000
+  shape#213 'Box_B' BoxCollider body#208: backend pos=(0, 3.99878883, 0) rot=(0.1907911, 0.280576557, 0.0298407767, 0.940204859) | rb pos=(0, 3.99878883, 0) d=0.000E+000 m, 2.385E-015 deg | transform d=0.000E+000 m, 2.385E-015 deg
+    vertices shape#213 geom=4 params=(0.5, 0.25, 0.99999994) local pos=(0, 0, 0) rot=(0, 0, 0, 1): backend=8 unity=8 ordered max=5.960E-008 nearest max=5.960E-008
+      [0] backend (-0.9721093, 4.027867, -0.605522633) unity (-0.9721094, 4.027867, -0.605522633) d=5.960E-008
+      [1] backend (-0.131336749, 4.191043, -1.12173486) unity (-0.131336749, 4.191043, -1.12173486) d=0.000E+000
+      [2] backend (-0.946634352, 4.49057531, -0.417767316) unity (-0.946634352, 4.49057531, -0.417767316) d=0.000E+000
+      [3] backend (-0.105861679, 4.65375137, -0.9339795) unity (-0.105861723, 4.65375137, -0.9339795) d=4.470E-008
+      [4] backend (0.105861679, 3.34382653, 0.9339795) unity (0.105861723, 3.34382653, 0.9339795) d=4.470E-008
+      [5] backend (0.946634352, 3.50700235, 0.417767316) unity (0.946634352, 3.50700235, 0.417767316) d=0.000E+000
+      [6] backend (0.131336749, 3.80653477, 1.12173486) unity (0.131336749, 3.80653477, 1.12173486) d=0.000E+000
+      [7] backend (0.9721093, 3.96971083, 0.605522633) unity (0.9721094, 3.96971083, 0.605522633) d=5.960E-008
+  shape#214 'Box_C/Box_C_Collider' BoxCollider body#209: backend pos=(2.5, 4.998789, 0) rot=(0, 0, 0.21643962, 0.976296) | rb pos=(2.5, 4.998789, 0) d=0.000E+000 m, 0.000E+000 deg | transform d=0.000E+000 m, 0.000E+000 deg
+    vertices shape#214 geom=4 params=(0.399999976, 0.399999976, 0.399999976) local pos=(0.499999523, 0.07999992, 0) rot=(0, 0.382683516, 0, 0.923879564): backend=8 unity=8 ordered max=7.177E-007 nearest max=7.177E-007
+      [0] backend (2.57570624, 4.68101025, 1.1920929E-07) unity (2.57570672, 4.68101025, 2.23517418E-08) d=4.866E-007
+      [1] backend (3.088391, 4.920079, -0.5656854) unity (3.08839178, 4.920079, -0.565685451) d=7.177E-007
+      [2] backend (2.23761153, 5.4060564, 7.4505806E-08) unity (2.237612, 5.406057, 2.23517418E-08) d=6.764E-007
+      [3] backend (2.75029659, 5.64512539, -0.565685451) unity (2.750297, 5.645126, -0.565685451) d=6.743E-007
+      [4] backend (3.0883913, 4.920079, 0.565685451) unity (3.08839178, 4.920079, 0.565685451) d=4.768E-007
+      [5] backend (3.60107636, 5.159148, -7.4505806E-08) unity (3.60107684, 5.159148, -2.23517418E-08) d=4.797E-007
+      [6] backend (2.75029683, 5.64512539, 0.5656854) unity (2.750297, 5.645126, 0.565685451) d=5.364E-007
+      [7] backend (3.26298165, 5.88419437, -1.1920929E-07) unity (3.26298213, 5.884195, -2.23517418E-08) d=6.813E-007
+  gravity 'Box_B': pos=(0, 3.99878883, 0) predicted=(0, 3.99878883, 0) step d=0.000E+000 m, accumulated d=5.516E-008 m, vel=(0, -0.109000005, 0) predicted=(0, -0.109000005, 0), rotation change=2.385E-015 deg
+  gravity 'Box_C': pos=(2.5, 4.998789, 0) predicted=(2.5, 4.998789, 0) step d=0.000E+000 m, accumulated d=5.516E-008 m, vel=(0, -0.109000005, 0) predicted=(0, -0.109000005, 0), rotation change=0.000E+000 deg
+  gravity 'Box_A': pos=(-2.5, 2.99878883, 0) predicted=(-2.5, 2.99878883, 0) step d=0.000E+000 m, accumulated d=5.516E-008 m, vel=(0, -0.109000005, 0) predicted=(0, -0.109000005, 0), rotation change=0.000E+000 deg
+step 2 (simulate=1962, delta=1): shapes matched=4, backend-only=0, collider-only=0 | max body d: rb 0.000E+000 m 2.385E-015 deg, transform 0.000E+000 m 2.385E-015 deg | gravity d: step 0.000E+000 m, accumulated 1.655E-007 m | vertices d: ordered 7.177E-007 m, nearest 7.177E-007 m
+  shape#210 'Box_A' BoxCollider body#207: backend pos=(-2.5, 2.9963665, 0) rot=(0, 0, 0, 1) | rb pos=(-2.5, 2.9963665, 0) d=0.000E+000 m, 0.000E+000 deg | transform d=0.000E+000 m, 0.000E+000 deg
+    vertices shape#210 geom=4 params=(0.5, 0.5, 0.5) local pos=(0, 0, 0) rot=(0, 0, 0, 1): backend=8 unity=8 ordered max=0.000E+000 nearest max=0.000E+000
+      [0] backend (-3, 2.4963665, -0.5) unity (-3, 2.4963665, -0.5) d=0.000E+000
+      [1] backend (-2, 2.4963665, -0.5) unity (-2, 2.4963665, -0.5) d=0.000E+000
+      [2] backend (-3, 3.4963665, -0.5) unity (-3, 3.4963665, -0.5) d=0.000E+000
+      [3] backend (-2, 3.4963665, -0.5) unity (-2, 3.4963665, -0.5) d=0.000E+000
+      [4] backend (-3, 2.4963665, 0.5) unity (-3, 2.4963665, 0.5) d=0.000E+000
+      [5] backend (-2, 2.4963665, 0.5) unity (-2, 2.4963665, 0.5) d=0.000E+000
+      [6] backend (-3, 3.4963665, 0.5) unity (-3, 3.4963665, 0.5) d=0.000E+000
+      [7] backend (-2, 3.4963665, 0.5) unity (-2, 3.4963665, 0.5) d=0.000E+000
+  shape#211 'Floor' BoxCollider body#212 static: backend pos=(0, -0.1, 0) rot=(0, 0, 0, 1) | rb pos=(0, -0.1, 0) d=0.000E+000 m, 0.000E+000 deg | transform d=0.000E+000 m, 0.000E+000 deg
+    vertices shape#211 geom=4 params=(5, 0.1, 5) local pos=(0, 0, 0) rot=(0, 0, 0, 1): backend=8 unity=8 ordered max=0.000E+000 nearest max=0.000E+000
+      [0] backend (-5, -0.2, -5) unity (-5, -0.2, -5) d=0.000E+000
+      [1] backend (5, -0.2, -5) unity (5, -0.2, -5) d=0.000E+000
+      [2] backend (-5, 0, -5) unity (-5, 0, -5) d=0.000E+000
+      [3] backend (5, 0, -5) unity (5, 0, -5) d=0.000E+000
+      [4] backend (-5, -0.2, 5) unity (-5, -0.2, 5) d=0.000E+000
+      [5] backend (5, -0.2, 5) unity (5, -0.2, 5) d=0.000E+000
+      [6] backend (-5, 0, 5) unity (-5, 0, 5) d=0.000E+000
+      [7] backend (5, 0, 5) unity (5, 0, 5) d=0.000E+000
+  shape#213 'Box_B' BoxCollider body#208: backend pos=(0, 3.9963665, 0) rot=(0.1907911, 0.280576557, 0.0298407767, 0.940204859) | rb pos=(0, 3.9963665, 0) d=0.000E+000 m, 2.385E-015 deg | transform d=0.000E+000 m, 2.385E-015 deg
+    vertices shape#213 geom=4 params=(0.5, 0.25, 0.99999994) local pos=(0, 0, 0) rot=(0, 0, 0, 1): backend=8 unity=8 ordered max=5.960E-008 nearest max=5.960E-008
+      [0] backend (-0.9721093, 4.02544451, -0.605522633) unity (-0.9721094, 4.02544451, -0.605522633) d=5.960E-008
+      [1] backend (-0.131336749, 4.18862057, -1.12173486) unity (-0.131336749, 4.18862057, -1.12173486) d=0.000E+000
+      [2] backend (-0.946634352, 4.488153, -0.417767316) unity (-0.946634352, 4.488153, -0.417767316) d=0.000E+000
+      [3] backend (-0.105861679, 4.651329, -0.9339795) unity (-0.105861723, 4.651329, -0.9339795) d=4.470E-008
+      [4] backend (0.105861679, 3.3414042, 0.9339795) unity (0.105861723, 3.3414042, 0.9339795) d=4.470E-008
+      [5] backend (0.946634352, 3.50458, 0.417767316) unity (0.946634352, 3.50458, 0.417767316) d=0.000E+000
+      [6] backend (0.131336749, 3.80411243, 1.12173486) unity (0.131336749, 3.80411243, 1.12173486) d=0.000E+000
+      [7] backend (0.9721093, 3.96728849, 0.605522633) unity (0.9721094, 3.96728849, 0.605522633) d=5.960E-008
+  shape#214 'Box_C/Box_C_Collider' BoxCollider body#209: backend pos=(2.5, 4.9963665, 0) rot=(0, 0, 0.21643962, 0.976296) | rb pos=(2.5, 4.9963665, 0) d=0.000E+000 m, 0.000E+000 deg | transform d=0.000E+000 m, 0.000E+000 deg
+    vertices shape#214 geom=4 params=(0.399999976, 0.399999976, 0.399999976) local pos=(0.499999523, 0.07999992, 0) rot=(0, 0.382683516, 0, 0.923879564): backend=8 unity=8 ordered max=7.177E-007 nearest max=7.177E-007
+      [0] backend (2.57570624, 4.678588, 1.1920929E-07) unity (2.57570672, 4.678588, 2.23517418E-08) d=4.866E-007
+      [1] backend (3.088391, 4.917657, -0.5656854) unity (3.08839178, 4.917657, -0.565685451) d=7.177E-007
+      [2] backend (2.23761153, 5.403634, 7.4505806E-08) unity (2.237612, 5.40363455, 2.23517418E-08) d=6.764E-007
+      [3] backend (2.75029659, 5.642703, -0.565685451) unity (2.750297, 5.64270353, -0.565685451) d=6.743E-007
+      [4] backend (3.0883913, 4.917657, 0.565685451) unity (3.08839178, 4.917657, 0.565685451) d=4.768E-007
+      [5] backend (3.60107636, 5.156726, -7.4505806E-08) unity (3.60107684, 5.156726, -2.23517418E-08) d=4.797E-007
+      [6] backend (2.75029683, 5.642703, 0.5656854) unity (2.750297, 5.64270353, 0.565685451) d=5.364E-007
+      [7] backend (3.26298165, 5.881772, -1.1920929E-07) unity (3.26298213, 5.88177252, -2.23517418E-08) d=6.813E-007
+  gravity 'Box_B': pos=(0, 3.9963665, 0) predicted=(0, 3.9963665, 0) step d=0.000E+000 m, accumulated d=1.655E-007 m, vel=(0, -0.21800001, 0) predicted=(0, -0.21800001, 0), rotation change=2.385E-015 deg
+  gravity 'Box_C': pos=(2.5, 4.9963665, 0) predicted=(2.5, 4.9963665, 0) step d=0.000E+000 m, accumulated d=1.655E-007 m, vel=(0, -0.21800001, 0) predicted=(0, -0.21800001, 0), rotation change=0.000E+000 deg
+  gravity 'Box_A': pos=(-2.5, 2.9963665, 0) predicted=(-2.5, 2.9963665, 0) step d=0.000E+000 m, accumulated d=1.655E-007 m, vel=(0, -0.21800001, 0) predicted=(0, -0.21800001, 0), rotation change=0.000E+000 deg
+step 3 (simulate=1963, delta=1): shapes matched=4, backend-only=0, collider-only=0 | max body d: rb 0.000E+000 m 2.385E-015 deg, transform 0.000E+000 m 2.385E-015 deg | gravity d: step 0.000E+000 m, accumulated 3.310E-007 m
+  shape#210 'Box_A' BoxCollider body#207: backend pos=(-2.5, 2.99273324, 0) rot=(0, 0, 0, 1) | rb pos=(-2.5, 2.99273324, 0) d=0.000E+000 m, 0.000E+000 deg | transform d=0.000E+000 m, 0.000E+000 deg
+  shape#211 'Floor' BoxCollider body#212 static: backend pos=(0, -0.1, 0) rot=(0, 0, 0, 1) | rb pos=(0, -0.1, 0) d=0.000E+000 m, 0.000E+000 deg | transform d=0.000E+000 m, 0.000E+000 deg
+  shape#213 'Box_B' BoxCollider body#208: backend pos=(0, 3.99273324, 0) rot=(0.1907911, 0.280576557, 0.0298407767, 0.940204859) | rb pos=(0, 3.99273324, 0) d=0.000E+000 m, 2.385E-015 deg | transform d=0.000E+000 m, 2.385E-015 deg
+  shape#214 'Box_C/Box_C_Collider' BoxCollider body#209: backend pos=(2.5, 4.992733, 0) rot=(0, 0, 0.21643962, 0.976296) | rb pos=(2.5, 4.992733, 0) d=0.000E+000 m, 0.000E+000 deg | transform d=0.000E+000 m, 0.000E+000 deg
+  gravity 'Box_B': pos=(0, 3.99273324, 0) predicted=(0, 3.99273324, 0) step d=0.000E+000 m, accumulated d=9.254E-008 m, vel=(0, -0.327000022, 0) predicted=(0, -0.327000022, 0), rotation change=2.385E-015 deg
+  gravity 'Box_C': pos=(2.5, 4.992733, 0) predicted=(2.5, 4.992733, 0) step d=0.000E+000 m, accumulated d=3.310E-007 m, vel=(0, -0.327000022, 0) predicted=(0, -0.327000022, 0), rotation change=0.000E+000 deg
+  gravity 'Box_A': pos=(-2.5, 2.99273324, 0) predicted=(-2.5, 2.99273324, 0) step d=0.000E+000 m, accumulated d=9.254E-008 m, vel=(0, -0.327000022, 0) predicted=(0, -0.327000022, 0), rotation change=0.000E+000 deg
+step 4 (simulate=1964, delta=1): shapes matched=4, backend-only=0, collider-only=0 | max body d: rb 0.000E+000 m 2.385E-015 deg, transform 0.000E+000 m 2.385E-015 deg | gravity d: step 0.000E+000 m, accumulated 5.516E-007 m
+  shape#210 'Box_A' BoxCollider body#207: backend pos=(-2.5, 2.98788881, 0) rot=(0, 0, 0, 1) | rb pos=(-2.5, 2.98788881, 0) d=0.000E+000 m, 0.000E+000 deg | transform d=0.000E+000 m, 0.000E+000 deg
+  shape#211 'Floor' BoxCollider body#212 static: backend pos=(0, -0.1, 0) rot=(0, 0, 0, 1) | rb pos=(0, -0.1, 0) d=0.000E+000 m, 0.000E+000 deg | transform d=0.000E+000 m, 0.000E+000 deg
+  shape#213 'Box_B' BoxCollider body#208: backend pos=(0, 3.98788881, 0) rot=(0.1907911, 0.280576557, 0.0298407767, 0.940204859) | rb pos=(0, 3.98788881, 0) d=0.000E+000 m, 2.385E-015 deg | transform d=0.000E+000 m, 2.385E-015 deg
+  shape#214 'Box_C/Box_C_Collider' BoxCollider body#209: backend pos=(2.5, 4.98788834, 0) rot=(0, 0, 0.21643962, 0.976296) | rb pos=(2.5, 4.98788834, 0) d=0.000E+000 m, 0.000E+000 deg | transform d=0.000E+000 m, 0.000E+000 deg
+  gravity 'Box_B': pos=(0, 3.98788881, 0) predicted=(0, 3.98788881, 0) step d=0.000E+000 m, accumulated d=7.477E-008 m, vel=(0, -0.436000019, 0) predicted=(0, -0.436000019, 0), rotation change=2.385E-015 deg
+  gravity 'Box_C': pos=(2.5, 4.98788834, 0) predicted=(2.5, 4.98788834, 0) step d=0.000E+000 m, accumulated d=5.516E-007 m, vel=(0, -0.436000019, 0) predicted=(0, -0.436000019, 0), rotation change=0.000E+000 deg
+  gravity 'Box_A': pos=(-2.5, 2.98788881, 0) predicted=(-2.5, 2.98788881, 0) step d=0.000E+000 m, accumulated d=7.477E-008 m, vel=(0, -0.436000019, 0) predicted=(0, -0.436000019, 0), rotation change=0.000E+000 deg
+step 5 (simulate=1965, delta=1): shapes matched=4, backend-only=0, collider-only=0 | max body d: rb 0.000E+000 m 2.385E-015 deg, transform 0.000E+000 m 2.385E-015 deg | gravity d: step 0.000E+000 m, accumulated 3.506E-007 m
+  shape#210 'Box_A' BoxCollider body#207: backend pos=(-2.5, 2.98183322, 0) rot=(0, 0, 0, 1) | rb pos=(-2.5, 2.98183322, 0) d=0.000E+000 m, 0.000E+000 deg | transform d=0.000E+000 m, 0.000E+000 deg
+  shape#211 'Floor' BoxCollider body#212 static: backend pos=(0, -0.1, 0) rot=(0, 0, 0, 1) | rb pos=(0, -0.1, 0) d=0.000E+000 m, 0.000E+000 deg | transform d=0.000E+000 m, 0.000E+000 deg
+  shape#213 'Box_B' BoxCollider body#208: backend pos=(0, 3.98183322, 0) rot=(0.1907911, 0.280576557, 0.0298407767, 0.940204859) | rb pos=(0, 3.98183322, 0) d=0.000E+000 m, 2.385E-015 deg | transform d=0.000E+000 m, 2.385E-015 deg
+  shape#214 'Box_C/Box_C_Collider' BoxCollider body#209: backend pos=(2.5, 4.981833, 0) rot=(0, 0, 0.21643962, 0.976296) | rb pos=(2.5, 4.981833, 0) d=0.000E+000 m, 0.000E+000 deg | transform d=0.000E+000 m, 0.000E+000 deg
+  gravity 'Box_B': pos=(0, 3.98183322, 0) predicted=(0, 3.98183322, 0) step d=0.000E+000 m, accumulated d=1.121E-007 m, vel=(0, -0.545, 0) predicted=(0, -0.545, 0), rotation change=2.385E-015 deg
+  gravity 'Box_C': pos=(2.5, 4.981833, 0) predicted=(2.5, 4.981833, 0) step d=0.000E+000 m, accumulated d=3.506E-007 m, vel=(0, -0.545, 0) predicted=(0, -0.545, 0), rotation change=0.000E+000 deg
+  gravity 'Box_A': pos=(-2.5, 2.98183322, 0) predicted=(-2.5, 2.98183322, 0) step d=0.000E+000 m, accumulated d=1.121E-007 m, vel=(0, -0.545, 0) predicted=(0, -0.545, 0), rotation change=0.000E+000 deg
+step 6 (simulate=1966, delta=1): shapes matched=4, backend-only=0, collider-only=0 | max body d: rb 0.000E+000 m 2.385E-015 deg, transform 0.000E+000 m 2.385E-015 deg | gravity d: step 0.000E+000 m, accumulated 2.047E-007 m
+  shape#210 'Box_A' BoxCollider body#207: backend pos=(-2.5, 2.97456646, 0) rot=(0, 0, 0, 1) | rb pos=(-2.5, 2.97456646, 0) d=0.000E+000 m, 0.000E+000 deg | transform d=0.000E+000 m, 0.000E+000 deg
+  shape#211 'Floor' BoxCollider body#212 static: backend pos=(0, -0.1, 0) rot=(0, 0, 0, 1) | rb pos=(0, -0.1, 0) d=0.000E+000 m, 0.000E+000 deg | transform d=0.000E+000 m, 0.000E+000 deg
+  shape#213 'Box_B' BoxCollider body#208: backend pos=(0, 3.97456646, 0) rot=(0.1907911, 0.280576557, 0.0298407767, 0.940204859) | rb pos=(0, 3.97456646, 0) d=0.000E+000 m, 2.385E-015 deg | transform d=0.000E+000 m, 2.385E-015 deg
+  shape#214 'Box_C/Box_C_Collider' BoxCollider body#209: backend pos=(2.5, 4.97456646, 0) rot=(0, 0, 0.21643962, 0.976296) | rb pos=(2.5, 4.97456646, 0) d=0.000E+000 m, 0.000E+000 deg | transform d=0.000E+000 m, 0.000E+000 deg
+  gravity 'Box_B': pos=(0, 3.97456646, 0) predicted=(0, 3.97456646, 0) step d=0.000E+000 m, accumulated d=2.047E-007 m, vel=(0, -0.654000044, 0) predicted=(0, -0.654000044, 0), rotation change=2.385E-015 deg
+  gravity 'Box_C': pos=(2.5, 4.97456646, 0) predicted=(2.5, 4.97456646, 0) step d=0.000E+000 m, accumulated d=2.047E-007 m, vel=(0, -0.654000044, 0) predicted=(0, -0.654000044, 0), rotation change=0.000E+000 deg
+  gravity 'Box_A': pos=(-2.5, 2.97456646, 0) predicted=(-2.5, 2.97456646, 0) step d=0.000E+000 m, accumulated d=2.047E-007 m, vel=(0, -0.654000044, 0) predicted=(0, -0.654000044, 0), rotation change=0.000E+000 deg
+step 7 (simulate=1967, delta=1): shapes matched=4, backend-only=0, collider-only=0 | max body d: rb 0.000E+000 m 2.385E-015 deg, transform 0.000E+000 m 2.385E-015 deg | gravity d: step 0.000E+000 m, accumulated 1.140E-007 m
+  shape#210 'Box_A' BoxCollider body#207: backend pos=(-2.5, 2.96608877, 0) rot=(0, 0, 0, 1) | rb pos=(-2.5, 2.96608877, 0) d=0.000E+000 m, 0.000E+000 deg | transform d=0.000E+000 m, 0.000E+000 deg
+  shape#211 'Floor' BoxCollider body#212 static: backend pos=(0, -0.1, 0) rot=(0, 0, 0, 1) | rb pos=(0, -0.1, 0) d=0.000E+000 m, 0.000E+000 deg | transform d=0.000E+000 m, 0.000E+000 deg
+  shape#213 'Box_B' BoxCollider body#208: backend pos=(0, 3.96608877, 0) rot=(0.1907911, 0.280576557, 0.0298407767, 0.940204859) | rb pos=(0, 3.96608877, 0) d=0.000E+000 m, 2.385E-015 deg | transform d=0.000E+000 m, 2.385E-015 deg
+  shape#214 'Box_C/Box_C_Collider' BoxCollider body#209: backend pos=(2.5, 4.966089, 0) rot=(0, 0, 0.21643962, 0.976296) | rb pos=(2.5, 4.966089, 0) d=0.000E+000 m, 0.000E+000 deg | transform d=0.000E+000 m, 0.000E+000 deg
+  gravity 'Box_B': pos=(0, 3.96608877, 0) predicted=(0, 3.96608877, 0) step d=0.000E+000 m, accumulated d=1.140E-007 m, vel=(0, -0.7630001, 0) predicted=(0, -0.7630001, 0), rotation change=2.385E-015 deg
+  gravity 'Box_C': pos=(2.5, 4.966089, 0) predicted=(2.5, 4.966089, 0) step d=0.000E+000 m, accumulated d=1.140E-007 m, vel=(0, -0.7630001, 0) predicted=(0, -0.7630001, 0), rotation change=0.000E+000 deg
+  gravity 'Box_A': pos=(-2.5, 2.96608877, 0) predicted=(-2.5, 2.96608877, 0) step d=0.000E+000 m, accumulated d=1.140E-007 m, vel=(0, -0.7630001, 0) predicted=(0, -0.7630001, 0), rotation change=0.000E+000 deg
+step 8 (simulate=1968, delta=1): shapes matched=4, backend-only=0, collider-only=0 | max body d: rb 0.000E+000 m 2.385E-015 deg, transform 0.000E+000 m 2.385E-015 deg | gravity d: step 0.000E+000 m, accumulated 7.842E-008 m
+  shape#210 'Box_A' BoxCollider body#207: backend pos=(-2.5, 2.9564, 0) rot=(0, 0, 0, 1) | rb pos=(-2.5, 2.9564, 0) d=0.000E+000 m, 0.000E+000 deg | transform d=0.000E+000 m, 0.000E+000 deg
+  shape#211 'Floor' BoxCollider body#212 static: backend pos=(0, -0.1, 0) rot=(0, 0, 0, 1) | rb pos=(0, -0.1, 0) d=0.000E+000 m, 0.000E+000 deg | transform d=0.000E+000 m, 0.000E+000 deg
+  shape#213 'Box_B' BoxCollider body#208: backend pos=(0, 3.9564, 0) rot=(0.1907911, 0.280576557, 0.0298407767, 0.940204859) | rb pos=(0, 3.9564, 0) d=0.000E+000 m, 2.385E-015 deg | transform d=0.000E+000 m, 2.385E-015 deg
+  shape#214 'Box_C/Box_C_Collider' BoxCollider body#209: backend pos=(2.5, 4.9564, 0) rot=(0, 0, 0.21643962, 0.976296) | rb pos=(2.5, 4.9564, 0) d=0.000E+000 m, 0.000E+000 deg | transform d=0.000E+000 m, 0.000E+000 deg
+  gravity 'Box_B': pos=(0, 3.9564, 0) predicted=(0, 3.9564, 0) step d=0.000E+000 m, accumulated d=7.842E-008 m, vel=(0, -0.8720001, 0) predicted=(0, -0.8720001, 0), rotation change=2.385E-015 deg
+  gravity 'Box_C': pos=(2.5, 4.9564, 0) predicted=(2.5, 4.9564, 0) step d=0.000E+000 m, accumulated d=7.842E-008 m, vel=(0, -0.8720001, 0) predicted=(0, -0.8720001, 0), rotation change=0.000E+000 deg
+  gravity 'Box_A': pos=(-2.5, 2.9564, 0) predicted=(-2.5, 2.9564, 0) step d=0.000E+000 m, accumulated d=7.842E-008 m, vel=(0, -0.8720001, 0) predicted=(0, -0.8720001, 0), rotation change=0.000E+000 deg
+step 9 (simulate=1969, delta=1): shapes matched=4, backend-only=0, collider-only=0 | max body d: rb 0.000E+000 m 2.385E-015 deg, transform 0.000E+000 m 2.385E-015 deg | gravity d: step 0.000E+000 m, accumulated 9.803E-008 m
+  shape#210 'Box_A' BoxCollider body#207: backend pos=(-2.5, 2.9455, 0) rot=(0, 0, 0, 1) | rb pos=(-2.5, 2.9455, 0) d=0.000E+000 m, 0.000E+000 deg | transform d=0.000E+000 m, 0.000E+000 deg
+  shape#211 'Floor' BoxCollider body#212 static: backend pos=(0, -0.1, 0) rot=(0, 0, 0, 1) | rb pos=(0, -0.1, 0) d=0.000E+000 m, 0.000E+000 deg | transform d=0.000E+000 m, 0.000E+000 deg
+  shape#213 'Box_B' BoxCollider body#208: backend pos=(0, 3.9455, 0) rot=(0.1907911, 0.280576557, 0.0298407767, 0.940204859) | rb pos=(0, 3.9455, 0) d=0.000E+000 m, 2.385E-015 deg | transform d=0.000E+000 m, 2.385E-015 deg
+  shape#214 'Box_C/Box_C_Collider' BoxCollider body#209: backend pos=(2.5, 4.9455, 0) rot=(0, 0, 0.21643962, 0.976296) | rb pos=(2.5, 4.9455, 0) d=0.000E+000 m, 0.000E+000 deg | transform d=0.000E+000 m, 0.000E+000 deg
+  gravity 'Box_B': pos=(0, 3.9455, 0) predicted=(0, 3.9455, 0) step d=0.000E+000 m, accumulated d=9.803E-008 m, vel=(0, -0.9810001, 0) predicted=(0, -0.9810001, 0), rotation change=2.385E-015 deg
+  gravity 'Box_C': pos=(2.5, 4.9455, 0) predicted=(2.5, 4.9455, 0) step d=0.000E+000 m, accumulated d=9.803E-008 m, vel=(0, -0.9810001, 0) predicted=(0, -0.9810001, 0), rotation change=0.000E+000 deg
+  gravity 'Box_A': pos=(-2.5, 2.9455, 0) predicted=(-2.5, 2.9455, 0) step d=0.000E+000 m, accumulated d=9.803E-008 m, vel=(0, -0.9810001, 0) predicted=(0, -0.9810001, 0), rotation change=0.000E+000 deg
+step 10 (simulate=1970, delta=1): shapes matched=4, backend-only=0, collider-only=0 | max body d: rb 0.000E+000 m 2.385E-015 deg, transform 0.000E+000 m 2.385E-015 deg | gravity d: step 0.000E+000 m, accumulated 1.728E-007 m
+  shape#210 'Box_A' BoxCollider body#207: backend pos=(-2.5, 2.93338871, 0) rot=(0, 0, 0, 1) | rb pos=(-2.5, 2.93338871, 0) d=0.000E+000 m, 0.000E+000 deg | transform d=0.000E+000 m, 0.000E+000 deg
+  shape#211 'Floor' BoxCollider body#212 static: backend pos=(0, -0.1, 0) rot=(0, 0, 0, 1) | rb pos=(0, -0.1, 0) d=0.000E+000 m, 0.000E+000 deg | transform d=0.000E+000 m, 0.000E+000 deg
+  shape#213 'Box_B' BoxCollider body#208: backend pos=(0, 3.93338871, 0) rot=(0.1907911, 0.280576557, 0.0298407767, 0.940204859) | rb pos=(0, 3.93338871, 0) d=0.000E+000 m, 2.385E-015 deg | transform d=0.000E+000 m, 2.385E-015 deg
+  shape#214 'Box_C/Box_C_Collider' BoxCollider body#209: backend pos=(2.5, 4.93338871, 0) rot=(0, 0, 0.21643962, 0.976296) | rb pos=(2.5, 4.93338871, 0) d=0.000E+000 m, 0.000E+000 deg | transform d=0.000E+000 m, 0.000E+000 deg
+  gravity 'Box_B': pos=(0, 3.93338871, 0) predicted=(0, 3.93338871, 0) step d=0.000E+000 m, accumulated d=1.728E-007 m, vel=(0, -1.09000015, 0) predicted=(0, -1.09000015, 0), rotation change=2.385E-015 deg
+  gravity 'Box_C': pos=(2.5, 4.93338871, 0) predicted=(2.5, 4.93338871, 0) step d=0.000E+000 m, accumulated d=1.728E-007 m, vel=(0, -1.09000015, 0) predicted=(0, -1.09000015, 0), rotation change=0.000E+000 deg
+  gravity 'Box_A': pos=(-2.5, 2.93338871, 0) predicted=(-2.5, 2.93338871, 0) step d=0.000E+000 m, accumulated d=1.728E-007 m, vel=(0, -1.09000015, 0) predicted=(0, -1.09000015, 0), rotation change=0.000E+000 deg
+step 30: shifted collider centers by (0.1, 0.2, -0.15): Box_B, Box_A, Box_C/Box_C_Collider, Floor
+step 30 (simulate=1990, delta=1): shapes matched=4, backend-only=0, collider-only=0 | max body d: rb 0.000E+000 m 2.385E-015 deg, transform 0.000E+000 m 2.385E-015 deg | gravity d: step 0.000E+000 m, accumulated 3.772E-007 m | vertices d: ordered 6.785E-007 m, nearest 6.785E-007 m
+  shape#210 'Box_A' BoxCollider body#207: backend pos=(-2.5, 2.43683338, 0) rot=(0, 0, 0, 1) | rb pos=(-2.5, 2.43683338, 0) d=0.000E+000 m, 0.000E+000 deg | transform d=0.000E+000 m, 0.000E+000 deg
+    vertices shape#210 geom=4 params=(0.5, 0.5, 0.5) local pos=(0.0999999046, 0.200000048, -0.15) rot=(0, 0, 0, 1): backend=8 unity=8 ordered max=1.192E-007 nearest max=1.192E-007
+      [0] backend (-2.9, 2.13683343, -0.65) unity (-2.9, 2.13683343, -0.65) d=0.000E+000
+      [1] backend (-1.9000001, 2.13683343, -0.65) unity (-1.9, 2.13683343, -0.65) d=1.192E-007
+      [2] backend (-2.9, 3.13683343, -0.65) unity (-2.9, 3.13683343, -0.65) d=0.000E+000
+      [3] backend (-1.9000001, 3.13683343, -0.65) unity (-1.9, 3.13683343, -0.65) d=1.192E-007
+      [4] backend (-2.9, 2.13683343, 0.35) unity (-2.9, 2.13683343, 0.35) d=0.000E+000
+      [5] backend (-1.9000001, 2.13683343, 0.35) unity (-1.9, 2.13683343, 0.35) d=1.192E-007
+      [6] backend (-2.9, 3.13683343, 0.35) unity (-2.9, 3.13683343, 0.35) d=0.000E+000
+      [7] backend (-1.9000001, 3.13683343, 0.35) unity (-1.9, 3.13683343, 0.35) d=1.192E-007
+  shape#211 'Floor' BoxCollider body#212 static: backend pos=(0, -0.1, 0) rot=(0, 0, 0, 1) | rb pos=(0, -0.1, 0) d=0.000E+000 m, 0.000E+000 deg | transform d=0.000E+000 m, 0.000E+000 deg
+    vertices shape#211 geom=4 params=(5, 0.1, 5) local pos=(1, 0.0400000028, -1.5) rot=(0, 0, 0, 1): backend=8 unity=8 ordered max=3.725E-009 nearest max=3.725E-009
+      [0] backend (-4, -0.16, -6.5) unity (-4, -0.16, -6.5) d=0.000E+000
+      [1] backend (6, -0.16, -6.5) unity (6, -0.16, -6.5) d=0.000E+000
+      [2] backend (-4, 0.0400000028, -6.5) unity (-4, 0.04, -6.5) d=3.725E-009
+      [3] backend (6, 0.0400000028, -6.5) unity (6, 0.04, -6.5) d=3.725E-009
+      [4] backend (-4, -0.16, 3.5) unity (-4, -0.16, 3.5) d=0.000E+000
+      [5] backend (6, -0.16, 3.5) unity (6, -0.16, 3.5) d=0.000E+000
+      [6] backend (-4, 0.0400000028, 3.5) unity (-4, 0.04, 3.5) d=3.725E-009
+      [7] backend (6, 0.0400000028, 3.5) unity (6, 0.04, 3.5) d=3.725E-009
+  shape#213 'Box_B' BoxCollider body#208: backend pos=(0, 3.43683338, 0) rot=(0.1907911, 0.280576557, 0.0298407767, 0.940204859) | rb pos=(0, 3.43683338, 0) d=0.000E+000 m, 2.385E-015 deg | transform d=0.000E+000 m, 2.385E-015 deg
+    vertices shape#213 geom=4 params=(0.5, 0.25, 0.99999994) local pos=(0.100000024, 0.100000143, -0.299999952) rot=(0, 0, 0, 1): backend=8 unity=8 ordered max=2.682E-007 nearest max=2.682E-007
+      [0] backend (-1.04463267, 3.67737675, -0.850518048) unity (-1.04463279, 3.67737675, -0.8505181) d=1.333E-007
+      [1] backend (-0.2038601, 3.84055281, -1.36673021) unity (-0.2038601, 3.84055281, -1.36673033) d=1.192E-007
+      [2] backend (-1.01915765, 4.140085, -0.662762761) unity (-1.01915777, 4.140085, -0.662762761) d=1.192E-007
+      [3] backend (-0.178385034, 4.303261, -1.17897487) unity (-0.178385079, 4.303261, -1.178975) d=1.273E-007
+      [4] backend (0.0333383232, 2.99333644, 0.6889841) unity (0.03333831, 2.99333644, 0.688984036) d=6.144E-008
+      [5] backend (0.874111, 3.15651226, 0.1727719) unity (0.874111, 3.15651226, 0.172771841) d=5.960E-008
+      [6] backend (0.0588133931, 3.45604467, 0.876739442) unity (0.0588133633, 3.45604467, 0.8767394) d=6.664E-008
+      [7] backend (0.899585962, 3.61922073, 0.360527217) unity (0.8995861, 3.6192205, 0.3605272) d=2.682E-007
+  shape#214 'Box_C/Box_C_Collider' BoxCollider body#209: backend pos=(2.5, 4.436833, 0) rot=(0, 0, 0.21643962, 0.976296) | rb pos=(2.5, 4.436833, 0) d=0.000E+000 m, 0.000E+000 deg | transform d=0.000E+000 m, 0.000E+000 deg
+    vertices shape#214 geom=4 params=(0.399999976, 0.399999976, 0.399999976) local pos=(0.47171545, 0.239999771, -0.141421363) rot=(0, 0.382683516, 0, 0.923879564): backend=8 unity=8 ordered max=6.785E-007 nearest max=6.785E-007
+      [0] backend (2.48245335, 4.25211, -0.141421244) unity (2.48245335, 4.25211048, -0.1414213) d=4.805E-007
+      [1] backend (2.99513817, 4.491179, -0.707106769) unity (2.99513865, 4.49117947, -0.707106769) d=6.743E-007
+      [2] backend (2.14435863, 4.977156, -0.141421288) unity (2.14435887, 4.97715664, -0.1414213) d=5.333E-007
+      [3] backend (2.6570437, 5.216225, -0.7071068) unity (2.657044, 5.21622562, -0.707106769) d=5.364E-007
+      [4] backend (2.99513841, 4.491179, 0.424264073) unity (2.99513865, 4.49117947, 0.4242641) d=5.340E-007
+      [5] backend (3.50782347, 4.730248, -0.141421437) unity (3.50782371, 4.73024845, -0.141421407) d=5.340E-007
+      [6] backend (2.657044, 5.216225, 0.424264) unity (2.657044, 5.21622562, 0.4242641) d=4.851E-007
+      [7] backend (3.16972876, 5.455294, -0.141421482) unity (3.16972923, 5.45529461, -0.141421407) d=6.785E-007
+  gravity 'Box_B': pos=(0, 3.43683338, 0) predicted=(0, 3.43683338, 0) step d=0.000E+000 m, accumulated d=9.968E-008 m, vel=(0, -3.2699995, 0) predicted=(0, -3.2699995, 0), rotation change=2.385E-015 deg
+  gravity 'Box_C': pos=(2.5, 4.436833, 0) predicted=(2.5, 4.436833, 0) step d=0.000E+000 m, accumulated d=3.772E-007 m, vel=(0, -3.2699995, 0) predicted=(0, -3.2699995, 0), rotation change=0.000E+000 deg
+  gravity 'Box_A': pos=(-2.5, 2.43683338, 0) predicted=(-2.5, 2.43683338, 0) step d=0.000E+000 m, accumulated d=9.968E-008 m, vel=(0, -3.2699995, 0) predicted=(0, -3.2699995, 0), rotation change=0.000E+000 deg
+step 31 (simulate=1991, delta=1): shapes matched=4, backend-only=0, collider-only=0 | max body d: rb 0.000E+000 m 2.385E-015 deg, transform 0.000E+000 m 2.385E-015 deg | gravity d: step 0.000E+000 m, accumulated 1.798E-007 m | vertices d: ordered 6.785E-007 m, nearest 6.785E-007 m
+  shape#210 'Box_A' BoxCollider body#207: backend pos=(-2.5, 2.399289, 0) rot=(0, 0, 0, 1) | rb pos=(-2.5, 2.399289, 0) d=0.000E+000 m, 0.000E+000 deg | transform d=0.000E+000 m, 0.000E+000 deg
+    vertices shape#210 geom=4 params=(0.5, 0.5, 0.5) local pos=(0.0999999046, 0.200000048, -0.15) rot=(0, 0, 0, 1): backend=8 unity=8 ordered max=1.192E-007 nearest max=1.192E-007
+      [0] backend (-2.9, 2.099289, -0.65) unity (-2.9, 2.099289, -0.65) d=0.000E+000
+      [1] backend (-1.9000001, 2.099289, -0.65) unity (-1.9, 2.099289, -0.65) d=1.192E-007
+      [2] backend (-2.9, 3.099289, -0.65) unity (-2.9, 3.099289, -0.65) d=0.000E+000
+      [3] backend (-1.9000001, 3.099289, -0.65) unity (-1.9, 3.099289, -0.65) d=1.192E-007
+      [4] backend (-2.9, 2.099289, 0.35) unity (-2.9, 2.099289, 0.35) d=0.000E+000
+      [5] backend (-1.9000001, 2.099289, 0.35) unity (-1.9, 2.099289, 0.35) d=1.192E-007
+      [6] backend (-2.9, 3.099289, 0.35) unity (-2.9, 3.099289, 0.35) d=0.000E+000
+      [7] backend (-1.9000001, 3.099289, 0.35) unity (-1.9, 3.099289, 0.35) d=1.192E-007
+  shape#211 'Floor' BoxCollider body#212 static: backend pos=(0, -0.1, 0) rot=(0, 0, 0, 1) | rb pos=(0, -0.1, 0) d=0.000E+000 m, 0.000E+000 deg | transform d=0.000E+000 m, 0.000E+000 deg
+    vertices shape#211 geom=4 params=(5, 0.1, 5) local pos=(1, 0.0400000028, -1.5) rot=(0, 0, 0, 1): backend=8 unity=8 ordered max=3.725E-009 nearest max=3.725E-009
+      [0] backend (-4, -0.16, -6.5) unity (-4, -0.16, -6.5) d=0.000E+000
+      [1] backend (6, -0.16, -6.5) unity (6, -0.16, -6.5) d=0.000E+000
+      [2] backend (-4, 0.0400000028, -6.5) unity (-4, 0.04, -6.5) d=3.725E-009
+      [3] backend (6, 0.0400000028, -6.5) unity (6, 0.04, -6.5) d=3.725E-009
+      [4] backend (-4, -0.16, 3.5) unity (-4, -0.16, 3.5) d=0.000E+000
+      [5] backend (6, -0.16, 3.5) unity (6, -0.16, 3.5) d=0.000E+000
+      [6] backend (-4, 0.0400000028, 3.5) unity (-4, 0.04, 3.5) d=3.725E-009
+      [7] backend (6, 0.0400000028, 3.5) unity (6, 0.04, 3.5) d=3.725E-009
+  shape#213 'Box_B' BoxCollider body#208: backend pos=(0, 3.399289, 0) rot=(0.1907911, 0.280576557, 0.0298407767, 0.940204859) | rb pos=(0, 3.399289, 0) d=0.000E+000 m, 2.385E-015 deg | transform d=0.000E+000 m, 2.385E-015 deg
+    vertices shape#213 geom=4 params=(0.5, 0.25, 0.99999994) local pos=(0.100000024, 0.100000143, -0.299999952) rot=(0, 0, 0, 1): backend=8 unity=8 ordered max=2.682E-007 nearest max=2.682E-007
+      [0] backend (-1.04463267, 3.63983226, -0.850518048) unity (-1.04463279, 3.63983226, -0.8505181) d=1.333E-007
+      [1] backend (-0.2038601, 3.803008, -1.36673021) unity (-0.2038601, 3.80300832, -1.36673033) d=2.666E-007
+      [2] backend (-1.01915765, 4.10254049, -0.662762761) unity (-1.01915777, 4.10254049, -0.662762761) d=1.192E-007
+      [3] backend (-0.178385034, 4.26571655, -1.17897487) unity (-0.178385079, 4.26571655, -1.178975) d=1.273E-007
+      [4] backend (0.0333383232, 2.955792, 0.6889841) unity (0.03333831, 2.955792, 0.688984036) d=6.144E-008
+      [5] backend (0.874111, 3.118968, 0.1727719) unity (0.874111, 3.11896777, 0.172771841) d=2.458E-007
+      [6] backend (0.0588133931, 3.41850042, 0.876739442) unity (0.0588133633, 3.41850019, 0.8767394) d=2.476E-007
+      [7] backend (0.899585962, 3.58167624, 0.360527217) unity (0.8995861, 3.581676, 0.3605272) d=2.682E-007
+  shape#214 'Box_C/Box_C_Collider' BoxCollider body#209: backend pos=(2.5, 4.39928865, 0) rot=(0, 0, 0.21643962, 0.976296) | rb pos=(2.5, 4.39928865, 0) d=0.000E+000 m, 0.000E+000 deg | transform d=0.000E+000 m, 0.000E+000 deg
+    vertices shape#214 geom=4 params=(0.399999976, 0.399999976, 0.399999976) local pos=(0.47171545, 0.239999771, -0.141421363) rot=(0, 0.382683516, 0, 0.923879564): backend=8 unity=8 ordered max=6.785E-007 nearest max=6.785E-007
+      [0] backend (2.48245335, 4.21456575, -0.141421244) unity (2.48245335, 4.214566, -0.1414213) d=4.805E-007
+      [1] backend (2.99513817, 4.45363474, -0.707106769) unity (2.99513865, 4.453635, -0.707106769) d=6.743E-007
+      [2] backend (2.14435863, 4.939612, -0.141421288) unity (2.14435887, 4.93961239, -0.1414213) d=5.333E-007
+      [3] backend (2.6570437, 5.178681, -0.7071068) unity (2.657044, 5.17868137, -0.707106769) d=5.364E-007
+      [4] backend (2.99513841, 4.45363474, 0.424264073) unity (2.99513865, 4.453635, 0.4242641) d=5.340E-007
+      [5] backend (3.50782347, 4.69270372, -0.141421437) unity (3.50782371, 4.692704, -0.141421407) d=5.340E-007
+      [6] backend (2.657044, 5.178681, 0.424264) unity (2.657044, 5.17868137, 0.4242641) d=4.851E-007
+      [7] backend (3.16972876, 5.41775, -0.141421482) unity (3.16972923, 5.41775036, -0.141421407) d=6.785E-007
+  gravity 'Box_B': pos=(0, 3.399289, 0) predicted=(0, 3.399289, 0) step d=0.000E+000 m, accumulated d=5.864E-008 m, vel=(0, -3.37899947, 0) predicted=(0, -3.37899947, 0), rotation change=2.385E-015 deg
+  gravity 'Box_C': pos=(2.5, 4.39928865, 0) predicted=(2.5, 4.39928865, 0) step d=0.000E+000 m, accumulated d=1.798E-007 m, vel=(0, -3.37899947, 0) predicted=(0, -3.37899947, 0), rotation change=0.000E+000 deg
+  gravity 'Box_A': pos=(-2.5, 2.399289, 0) predicted=(-2.5, 2.399289, 0) step d=0.000E+000 m, accumulated d=5.864E-008 m, vel=(0, -3.37899947, 0) predicted=(0, -3.37899947, 0), rotation change=0.000E+000 deg
+step 32 (simulate=1992, delta=1): shapes matched=4, backend-only=0, collider-only=0 | max body d: rb 0.000E+000 m 2.385E-015 deg, transform 0.000E+000 m 2.385E-015 deg | gravity d: step 0.000E+000 m, accumulated 3.755E-008 m | vertices d: ordered 6.785E-007 m, nearest 6.785E-007 m
+  shape#210 'Box_A' BoxCollider body#207: backend pos=(-2.5, 2.36053324, 0) rot=(0, 0, 0, 1) | rb pos=(-2.5, 2.36053324, 0) d=0.000E+000 m, 0.000E+000 deg | transform d=0.000E+000 m, 0.000E+000 deg
+    vertices shape#210 geom=4 params=(0.5, 0.5, 0.5) local pos=(0.0999999046, 0.200000048, -0.15) rot=(0, 0, 0, 1): backend=8 unity=8 ordered max=1.192E-007 nearest max=1.192E-007
+      [0] backend (-2.9, 2.06053329, -0.65) unity (-2.9, 2.06053329, -0.65) d=0.000E+000
+      [1] backend (-1.9000001, 2.06053329, -0.65) unity (-1.9, 2.06053329, -0.65) d=1.192E-007
+      [2] backend (-2.9, 3.06053329, -0.65) unity (-2.9, 3.06053329, -0.65) d=0.000E+000
+      [3] backend (-1.9000001, 3.06053329, -0.65) unity (-1.9, 3.06053329, -0.65) d=1.192E-007
+      [4] backend (-2.9, 2.06053329, 0.35) unity (-2.9, 2.06053329, 0.35) d=0.000E+000
+      [5] backend (-1.9000001, 2.06053329, 0.35) unity (-1.9, 2.06053329, 0.35) d=1.192E-007
+      [6] backend (-2.9, 3.06053329, 0.35) unity (-2.9, 3.06053329, 0.35) d=0.000E+000
+      [7] backend (-1.9000001, 3.06053329, 0.35) unity (-1.9, 3.06053329, 0.35) d=1.192E-007
+  shape#211 'Floor' BoxCollider body#212 static: backend pos=(0, -0.1, 0) rot=(0, 0, 0, 1) | rb pos=(0, -0.1, 0) d=0.000E+000 m, 0.000E+000 deg | transform d=0.000E+000 m, 0.000E+000 deg
+    vertices shape#211 geom=4 params=(5, 0.1, 5) local pos=(1, 0.0400000028, -1.5) rot=(0, 0, 0, 1): backend=8 unity=8 ordered max=3.725E-009 nearest max=3.725E-009
+      [0] backend (-4, -0.16, -6.5) unity (-4, -0.16, -6.5) d=0.000E+000
+      [1] backend (6, -0.16, -6.5) unity (6, -0.16, -6.5) d=0.000E+000
+      [2] backend (-4, 0.0400000028, -6.5) unity (-4, 0.04, -6.5) d=3.725E-009
+      [3] backend (6, 0.0400000028, -6.5) unity (6, 0.04, -6.5) d=3.725E-009
+      [4] backend (-4, -0.16, 3.5) unity (-4, -0.16, 3.5) d=0.000E+000
+      [5] backend (6, -0.16, 3.5) unity (6, -0.16, 3.5) d=0.000E+000
+      [6] backend (-4, 0.0400000028, 3.5) unity (-4, 0.04, 3.5) d=3.725E-009
+      [7] backend (6, 0.0400000028, 3.5) unity (6, 0.04, 3.5) d=3.725E-009
+  shape#213 'Box_B' BoxCollider body#208: backend pos=(0, 3.36053324, 0) rot=(0.1907911, 0.280576557, 0.0298407767, 0.940204859) | rb pos=(0, 3.36053324, 0) d=0.000E+000 m, 2.385E-015 deg | transform d=0.000E+000 m, 2.385E-015 deg
+    vertices shape#213 geom=4 params=(0.5, 0.25, 0.99999994) local pos=(0.100000024, 0.100000143, -0.299999952) rot=(0, 0, 0, 1): backend=8 unity=8 ordered max=4.935E-007 nearest max=4.935E-007
+      [0] backend (-1.04463267, 3.6010766, -0.850518048) unity (-1.04463279, 3.6010766, -0.8505181) d=1.333E-007
+      [1] backend (-0.2038601, 3.76425266, -1.36673021) unity (-0.2038601, 3.76425266, -1.36673033) d=1.192E-007
+      [2] backend (-1.01915765, 4.063785, -0.662762761) unity (-1.01915777, 4.063785, -0.662762761) d=1.192E-007
+      [3] backend (-0.178385034, 4.226961, -1.17897487) unity (-0.178385079, 4.22696066, -1.178975) d=4.935E-007
+      [4] backend (0.0333383232, 2.91703629, 0.6889841) unity (0.03333831, 2.91703629, 0.688984036) d=6.144E-008
+      [5] backend (0.874111, 3.080212, 0.1727719) unity (0.874111, 3.080212, 0.172771841) d=5.960E-008
+      [6] backend (0.0588133931, 3.37974453, 0.876739442) unity (0.0588133633, 3.37974453, 0.8767394) d=6.664E-008
+      [7] backend (0.899585962, 3.54292059, 0.360527217) unity (0.8995861, 3.54292035, 0.3605272) d=2.682E-007
+  shape#214 'Box_C/Box_C_Collider' BoxCollider body#209: backend pos=(2.5, 4.360533, 0) rot=(0, 0, 0.21643962, 0.976296) | rb pos=(2.5, 4.360533, 0) d=0.000E+000 m, 0.000E+000 deg | transform d=0.000E+000 m, 0.000E+000 deg
+    vertices shape#214 geom=4 params=(0.399999976, 0.399999976, 0.399999976) local pos=(0.47171545, 0.239999771, -0.141421363) rot=(0, 0.382683516, 0, 0.923879564): backend=8 unity=8 ordered max=6.785E-007 nearest max=6.785E-007
+      [0] backend (2.48245335, 4.17581034, -0.141421244) unity (2.48245335, 4.175811, -0.1414213) d=4.805E-007
+      [1] backend (2.99513817, 4.41487932, -0.707106769) unity (2.99513865, 4.41488, -0.707106769) d=6.743E-007
+      [2] backend (2.14435863, 4.90085649, -0.141421288) unity (2.14435887, 4.900857, -0.1414213) d=5.333E-007
+      [3] backend (2.6570437, 5.13992548, -0.7071068) unity (2.657044, 5.139926, -0.707106769) d=5.364E-007
+      [4] backend (2.99513841, 4.41487932, 0.424264073) unity (2.99513865, 4.41488, 0.4242641) d=5.340E-007
+      [5] backend (3.50782347, 4.65394831, -0.141421437) unity (3.50782371, 4.653949, -0.141421407) d=5.340E-007
+      [6] backend (2.657044, 5.13992548, 0.424264) unity (2.657044, 5.139926, 0.4242641) d=4.851E-007
+      [7] backend (3.16972876, 5.37899446, -0.141421482) unity (3.16972923, 5.378995, -0.141421407) d=6.785E-007
+  gravity 'Box_B': pos=(0, 3.36053324, 0) predicted=(0, 3.36053324, 0) step d=0.000E+000 m, accumulated d=3.755E-008 m, vel=(0, -3.48799944, 0) predicted=(0, -3.48799944, 0), rotation change=2.385E-015 deg
+  gravity 'Box_C': pos=(2.5, 4.360533, 0) predicted=(2.5, 4.360533, 0) step d=0.000E+000 m, accumulated d=3.755E-008 m, vel=(0, -3.48799944, 0) predicted=(0, -3.48799944, 0), rotation change=0.000E+000 deg
+  gravity 'Box_A': pos=(-2.5, 2.36053324, 0) predicted=(-2.5, 2.36053324, 0) step d=0.000E+000 m, accumulated d=3.755E-008 m, vel=(0, -3.48799944, 0) predicted=(0, -3.48799944, 0), rotation change=0.000E+000 deg
+==== Stop after 32 step(s), 0 item(s) flagged in total; native at Stop: registered=1 initialized=1 id=1380536387 commands=1298394 simulate=1992 objects=215 engineObjectIdOffset=8 alive: worlds=2 bodies=2 shapes=2 joints=0 materials=2 meshes=0

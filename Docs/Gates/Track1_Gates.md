@@ -74,6 +74,13 @@ ulps at the value's magnitude, whichever is larger; 1e-3 deg.
 | Editor cycle 2 | 711 steps, **0 flagged**. Alive backend objects back to the pre-Play baseline after each Stop (4 bodies, 4 shapes, 1 joint, 2 materials, 3 worlds). Console: no errors or warnings except the OpenXR loader line. | last block; probe log |
 | Win64 player (IL2CPP) | Backend selected at startup (`Selected backend (deferred post-plugins). Name: RigidIPC`), 300 steps with `-ipcGateQuitAfterSteps 300`, **0 flagged**, vertices <= 7.2e-7 m before and after the center shift, clean `ShutdownSdk` and exit code 0. | `evidence/gateD_player_*.txt` |
 
+Correction found during Gate E: the rotation checks above used `Quaternion.Angle`, which returns 0 for anything below
+about 0.16 deg (its dot-product epsilon), so the "0 deg" body-rotation figures only bound the error by that floor. The
+vertex comparisons were not affected and would have caught such an error (0.16 deg is ~1.4 mm at 0.5 m). The
+diagnostics now use `GateMath.AngleDeg` (atan2 in double). Re-run with it (2026-11-01, 32 steps including the step-30
+center shift): body rotation d <= 2.4e-15 deg, vertices <= 7.2e-7 m, **0 flagged**
+(`evidence/gateD_editor_rerun_gatemath.txt`).
+
 Command stream (both): CreateWorld, CreateBody, CreateShape, AttachShape, D6 CreateJoint with
 Set6DofAxisLock / Limit / SpringLimit / AxisMotorConfiguration / MotorTarget*, Simulate, GetPose every step,
 Shape.SetPose on collider-center changes, DestroyBody/DestroyJoint/DestroyWorld on Stop.
@@ -87,3 +94,67 @@ Open items (not blocking D):
   (`XR_ERROR_FORM_FACTOR_UNAVAILABLE`), logged at Info level on every Play; unrelated to the backend.
 - `EditorApplication.OpenProject` cannot restart the Editor in place, and MCP's code tool blocks
   `EditorApplication.Exit`; restarts use **File/Exit** and a relaunch.
+
+## Gate E — Ragdoll Animator 2 on the backend (Unity 6000.6.7f1, 2026-11-01)
+
+Scene `Assets/IPC/Scenes/IPC_GateE.unity`: static Floor plus an unmodified instance of `Assets/P3T/Prefabs/Dummy_RA2_Base`
+with the station's one override (Animator controller `Motions_Flat_B`), i.e. the thesis station's dummy configuration.
+No RA2 file was changed. The prefab ships a **pre-generated** physics dummy (`Dummy_RA2_Base-Ragdoll`: 20 Rigidbodies,
+20 ConfigurableJoints, 11 box + 9 capsule colliders), so RA2 does not build the clone at Play; it takes over the existing
+one. The gate stepper still has no contact and no joint solve.
+
+Evidence comes from `RigidIPCRagdollDiagnostics` (new, `Assets/IPC/Runtime`) plus the Gate D component in shape-only mode
+(`checkGravity` off, vertex compare for the first 3 steps). After every physics step it reads the backend through new
+diagnostics exports (`RigidIPC_GetBodySnapshots`, `RigidIPC_GetJointSnapshots`, `RigidIPC_GetCommandCounts`) and compares:
+- commands: the backend's histogram differenced per step, excluding the component's own reads;
+- bodies: pose, linear/angular velocity, kinematic and gravity flags, mass, damping, max velocities, centre of mass,
+  `worldCenterOfMass`, inertia tensor and rotation, sleep state, against the Rigidbody;
+- joints (matched by `userData` = ConfigurableJoint): type, which backend actor is the own/connected body, own anchor
+  position and frame axes vs `anchor`/`axis`/`secondaryAxis`, connected anchor vs `connectedAnchor`, linear and angular
+  axis locks, the drive of the active `rotationDriveMode` and the linear drives, and `targetRotation` (bitwise, plus angle
+  as-is and inverted), with the per-joint count of `Set6DofMotorTargetRotation` calls;
+- any error or exception logged during Play.
+
+| Run | Result | Evidence |
+|---|---|---|
+| Editor run 1 | 1861 steps. Bodies: pose, velocities and all properties match every step (pos 0 m, rot <= 3e-15 deg). Joints: anchors <= 6.6e-7 m, frame axes <= 5.9e-5 deg, target rotation equal as-is. No logged errors. **9 capsules: tips off by up to 0.28 m** (radial points <= 1.2e-7 m). Two diagnostic artifacts flagged every step (below). | `evidence/gateE_editor_diag.txt` (run 1), `gateE_editor_shapes.txt` |
+| Fix 3 (backend) | Capsule `height` is the PhysX **half-height** (half the cylinder length, caps excluded), not the total height the header comment states. Measured on all 9 capsules: `CapsuleCollider.height * scale == 2 * (height + radius)` within 3e-8 m (total-height reading off by up to 0.30 m). Fixed in `LocalExtents` (bounds) and `LocalShapePoints` (vertex diagnostic). | `RigidIPCBackend.cpp` |
+| Diagnostic fixes | (a) Drives: in Slerp mode Unity never sends AngularX/AngularYZ drive configuration, so those rows keep the backend defaults (`maxForce` Infinity vs Unity's `float.MaxValue`); now listed as "not sent", not compared. (b) "Target changed but not sent": `AngleDeg(q, q)` is ~1e-22 deg, not 0, so the change test is now component-wise. | `RigidIPCRagdollDiagnostics.cs` |
+| Editor run 2 | 1960 steps, **0 flagged, 0 errors/exceptions**. Target rotation bitwise equal on 20/20 joints at every step. Vertices: all shapes <= 3.6e-7 m, except the head capsule at 5.0e-6 m: it is a sphere-shaped capsule (`height = 2 r`) and Unity sends half-height 5e-6 rather than 0. After Stop, alive backend objects are back to the edit-scene baseline (2 worlds, 21 bodies, 21 shapes, 20 joints, 2 materials). | run 2 blocks; `gateE_editor_commands.txt` |
+| Target forwarding test | During run 2, between two steps: assigning an unchanged `targetRotation` sends nothing; a changed value is sent once, synchronously and verbatim; restoring sends once more. | `evidence/gateE_target_dedupe.txt` |
+
+What RA2 sends and reads (run 2):
+- Creation: CreateBody/CreateShape/AttachShape for 20 bones, 20 D6 `CreateJoint`s (type 6, flags 0x18 =
+  DriveLimitsAreForces | LegacyLimitRanges), `Set6DofAxisMotorConfiguration` Slerp spring 5000 / damper 40 on the 19 bone
+  joints (RA2 `SpringsValue` 5000, `DampingValue` 40) and spring 0 on the hips-to-world anchor joint.
+- Per step: `Set6DofMotorTargetRotation` (+ `Joint.WakeUpActors`) only for joints whose target changed. RA2 writes every
+  non-kinematic bone's target every FixedUpdate (`RagdollBoneProcessor.ApplyJointRotation`); Unity drops unchanged values.
+  With this Animator (no Avatar, as in the station prefab) the targets stay within ~1e-8 of identity, so 0-19 joints
+  receive a new target per step.
+- Hips anchor: switched to kinematic at start (`Body.SetFlags`, `SetCollisionDetectionMode`), then 2 `SetKinematicTarget`
+  per step (`MovePosition` + `MoveRotation`); plus one `SetPose`, `SetAngularVelocity`, `SetInertiaTensor` per step.
+- Reads RA2 depends on (`linearVelocity`, `angularVelocity`, `position`, `worldCenterOfMass`, `IsSleeping`) return the
+  backend's values exactly; no command reached an unhandled path (`UNHANDLED` count 0).
+- Joint mapping read off the raw values: twist limits are sent in radians, same sign and order
+  (`lowAngularXLimit -60, highAngularXLimit 10` -> AngularX -1.0472..0.1745); the swing pair is sent on the AngularYZ row
+  (min = `angularYLimit`, max = `angularZLimit`, radians). Backend `localPose` Parent = the joint's own body,
+  Child = `connectedBody`.
+
+**H-RA2 verdict (for this configuration): confirmed.** RA2 runs unmodified; every API it used reached the backend as a
+command and read back the backend's own state; no API lacked a command.
+
+Not exercised by this gate (no claim either way):
+- RA2 falling / get-up modes, hard matching (its `AddForce` / velocity-lerp paths), attachables (`FixedJoint` sword proxy),
+  dismemberment, collision-ignore with attachables. These use the same command families already seen, except FixedJoint.
+- Real animation: the Animator has no Avatar, so drive targets barely change. A rig with an Avatar would exercise
+  per-step targets at full rate.
+- `Shape.GetPose` / `Shape.GetLocalPose` read-back frames: still never called (Gate D open item stands).
+- Joint limits are not enforced in this dummy anyway: all 19 bone joints are authored with angular X/Y/Z **Free**
+  (linear Locked) and the hips anchor is Free on all six axes, so the authored limits are inactive under PhysX too.
+
+Other observations:
+- Asset-import worker processes also load the plugin and select RigidIPC (each `AssetImportWorker*.log` shows it), and
+  they append to the same `Logs/RigidIPC_commands.log` (world serials restarting at #2, `workers=7`). The C# diagnostics
+  read in-process state and are unaffected; the shared native log needs a process tag before it is used as evidence of
+  ordering.
+- Run 1 diagnostics flagged 94,158 items in total; all were the two artifacts or the capsule tips listed above.

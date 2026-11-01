@@ -1,0 +1,13 @@
+Gate E run 2, 2026-11-01 15:19, Editor Play, IPC_GateE. MCP execute_code on the main thread between two physics steps
+(Simulate count 2 before and after). Joint: Left_LowerLeg ConfigurableJoint. "sets" = the backend's per-joint count of
+Joint.Set6DofMotorTargetRotation calls (RigidIPC_GetJointSnapshots).
+
+frame=2 fixedStep sim=2: unity=(0, 0, 0, 1) backend=(0, 0, 0, 1) sets=1
+after assigning the same value: sets=1 (+0) backend=(0, 0, 0, 1)
+after assigning original*Euler(0.5,0,0)=(0.004363309, 0, 0, 0.999990463): sets=2 (+1) backend=(0.004363309, 0, 0, 0.999990463)
+assigning that value again: sets=2 (+0)
+restored original: sets=3 (+1) backend=(0, 0, 0, 1) sim=2
+
+Reading: Unity forwards ConfigurableJoint.targetRotation to the backend synchronously, verbatim, and only when the value
+changes. RA2 assigns joint.targetRotation for every non-kinematic bone every FixedUpdate
+(RagdollBoneProcessor.ApplyJointRotation), so the per-step command count equals the number of bones whose target changed.

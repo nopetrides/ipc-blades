@@ -35,8 +35,11 @@ namespace IPCBlades.Gates
                  "and compare vertices for the next 3 steps. 0 = off.")]
         public int shiftCollidersAtStep;
         public Vector3 centerShift = new Vector3(0.1f, 0.2f, -0.15f);
+        [Tooltip("Check each dynamic body against the gravity-only stepper. Off for scenes where scripts also push bodies.")]
+        public bool checkGravity = true;
+        [Tooltip("Log file under the project (Editor) or player folder.")]
+        public string logPath = "Logs/RigidIPC_gateD_diag.log";
 
-        const string LogPath = "Logs/RigidIPC_gateD_diag.log";
         static readonly FieldInfo CachedPtr =
             typeof(UnityEngine.Object).GetField("m_CachedPtr", BindingFlags.Instance | BindingFlags.NonPublic);
 
@@ -61,8 +64,8 @@ namespace IPCBlades.Gates
 
         void OnEnable()
         {
-            Directory.CreateDirectory(Path.GetDirectoryName(LogPath));
-            log = new StreamWriter(LogPath, append: true) { AutoFlush = true };
+            Directory.CreateDirectory(Path.GetDirectoryName(logPath));
+            log = new StreamWriter(logPath, append: true) { AutoFlush = true };
             Write($"==== {DateTime.Now:yyyy-MM-dd HH:mm:ss} Play: Unity {Application.unityVersion}, scene '{gameObject.scene.name}', " +
                   $"fixedDeltaTime={Time.fixedDeltaTime:R}, gravity={V(Physics.gravity)}, backend={Physics.GetCurrentIntegrationInfo().name}");
             Write($"native at Play: {SafeNativeDiagnostics()}");
@@ -153,8 +156,8 @@ namespace IPCBlades.Gates
                 var bodyTransform = rb ? rb.transform : c.transform;
                 var rbPos = rb ? rb.position : bodyTransform.position;
                 var rbRot = rb ? rb.rotation : bodyTransform.rotation;
-                float dRbPos = (backendPos - rbPos).magnitude, dRbAngle = Quaternion.Angle(backendRot, rbRot);
-                float dTfPos = (backendPos - bodyTransform.position).magnitude, dTfAngle = Quaternion.Angle(backendRot, bodyTransform.rotation);
+                float dRbPos = (backendPos - rbPos).magnitude, dRbAngle = (float)GateMath.AngleDeg(backendRot, rbRot);
+                float dTfPos = (backendPos - bodyTransform.position).magnitude, dTfAngle = (float)GateMath.AngleDeg(backendRot, bodyTransform.rotation);
                 maxRbPos = Mathf.Max(maxRbPos, dRbPos); maxRbAngle = Mathf.Max(maxRbAngle, dRbAngle);
                 maxTfPos = Mathf.Max(maxTfPos, dTfPos); maxTfAngle = Mathf.Max(maxTfAngle, dTfAngle);
                 float tol = Tolerance(backendPos);
@@ -175,7 +178,7 @@ namespace IPCBlades.Gates
             flagged += missing;
 
             float maxStep = 0, maxAccum = 0;
-            CheckGravity(simulateDelta, detailed, lines, ref maxStep, ref maxAccum, ref flagged);
+            if (checkGravity) CheckGravity(simulateDelta, detailed, lines, ref maxStep, ref maxAccum, ref flagged);
 
             flaggedTotal += flagged;
             if (detailed || flagged > 0 || step % 90 == 0)
@@ -244,7 +247,7 @@ namespace IPCBlades.Gates
                 }
                 float dStep = (p - ep).magnitude;
                 float dAccum = (float)Math.Sqrt((p.x - st.px) * (p.x - st.px) + (p.y - st.py) * (p.y - st.py) + (p.z - st.pz) * (p.z - st.pz));
-                float dRot = Quaternion.Angle(st.rotation, rb.rotation);
+                float dRot = (float)GateMath.AngleDeg(st.rotation, rb.rotation);
                 maxStep = Mathf.Max(maxStep, dStep);
                 maxAccum = Mathf.Max(maxAccum, dAccum);
                 bool bad = dStep > Tolerance(p) || dRot > angleToleranceDegrees;
