@@ -129,8 +129,13 @@ What RA2 sends and reads (run 2):
   joints (RA2 `SpringsValue` 5000, `DampingValue` 40) and spring 0 on the hips-to-world anchor joint.
 - Per step: `Set6DofMotorTargetRotation` (+ `Joint.WakeUpActors`) only for joints whose target changed. RA2 writes every
   non-kinematic bone's target every FixedUpdate (`RagdollBoneProcessor.ApplyJointRotation`); Unity drops unchanged values.
-  With this Animator (no Avatar, as in the station prefab) the targets stay within ~1e-8 of identity, so 0-19 joints
-  receive a new target per step.
+  The targets do move: the station clips are generic constant poses (`Snap`/`Hold`/`Contact`/`Drive`, 162
+  `localEulerAnglesRaw` curves each, no Avatar needed) and the Animator cross-fades between them on 1-4 s exit-time
+  transitions (`Auto` defaults to true). Joints therefore receive new targets in bursts during each cross-fade (sampled
+  run-2 steps: 18/20 at step 90, 14/20 at 270, 13/20 at 360, 15/20 at 1800) and none while a pose is held; by step 180
+  the largest target is ~83 deg from identity (`inverse 1.659E+002 deg` column).
+  *Corrected 2026-11-01: this line previously said the targets "stay within ~1e-8 of identity" because the Animator has
+  no Avatar. That was read off the first detailed steps only, before the first cross-fade; generic clips need no Avatar.*
 - Hips anchor: switched to kinematic at start (`Body.SetFlags`, `SetCollisionDetectionMode`), then 2 `SetKinematicTarget`
   per step (`MovePosition` + `MoveRotation`); plus one `SetPose`, `SetAngularVelocity`, `SetInertiaTensor` per step.
 - Reads RA2 depends on (`linearVelocity`, `angularVelocity`, `position`, `worldCenterOfMass`, `IsSleeping`) return the
@@ -146,8 +151,8 @@ command and read back the backend's own state; no API lacked a command.
 Not exercised by this gate (no claim either way):
 - RA2 falling / get-up modes, hard matching (its `AddForce` / velocity-lerp paths), attachables (`FixedJoint` sword proxy),
   dismemberment, collision-ignore with attachables. These use the same command families already seen, except FixedJoint.
-- Real animation: the Animator has no Avatar, so drive targets barely change. A rig with an Avatar would exercise
-  per-step targets at full rate.
+- Continuous per-step animation: the station clips are constant poses, so targets change only during cross-fades
+  (see above), not on every step as a keyframed clip would make them.
 - `Shape.GetPose` / `Shape.GetLocalPose` read-back frames: still never called (Gate D open item stands).
 - Joint limits are not enforced in this dummy anyway: all 19 bone joints are authored with angular X/Y/Z **Free**
   (linear Locked) and the hips anchor is Free on all six axes, so the authored limits are inactive under PhysX too.
